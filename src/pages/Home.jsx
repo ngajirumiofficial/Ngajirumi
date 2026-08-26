@@ -1,0 +1,265 @@
+import React from "react";
+import HeroSlider from "../components/HeroSlider";
+
+function Home() {
+  return (
+    <main className="home-page">
+      {/* =========================================================
+          HERO
+         ========================================================= */}
+      <HeroSlider />
+
+      {/* =========================================================
+          TENTANG NGAJI RUMI
+         ========================================================= */}
+      <section className="profile-section" id="tentang">
+        <div className="profile-section__inner">
+          <div className="section-heading">
+            <span className="section-heading__eyebrow">
+              TENTANG NGAJI RUMI
+            </span>
+
+            <h2 className="section-title">
+              Belajar Ngaji, Menemukan Makna
+            </h2>
+
+            <p className="section-description">
+              Ngaji Rumi hadir sebagai ruang belajar bersama Pak Jo melalui pendekatan yang hangat, sederhana, dan dekat dengan kehidupan sehari-hari.
+            </p>
+          </div>
+
+          <div className="profile-content">
+            <div className="profile-content__visual" aria-hidden="true">
+              <div className="profile-decoration">
+                <span className="profile-decoration__number">01</span>
+                <span className="profile-decoration__line" />
+                <span className="profile-decoration__label">
+                  NGAJI RUMI
+                </span>
+              </div>
+            </div>
+
+            <div className="profile-content__text">
+              <span className="profile-content__eyebrow">
+                RUANG BELAJAR
+              </span>
+
+              <h3 className="profile-content__title">
+                Mengaji dengan cara yang mudah dipahami.
+              </h3>
+
+              <p className="profile-content__description">
+                Ngaji Rumi membawa proses belajar menjadi lebih hangat, bertahap, dan relevan dengan kehidupan sehari-hari.
+              </p>
+
+              <div className="profile-content__highlights">
+                <div className="profile-highlight">
+                  <span className="profile-highlight__number">01</span>
+
+                  <div>
+                    <h4>Pendekatan Bertahap</h4>
+
+                    <p>
+                      Materi disampaikan dengan terarah agar lebih mudah diikuti.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="profile-highlight">
+                  <span className="profile-highlight__number">02</span>
+
+                  <div>
+                    <h4>Belajar dengan Nyaman</h4>
+
+                    <p>
+                      Tema belajar dibuat sederhana, hangat, dan dekat dengan kebutuhan Anda.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="/profil" className="text-link">
+                Kenali Pak Jo
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* =========================================================
+          PROGRAM
+         ========================================================= */}
+      <section className="library-section" id="perpustakaan">
+        <div className="library-section__inner">
+          <div className="section-heading">
+            <span className="section-heading__eyebrow">
+              PROGRAM &amp; KEGIATAN
+            </span>
+
+            <h2 className="section-title">
+              Ruang Belajar Ngaji Rumi
+            </h2>
+
+            <p className="section-description">
+              Berbagai materi dirancang untuk proses belajar yang mudah dipahami.
+            </p>
+          </div>
+
+          <div className="ngaji-rumi-content">
+            {/* NGAJI RUMI 01 */}
+            <article className="library-card library-card--one">
+              <div className="library-card__number">01</div>
+
+              <div className="library-card__content">
+                <span className="library-card__eyebrow">
+                  APA YANG KAU CARI?
+                </span>
+
+                <h3 className="library-card__title">
+                  Ngaji Rumi 1
+                </h3>
+
+                <p className="library-card__description">
+                  Apa yang kau cari sesungguhnya sedang mencarimu. Jangan habiskan hidupmu mengetuk setiap pintu, karena pintu yang kau cari ada di dalam hatimu sendiri.
+                </p>
+
+                <span className="library-card__arrow" aria-hidden="true">
+                  ↗
+                </span>
+              </div>
+            </article>
+
+            {/* NGAJI RUMI 02 */}
+            <article className="library-card library-card--two">
+              <div className="library-card__number">02</div>
+
+              <div className="library-card__content">
+                <span className="library-card__eyebrow">
+                  lUKA DAN CAHAYA
+                </span>
+
+                <h3 className="library-card__title">
+                  Ngaji Rumi 2
+                </h3>
+
+                <p className="library-card__description">
+                 The wound is the place where Light enters you.
+
+                 Luka adalah tempat di mana Cahaya masuk kepadamu.
+                </p>
+
+                <span className="library-card__arrow" aria-hidden="true">
+                  ↗
+                </span>
+              </div>
+            </article>
+
+            {/* NGAJI RUMI 03 */}
+            <article className="library-card library-card--three">
+              <div className="library-card__number">03</div>
+
+              <div className="library-card__content">
+                <span className="library-card__eyebrow">
+                  CERMIN HATI
+                </span>
+
+                <h3 className="library-card__title">
+                  Ngaji Rumi 3
+                </h3>
+
+                <p className="library-card__description">
+                  Hatimu adalah cermin, namun ia berdebu. Bersihkanlah dengan cinta, dengan dzikir, dengan air mata kerinduan,
+                  agar wajah Tuhan tampak di sana
+                </p>
+
+                <span className="library-card__arrow" aria-hidden="true">
+                  ↗
+                </span>
+              </div>
+            </article>
+          </div>
+
+          <p className="ngaji-rumi-note">
+          Belajar, berproses, memahami lebih dekat
+          </p>
+        </div>
+      </section>
+
+      {/* =========================================================
+          KEUNGGULAN
+         ========================================================= */}
+      <section className="blog-section" id="keunggulan">
+        <div className="blog-section__inner">
+          <div className="section-heading">
+            <span className="section-heading__eyebrow">
+              KEUNGGULAN
+            </span>
+
+            <h2 className="section-title">
+             Ngaji dengan pendekatan yang relevan
+            </h2>
+
+            <p className="section-description">
+              Proses belajar dirancang lebih sederhana, nyaman, dan jelas
+            </p>
+          </div>
+
+          <div className="blog-card">
+            <div className="blog-card__index">01</div>
+
+            <div className="blog-card__content">
+              <span className="blog-card__eyebrow">
+                PENDEKATAN 
+              </span>
+
+              <h3 className="blog-card__title">
+                Belajar dengan nyaman 
+              </h3>
+
+              <p className="blog-card__description">
+                Mengutamakan proses, mudah dipahami, interaktif, dan sesuai kebutuhan Anda
+              </p>
+            </div>
+
+            <div className="blog-card__badge">
+              <span>Ngaji</span>
+              <strong>Rumi</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* =========================================================
+          CTA / KONTAK
+         ========================================================= */}
+      <section className="contact-section" id="kontak">
+        <div className="contact-section__inner">
+          <div className="contact-content">
+            <div className="contact-content__copy">
+              <span className="section-heading__eyebrow">
+                MULAI BELAJAR
+              </span>
+
+              <h2 className="contact-content__title">
+                Mari Mengenal Ngaji Rumi
+              </h2>
+
+              <p className="contact-content__description">
+                Kenali lebih jauh perjalanan Pak Jo dan pendekatan
+                pembelajaran Ngaji Rumi.
+              </p>
+            </div>
+
+            <a href="/profil" className="btn btn--primary">
+              Kenali Pak Jo
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+export default Home;

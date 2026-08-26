@@ -1,0 +1,969 @@
+/* ============================================================================
+   NGAJI RUMI — App.css
+   ----------------------------------------------------------------------------
+   Semua styling untuk struktur yang ada di App.jsx.
+   File ini TIDAK mengubah struktur/JSX — hanya menata className yang sudah
+   tersedia (site-header, hero-section, library-card, dst).
+
+   Konsep desain: korporat modern, lebar/horizontal (terinspirasi tata letak
+   website Pertamina secara konsep saja), tapi identitas warna & rasa
+   sepenuhnya Ngaji Rumi — hijau tua islami + gold elegan + putih bersih.
+
+   Font: "Amiri" (serif, nuansa Arab/islami tapi tetap terbaca modern)
+   dipakai untuk judul besar, dipadukan dengan "Plus Jakarta Sans" (sans-serif
+   modern & clean) untuk teks isi. Kombinasi ini yang membuat website terasa
+   "islami tapi tetap korporat", bukan sekadar hijau + emas generik.
+
+   Struktur file (cari komentar besar "SECTION" untuk lompat ke bagian):
+   1.  Font Import
+   2.  CSS Variables (design tokens)
+   3.  Reset & Global Base
+   4.  Layout Utilities (container, section, button, link, image)
+   5.  Navbar / Header
+   6.  Mega Menu Perpustakaan
+   7.  Hero / Beranda
+   8.  Hero Slider
+   9.  Profil Section
+   10. Perpustakaan Section (grid + card)
+   11. Blog Section
+   12. Footer / Kontak
+   13. Micro Interactions (transition global)
+   14. Aksesibilitas (focus-visible, reduced motion)
+   15. Responsive (tablet & mobile)
+   ============================================================================ */
+
+
+/* ============================================================================
+   1. FONT IMPORT
+   ----------------------------------------------------------------------------
+   Amiri  -> font display/serif untuk judul (kesan islami & elegan)
+   Plus Jakarta Sans -> font body (bersih, modern, mudah dibaca)
+   ============================================================================ */
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+
+/* ============================================================================
+   2. CSS VARIABLES (DESIGN TOKENS)
+   ----------------------------------------------------------------------------
+   Semua warna & ukuran penting dikumpulkan di sini supaya mudah diubah
+   nantinya tanpa harus mencari-cari ke seluruh file.
+   ============================================================================ */
+:root {
+  /* --- Warna utama --- */
+  --primary-green: #1f6b46;   /* hijau utama: navbar, tombol, aksen */
+  --dark-green: #0d3624;      /* hijau tua: footer, background gelap */
+  --light-green: #eaf5ee;     /* hijau sangat terang: background section selang-seling */
+  --light-green-2: #dcefe3;   /* varian sedikit lebih pekat, untuk border/gradient halus */
+  --gold: #c9a24b;            /* gold aksen elegan (bukan kuning terang) */
+  --gold-soft: #e7d6a8;       /* gold pudar, untuk background/hover halus */
+  --white: #ffffff;
+
+  /* --- Warna teks --- */
+  --text-dark: #1b2b22;       /* teks utama, hampir hitam kehijauan */
+  --text-gray: #667069;       /* teks sekunder / deskripsi */
+  --text-on-dark: #f3f7f4;    /* teks di atas background hijau tua */
+  --text-on-dark-muted: #b9ccc0; /* teks sekunder di atas background gelap */
+
+  /* --- Tipografi --- */
+  --font-display: "Amiri", "Georgia", serif;
+  --font-body: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+
+  /* --- Layout --- */
+  --container-max: 1360px;     /* lebar maksimum konten, terasa lebar/spacious */
+  --container-padding: clamp(1.25rem, 4vw, 3.5rem);
+  --section-padding-y: clamp(3.5rem, 7vw, 6.5rem);
+
+  /* --- Radius & shadow --- */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --shadow-soft: 0 4px 16px rgba(13, 54, 36, 0.08);
+  --shadow-medium: 0 12px 32px rgba(13, 54, 36, 0.12);
+  --shadow-strong: 0 20px 48px rgba(13, 54, 36, 0.18);
+
+  /* --- Transisi global (dipakai ulang di banyak elemen) --- */
+  --transition-base:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    color 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    opacity 0.3s ease;
+}
+
+
+/* ============================================================================
+   3. RESET & GLOBAL BASE
+   ----------------------------------------------------------------------------
+   box-sizing global + reset dasar. index.css biasanya sudah menangani hal
+   yang lebih general (font-family html/body dsb), jadi di sini kita hanya
+   menambahkan yang benar-benar dibutuhkan App.css supaya tidak tumpang
+   tindih tanggung jawab dengan index.css.
+   ============================================================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Kesalahan umum pemula: lupa reset margin default <h1>-<h6> dan <p>,
+   akibatnya spacing antar section jadi tidak konsisten/susah dikontrol. */
+.page h1,
+.page h2,
+.page h3,
+.page h4,
+.page p,
+.page ul,
+.page figure {
+  margin: 0;
+  padding: 0;
+}
+
+.page ul {
+  list-style: none;
+}
+
+.page {
+  font-family: var(--font-body);
+  color: var(--text-dark);
+  overflow-x: hidden; /* mencegah horizontal scroll akibat elemen lebar */
+}
+
+.page img {
+  max-width: 100%;
+  display: block;
+}
+
+.page a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* ============================================================================
+   4. LAYOUT UTILITIES
+   ----------------------------------------------------------------------------
+   Class "inner" dipakai berulang di App.jsx (site-header__inner,
+   hero-section__inner, dst) sebagai container lebar tapi tetap dibatasi
+   max-width supaya teks tidak terlalu lebar dibaca di layar besar.
+   ============================================================================ */
+.site-header__inner,
+.hero-section__inner,
+.profile-section__inner,
+.library-section__inner,
+.blog-section__inner,
+.site-footer__inner {
+  width: min(100%, var(--container-max));
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 3vw, 2.6rem);
+  font-weight: 700;
+  color: var(--dark-green);
+  letter-spacing: 0.01em;
+}
+
+.section-description {
+  margin-top: 0.75rem;
+  max-width: 640px;
+  color: var(--text-gray);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* --- Tombol (dipakai di Hero & Blog) --- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.9rem;
+  border-radius: 999px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.98rem;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  transition: var(--transition-base);
+  white-space: nowrap;
+}
+
+.btn--primary {
+  background-color: var(--primary-green);
+  color: var(--white);
+  box-shadow: var(--shadow-soft);
+}
+
+.btn--primary:hover {
+  background-color: var(--dark-green);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-medium);
+}
+
+.btn--secondary {
+  background-color: transparent;
+  color: var(--dark-green);
+  border-color: var(--dark-green);
+}
+
+.btn--secondary:hover {
+  background-color: var(--dark-green);
+  color: var(--white);
+  transform: translateY(-3px);
+}
+
+
+/* ============================================================================
+   5. NAVBAR / HEADER
+   ============================================================================ */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: var(--white);
+  border-bottom: 1px solid rgba(13, 54, 36, 0.08);
+  box-shadow: 0 2px 12px rgba(13, 54, 36, 0.04);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 76px; /* navbar tidak terlalu tinggi */
+}
+
+.site-logo {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-green);
+  letter-spacing: 0.02em;
+}
+
+.main-nav__list {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.25rem, 2vw, 2.25rem);
+}
+
+/* --- Hover navigasi: underline halus + perubahan warna --- */
+.main-nav__link {
+  position: relative;
+  padding: 0.4rem 0.1rem;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  transition: var(--transition-base);
+}
+
+.main-nav__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+.main-nav__link:hover {
+  color: var(--primary-green);
+}
+
+.main-nav__link:hover::after {
+  transform: scaleX(1);
+}
+
+
+/* ============================================================================
+   6. MEGA MENU PERPUSTAKAAN
+   ----------------------------------------------------------------------------
+   CATATAN STRUKTUR:
+   App.jsx saat ini BELUM menyediakan elemen dropdown/mega-menu khusus untuk
+   item "Perpustakaan" (menu ini hanya <li className="main-nav__item"> biasa,
+   sama seperti menu lain). Karena instruksi melarang mengubah App.jsx, mega
+   menu 10 item TIDAK bisa ditampilkan lewat CSS murni tanpa markup/data
+   tambahan di JSX (CSS tidak bisa membuat elemen atau mengulang array baru).
+
+   Supaya kebutuhan "hover pada Perpustakaan menampilkan sesuatu" tetap
+   terpenuhi sebisa mungkin dalam batasan ini, style di bawah menyiapkan
+   TAMPILAN mega-menu (posisi, animasi muncul, grid, kartu) yang otomatis
+   aktif JIKA/KETIKA nanti item Perpustakaan di App.jsx dibungkus seperti:
+
+     <li className="main-nav__item main-nav__item--library">
+       <a className="main-nav__link" href="#perpustakaan">Perpustakaan</a>
+       <div className="mega-menu">
+         <div className="mega-menu__grid">
+           <a className="mega-menu__item" href="...">Ngaji Rumi 01</a>
+           ... dst dari libraryItems.map()
+         </div>
+       </div>
+     </li>
+
+   Untuk saat ini, class di bawah tidak mengubah tampilan menu Perpustakaan
+   yang sudah ada (karena elemennya belum ada di DOM), tapi sudah siap pakai
+   begitu markup di atas ditambahkan di App.jsx pada kesempatan lain.
+   ============================================================================ */
+.main-nav__item--library {
+  position: relative;
+}
+
+.mega-menu {
+  position: absolute;
+  top: calc(100% + 14px);
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  min-width: 480px;
+  background-color: var(--white);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(13, 54, 36, 0.08);
+  box-shadow: var(--shadow-strong);
+  padding: 1.75rem;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+  z-index: 90;
+}
+
+/* Muncul halus saat item induk (atau mega-menu itu sendiri) di-hover */
+.main-nav__item--library:hover .mega-menu,
+.mega-menu:hover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.mega-menu__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.35rem 2rem;
+}
+
+.mega-menu__item {
+  padding: 0.65rem 0.75rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  transition: var(--transition-base);
+}
+
+.mega-menu__item:hover {
+  background-color: var(--light-green);
+  color: var(--primary-green);
+  padding-left: 1rem;
+}
+
+
+/* ============================================================================
+   7. HERO / BERANDA
+   ============================================================================ */
+.hero-section {
+  position: relative;
+  background: linear-gradient(180deg, var(--white) 0%, var(--light-green) 100%);
+  overflow: hidden;
+  padding-block: clamp(3rem, 7vw, 5.5rem);
+}
+
+/* Dekorasi gradient hijau sangat halus di pojok kanan atas,
+   memberi kesan "tidak polos" tanpa mengganggu keterbacaan teks. */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: -18%;
+  right: -12%;
+  width: 46rem;
+  height: 46rem;
+  background: radial-gradient(circle, var(--light-green-2) 0%, transparent 70%);
+  z-index: 0;
+}
+
+.hero-section__inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  align-items: center;
+  gap: clamp(2rem, 5vw, 4rem);
+}
+
+.hero-content__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 4.2vw, 3.4rem);
+  font-weight: 700;
+  color: var(--dark-green);
+  line-height: 1.15;
+}
+
+.hero-content__subtitle {
+  margin-top: 0.85rem;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  font-weight: 400;
+  color: var(--primary-green);
+}
+
+.hero-content__description {
+  margin-top: 1.25rem;
+  max-width: 480px;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--text-gray);
+}
+
+.hero-content__actions {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+
+/* ============================================================================
+   8. HERO SLIDER
+   ----------------------------------------------------------------------------
+   React sudah mengatur active-state lewat class "hero-slider__slide--active"
+   dan "hero-slider__dot--active". CSS di sini hanya menata posisi, ukuran,
+   opacity, dan transisi — tidak menyentuh logic sama sekali.
+   ============================================================================ */
+.hero-visual {
+  position: relative;
+}
+
+.hero-slider {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-strong);
+  background-color: var(--light-green-2); /* fallback selagi foto belum ada */
+}
+
+.hero-slider__track {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Setiap slide ditumpuk (stacked) di posisi yang sama;
+   yang aktif ditampilkan lewat opacity + scale halus. */
+.hero-slider__slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transform: scale(1.02);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  pointer-events: none;
+}
+
+.hero-slider__slide--active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+.hero-slider__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-slider__caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.5rem 1.5rem 1.25rem;
+  background: linear-gradient(0deg, rgba(13, 54, 36, 0.75) 0%, transparent 100%);
+  color: var(--white);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/* --- Tombol prev/next --- */
+.hero-slider__controls {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 0.9rem;
+  pointer-events: none; /* biar tidak menghalangi hover foto */
+  z-index: 2;
+}
+
+.hero-slider__control {
+  pointer-events: auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: var(--dark-green);
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: var(--shadow-soft);
+  transition: var(--transition-base);
+}
+
+.hero-slider__control:hover {
+  background-color: var(--gold);
+  color: var(--white);
+  transform: scale(1.08);
+}
+
+/* --- Dots indicator --- */
+.hero-slider__dots {
+  position: absolute;
+  left: 50%;
+  bottom: 1.1rem;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+  z-index: 2;
+}
+
+.hero-slider__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: var(--transition-base);
+}
+
+.hero-slider__dot--active {
+  background-color: var(--gold);
+  width: 22px;
+  border-radius: 999px;
+}
+
+
+/* ============================================================================
+   9. PROFIL SECTION
+   ============================================================================ */
+.profile-section {
+  background-color: var(--white);
+  padding-block: var(--section-padding-y);
+}
+
+.profile-content {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+}
+
+.profile-content__media {
+  position: sticky;
+  top: 100px; /* mengikuti tinggi navbar sticky agar tidak tertutup */
+}
+
+.profile-content__image {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-medium);
+}
+
+.profile-content__name {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+  color: var(--dark-green);
+}
+
+.profile-content__block {
+  margin-top: 1.75rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid rgba(13, 54, 36, 0.1);
+}
+
+.profile-content__block:first-of-type {
+  margin-top: 1.5rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+.profile-content__block-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary-green);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.profile-content__block-text {
+  margin-top: 0.6rem;
+  color: var(--text-gray);
+  line-height: 1.75;
+  font-size: 1.02rem;
+}
+
+
+/* ============================================================================
+   10. PERPUSTAKAAN SECTION (GRID + CARD)
+   ============================================================================ */
+.library-section {
+  background-color: var(--light-green);
+  padding-block: var(--section-padding-y);
+}
+
+.library-grid {
+  margin-top: 2.75rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* desktop: 4 kolom */
+  gap: 1.75rem;
+}
+
+.library-card {
+  position: relative;
+  background-color: var(--white);
+  border-radius: var(--radius-md);
+  padding: 1.9rem 1.6rem;
+  border: 1px solid rgba(13, 54, 36, 0.06);
+  box-shadow: var(--shadow-soft);
+  transition: var(--transition-base);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+/* --- Hover effect: naik halus + shadow meningkat + aksen gold --- */
+.library-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-medium);
+  border-color: var(--gold);
+}
+
+.library-card__number {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--gold);
+  transition: var(--transition-base);
+}
+
+.library-card:hover .library-card__number {
+  color: var(--primary-green);
+}
+
+.library-card__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--dark-green);
+}
+
+.library-card__description {
+  flex: 1;
+  color: var(--text-gray);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.library-card__link {
+  margin-top: 0.6rem;
+  align-self: flex-start;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-green);
+  padding-bottom: 2px;
+  border-bottom: 1.5px solid transparent;
+  transition: var(--transition-base);
+}
+
+.library-card__link:hover {
+  border-bottom-color: var(--gold);
+  color: var(--dark-green);
+}
+
+
+/* ============================================================================
+   11. BLOG SECTION
+   ============================================================================ */
+.blog-section {
+  background-color: var(--white);
+  padding-block: var(--section-padding-y);
+}
+
+.blog-card {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.75rem;
+  background: linear-gradient(120deg, var(--dark-green) 0%, var(--primary-green) 100%);
+  border-radius: var(--radius-lg);
+  padding: clamp(2rem, 4vw, 3.25rem);
+  box-shadow: var(--shadow-medium);
+}
+
+.blog-card__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+  color: var(--white);
+}
+
+.blog-card__description {
+  margin-top: 0.6rem;
+  max-width: 480px;
+  color: var(--text-on-dark-muted);
+  line-height: 1.7;
+}
+
+.blog-card .btn--primary {
+  background-color: var(--gold);
+  color: var(--dark-green);
+  flex-shrink: 0;
+}
+
+.blog-card .btn--primary:hover {
+  background-color: var(--white);
+  color: var(--dark-green);
+}
+
+
+/* ============================================================================
+   12. FOOTER / KONTAK
+   ============================================================================ */
+.site-footer {
+  background-color: var(--dark-green);
+  color: var(--text-on-dark);
+}
+
+.site-footer__inner {
+  padding-block: clamp(3rem, 6vw, 4.5rem) 2rem;
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr 1fr 1fr;
+  gap: clamp(2rem, 4vw, 3rem);
+}
+
+.footer-block__title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--gold-soft);
+  margin-bottom: 1.1rem;
+}
+
+.footer-block__text {
+  color: var(--text-on-dark-muted);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.footer-nav-list,
+.footer-contact-list,
+.footer-social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.footer-nav-list__link,
+.footer-social-list__link {
+  color: var(--text-on-dark-muted);
+  font-size: 0.95rem;
+  transition: var(--transition-base);
+}
+
+.footer-nav-list__link:hover,
+.footer-social-list__link:hover {
+  color: var(--gold);
+  padding-left: 4px;
+}
+
+.footer-contact-list li {
+  color: var(--text-on-dark-muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.footer-contact-list a:hover {
+  color: var(--gold);
+}
+
+.site-footer__bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding-block: 1.5rem;
+  text-align: center;
+}
+
+.site-footer__bottom p {
+  color: var(--text-on-dark-muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+
+/* ============================================================================
+   13. MICRO INTERACTIONS
+   ----------------------------------------------------------------------------
+   Transition global sudah didefinisikan lewat var(--transition-base) dan
+   dipasang secara SELEKTIF per elemen interaktif (bukan "* { transition: ... }"
+   secara massal) supaya performa tetap ringan dan tidak ada animasi yang
+   "nyasar" ke elemen yang tidak perlu.
+   ============================================================================ */
+.btn,
+.main-nav__link,
+.mega-menu,
+.mega-menu__item,
+.hero-slider__control,
+.hero-slider__dot,
+.library-card,
+.library-card__number,
+.library-card__link,
+.footer-nav-list__link,
+.footer-social-list__link,
+.footer-contact-list a {
+  transition: var(--transition-base);
+}
+
+
+/* ============================================================================
+   14. AKSESIBILITAS
+   ============================================================================ */
+.main-nav__link:focus-visible,
+.btn:focus-visible,
+.mega-menu__item:focus-visible,
+.hero-slider__control:focus-visible,
+.hero-slider__dot:focus-visible,
+.library-card__link:focus-visible,
+.footer-nav-list__link:focus-visible,
+.footer-social-list__link:focus-visible,
+.site-logo:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Menghormati preferensi pengguna yang mematikan animasi di sistemnya */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+
+/* ============================================================================
+   15. RESPONSIVE DESIGN
+   ============================================================================ */
+
+/* --- Tablet (<=1024px): spacing dikurangi, grid disesuaikan --- */
+@media (max-width: 1024px) {
+  .library-grid {
+    grid-template-columns: repeat(2, 1fr); /* tablet: 2 kolom */
+  }
+
+  .profile-content {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-content__media {
+    position: static;
+    max-width: 420px;
+  }
+
+  .mega-menu {
+    min-width: 420px;
+  }
+}
+
+/* --- Mobile (<=768px) --- */
+@media (max-width: 768px) {
+  .site-header__inner {
+    min-height: 64px;
+  }
+
+  .main-nav__list {
+    gap: 1rem;
+  }
+
+  .main-nav__link {
+    font-size: 0.88rem;
+  }
+
+  /* Mega-menu: hover tidak natural di layar sentuh.
+     Di sini kita nonaktifkan efek "muncul lewat hover" style desktop,
+     dan biarkan menu tampil sebagai bagian normal dari alur (jika App.jsx
+     nanti menambahkan toggle klik untuk mobile, class ini tetap kompatibel
+     karena hanya menata posisi & tampilan, bukan trigger-nya). */
+  .mega-menu {
+    position: static;
+    transform: none;
+    min-width: 100%;
+    box-shadow: none;
+    border: none;
+    padding: 0.75rem 0;
+  }
+
+  .main-nav__item--library:hover .mega-menu,
+  .mega-menu:hover {
+    transform: none;
+  }
+
+  .mega-menu__grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Hero: satu kolom, gambar di atas teks */
+  .hero-section__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    order: -1;
+  }
+
+  .hero-content__description {
+    max-width: 100%;
+  }
+
+  .hero-content__actions .btn {
+    flex: 1;
+  }
+
+  /* Library: satu kolom */
+  .library-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Footer: satu kolom */
+  .site-footer__inner {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+}
+
+/* --- Extra small mobile --- */
+@media (max-width: 420px) {
+  .hero-slider {
+    aspect-ratio: 4 / 4.6;
+  }
+
+  .blog-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
