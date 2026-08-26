@@ -121,12 +121,18 @@ function Home() {
                 </h3>
 
                 <p className="library-card__description">
-                  Apa yang kau cari sesungguhnya sedang mencarimu. Jangan habiskan hidupmu mengetuk setiap pintu, karena pintu yang kau cari ada di dalam hatimu sendiri.
+                  Apa yang kau cari sesungguhnya sedang mencarimu. Jangan habiskan
+                  hidupmu mengetuk setiap pintu, karena pintu yang kau cari ada di
+                  dalam hatimu sendiri.
                 </p>
 
-                <span className="library-card__arrow" aria-hidden="true">
+                <a
+                  href="/ngajirumi-1"
+                  className="library-card__arrow"
+                  aria-label="Buka Ngaji Rumi 1"
+                >
                   ↗
-                </span>
+                </a>
               </div>
             </article>
 
@@ -136,7 +142,7 @@ function Home() {
 
               <div className="library-card__content">
                 <span className="library-card__eyebrow">
-                  lUKA DAN CAHAYA
+                  LUKA DAN CAHAYA
                 </span>
 
                 <h3 className="library-card__title">
@@ -144,14 +150,18 @@ function Home() {
                 </h3>
 
                 <p className="library-card__description">
-                 The wound is the place where Light enters you.
-
-                 Luka adalah tempat di mana Cahaya masuk kepadamu.
+                  The wound is the place where Light enters you.
+                  <br />
+                  Luka adalah tempat di mana Cahaya masuk kepadamu.
                 </p>
 
-                <span className="library-card__arrow" aria-hidden="true">
+                <a
+                  href="/ngajirumi-2"
+                  className="library-card__arrow"
+                  aria-label="Buka Ngaji Rumi 2"
+                >
                   ↗
-                </span>
+                </a>
               </div>
             </article>
 
@@ -169,19 +179,81 @@ function Home() {
                 </h3>
 
                 <p className="library-card__description">
-                  Hatimu adalah cermin, namun ia berdebu. Bersihkanlah dengan cinta, dengan dzikir, dengan air mata kerinduan,
-                  agar wajah Tuhan tampak di sana
+                  Hatimu adalah cermin, namun ia berdebu. Bersihkanlah dengan
+                  cinta, dengan dzikir, dengan air mata kerinduan, agar wajah
+                  Tuhan tampak di sana.
                 </p>
 
-                <span className="library-card__arrow" aria-hidden="true">
+                <a
+                  href="/ngajirumi-3"
+                  className="library-card__arrow"
+                  aria-label="Buka Ngaji Rumi 3"
+                >
                   ↗
+                </a>
+              </div>
+            </article>
+
+            {/* NGAJI RUMI 04 */}
+            <article className="library-card library-card--four">
+              <div className="library-card__number">04</div>
+
+              <div className="library-card__content">
+                <span className="library-card__eyebrow">
+                  DIAM
                 </span>
+
+                <h3 className="library-card__title">
+                  Ngaji Rumi 4
+                </h3>
+
+                <p className="library-card__description">
+                  Belajarlah sunyi agar dapat memahami apa yang tak dapat
+                  diucapkan. Dalam diam, hati belajar mendengar makna yang
+                  melampaui kata-kata.
+                </p>
+
+                <a
+                  href="/ngajirumi-4"
+                  className="library-card__arrow"
+                  aria-label="Buka Ngaji Rumi 4"
+                >
+                  ↗
+                </a>
+              </div>
+            </article>
+
+            {/* NGAJI RUMI 05 */}
+            <article className="library-card library-card--five">
+              <div className="library-card__number">05</div>
+
+              <div className="library-card__content">
+                <span className="library-card__eyebrow">
+                  NGAJI RUMI 05
+                </span>
+
+                <h3 className="library-card__title">
+                  Ngaji Rumi 5
+                </h3>
+
+                <p className="library-card__description">
+                  Materi Ngaji Rumi 5 akan segera hadir. Lanjutkan perjalanan
+                  belajar untuk menemukan makna dari setiap pelajaran.
+                </p>
+
+                <a
+                  href="/ngajirumi-5"
+                  className="library-card__arrow"
+                  aria-label="Buka Ngaji Rumi 5"
+                >
+                  ↗
+                </a>
               </div>
             </article>
           </div>
 
           <p className="ngaji-rumi-note">
-          Belajar, berproses, memahami lebih dekat
+            Belajar, berproses, memahami lebih dekat
           </p>
         </div>
       </section>
@@ -197,7 +269,7 @@ function Home() {
             </span>
 
             <h2 className="section-title">
-             Ngaji dengan pendekatan yang relevan
+              Ngaji dengan pendekatan yang relevan
             </h2>
 
             <p className="section-description">
@@ -210,11 +282,11 @@ function Home() {
 
             <div className="blog-card__content">
               <span className="blog-card__eyebrow">
-                PENDEKATAN 
+                PENDEKATAN
               </span>
 
               <h3 className="blog-card__title">
-                Belajar dengan nyaman 
+                Belajar dengan nyaman
               </h3>
 
               <p className="blog-card__description">
