@@ -24,7 +24,9 @@ function Home() {
             </h2>
 
             <p className="section-description">
-              Ngaji Rumi hadir sebagai ruang belajar bersama Pak Jo melalui pendekatan yang hangat, sederhana, dan dekat dengan kehidupan sehari-hari.
+              Ngaji Rumi hadir sebagai ruang belajar bersama Pak Jo melalui
+              pendekatan yang hangat, sederhana, dan dekat dengan kehidupan
+              sehari-hari.
             </p>
           </div>
 
@@ -49,7 +51,8 @@ function Home() {
               </h3>
 
               <p className="profile-content__description">
-                Ngaji Rumi membawa proses belajar menjadi lebih hangat, bertahap, dan relevan dengan kehidupan sehari-hari.
+                Ngaji Rumi membawa proses belajar menjadi lebih hangat,
+                bertahap, dan relevan dengan kehidupan sehari-hari.
               </p>
 
               <div className="profile-content__highlights">
@@ -60,7 +63,8 @@ function Home() {
                     <h4>Pendekatan Bertahap</h4>
 
                     <p>
-                      Materi disampaikan dengan terarah agar lebih mudah diikuti.
+                      Materi disampaikan dengan terarah agar lebih mudah
+                      diikuti.
                     </p>
                   </div>
                 </div>
@@ -72,7 +76,8 @@ function Home() {
                     <h4>Belajar dengan Nyaman</h4>
 
                     <p>
-                      Tema belajar dibuat sederhana, hangat, dan dekat dengan kebutuhan Anda.
+                      Tema belajar dibuat sederhana, hangat, dan dekat dengan
+                      kebutuhan Anda.
                     </p>
                   </div>
                 </div>
@@ -102,11 +107,13 @@ function Home() {
             </h2>
 
             <p className="section-description">
-              Berbagai materi dirancang untuk proses belajar yang mudah dipahami.
+              Berbagai materi dirancang untuk proses belajar yang mudah
+              dipahami.
             </p>
           </div>
 
           <div className="ngaji-rumi-content">
+
             {/* NGAJI RUMI 01 */}
             <article className="library-card library-card--one">
               <div className="library-card__number">01</div>
@@ -121,9 +128,9 @@ function Home() {
                 </h3>
 
                 <p className="library-card__description">
-                  Apa yang kau cari sesungguhnya sedang mencarimu. Jangan habiskan
-                  hidupmu mengetuk setiap pintu, karena pintu yang kau cari ada di
-                  dalam hatimu sendiri.
+                  Apa yang kau cari sesungguhnya sedang mencarimu. Jangan
+                  habiskan hidupmu mengetuk setiap pintu, karena pintu yang
+                  kau cari ada di dalam hatimu sendiri.
                 </p>
 
                 <a
@@ -250,6 +257,147 @@ function Home() {
                 </a>
               </div>
             </article>
+
+            {/* NGAJI RUMI 06 */}
+            <article className="library-card library-card--six">
+              <div className="library-card__number">06</div>
+
+              <div className="library-card__content">
+                <span className="library-card__eyebrow">
+                  NGAJI RUMI 06
+                </span>
+
+                <h3 className="library-card__title">
+                  Ngaji Rumi 6
+                </h3>
+
+                <p className="library-card__description">
+                  Materi Ngaji Rumi 6 akan segera hadir. Lanjutkan perjalanan
+                  belajar dan temukan makna di setiap tahapnya.
+                </p>
+
+                <a
+                  href="/ngajirumi-6"
+                  className="library-card__arrow"
+                  aria-label="Buka Ngaji Rumi 6"
+                >
+                  ↗
+                </a>
+              </div>
+            </article>
+
+            {/* NGAJI RUMI 07 */}
+            <article className="library-card library-card--seven">
+              <div className="library-card__number">07</div>
+
+              <div className="library-card__content">
+                <span className="library-card__eyebrow">
+                  NGAJI RUMI 07
+                </span>
+
+                <h3 className="library-card__title">
+                  Ngaji Rumi 7
+                </h3>
+
+                <p className="library-card__description">
+                  Materi Ngaji Rumi 7 akan segera hadir. Sebuah perjalanan
+                  belajar untuk memahami makna dengan lebih dekat.
+                </p>
+
+                <a
+                  href="/ngajirumi-7"
+                  className="library-card__arrow"
+                  aria-label="Buka Ngaji Rumi 7"
+                >
+                  ↗
+                </a>
+              </div>
+            </article>
+
+            {/* NGAJI RUMI 08 */}
+            <article className="library-card library-card--eight">
+              <div className="library-card__number">08</div>
+
+              <div className="library-card__content">
+                <span className="library-card__eyebrow">
+                  NGAJI RUMI 08
+                </span>
+
+                <h3 className="library-card__title">
+                  Ngaji Rumi 8
+                </h3>
+
+                <p className="library-card__description">
+                  Materi Ngaji Rumi 8 akan segera hadir. Lanjutkan proses
+                  belajar dengan membuka ruang pemahaman yang lebih luas.
+                </p>
+
+                <a
+                  href="/ngajirumi-8"
+                  className="library-card__arrow"
+                  aria-label="Buka Ngaji Rumi 8"
+                >
+                  ↗
+                </a>
+              </div>
+            </article>
+
+            {/* NGAJI RUMI 09 */}
+            <article className="library-card library-card--nine">
+              <div className="library-card__number">09</div>
+
+              <div className="library-card__content">
+                <span className="library-card__eyebrow">
+                  NGAJI RUMI 09
+                </span>
+
+                <h3 className="library-card__title">
+                  Ngaji Rumi 9
+                </h3>
+
+                <p className="library-card__description">
+                  Materi Ngaji Rumi 9 akan segera hadir. Teruskan perjalanan
+                  belajar untuk memahami pesan dan makna yang lebih dalam.
+                </p>
+
+                <a
+                  href="/ngajirumi-9"
+                  className="library-card__arrow"
+                  aria-label="Buka Ngaji Rumi 9"
+                >
+                  ↗
+                </a>
+              </div>
+            </article>
+
+            {/* NGAJI RUMI 10 */}
+            <article className="library-card library-card--ten">
+              <div className="library-card__number">10</div>
+
+              <div className="library-card__content">
+                <span className="library-card__eyebrow">
+                  NGAJI RUMI 10
+                </span>
+
+                <h3 className="library-card__title">
+                  Ngaji Rumi 10
+                </h3>
+
+                <p className="library-card__description">
+                  Materi Ngaji Rumi 10 akan segera hadir. Sebagai bagian dari
+                  perjalanan Ngaji Rumi yang terus berkembang.
+                </p>
+
+                <a
+                  href="/ngajirumi-10"
+                  className="library-card__arrow"
+                  aria-label="Buka Ngaji Rumi 10"
+                >
+                  ↗
+                </a>
+              </div>
+            </article>
+
           </div>
 
           <p className="ngaji-rumi-note">
@@ -290,7 +438,8 @@ function Home() {
               </h3>
 
               <p className="blog-card__description">
-                Mengutamakan proses, mudah dipahami, interaktif, dan sesuai kebutuhan Anda
+                Mengutamakan proses, mudah dipahami, interaktif, dan sesuai
+                kebutuhan Anda
               </p>
             </div>
 
