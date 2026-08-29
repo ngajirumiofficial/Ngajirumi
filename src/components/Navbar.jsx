@@ -52,7 +52,7 @@ function Navbar() {
       <div className="site-header__inner">
 
         {/* LOGO */}
-        <a href="/" className="site-logo" aria-label="Ngaji Rumi - Beranda">
+        <a href="/Ngajirumi/" className="site-logo" aria-label="Ngaji Rumi - Beranda">
           <img
             src={logo}
             alt="Ngaji Rumi"
@@ -65,19 +65,19 @@ function Navbar() {
           <ul className="main-nav__list">
 
             <li className="main-nav__item">
-              <a href="/" className="main-nav__link">Beranda</a>
+              <a href="/Ngajirumi/" className="main-nav__link">Beranda</a>
             </li>
 
             <li className="main-nav__item">
-              <a href="/profil" className="main-nav__link">Profil</a>
+              <a href="/Ngajirumi/profil" className="main-nav__link">Profil</a>
             </li>
 
             <li className="main-nav__item">
-              <a href="/perpustakaan" className="main-nav__link">Perpustakaan</a>
+              <a href="/Ngajirumi/perpustakaan" className="main-nav__link">Perpustakaan</a>
             </li>
 
             <li className="main-nav__item">
-              <a href="/galeri" className="main-nav__link">Galeri</a>
+              <a href="/Ngajirumi/galeri" className="main-nav__link">Galeri</a>
             </li>
 
             {/* BLOG — dengan dropdown */}
@@ -129,7 +129,7 @@ function Navbar() {
             </li>
 
             <li className="main-nav__item">
-              <a href="/#footer" className="main-nav__link">Kontak</a>
+              <a href="/Ngajirumi/#footer" className="main-nav__link">Kontak</a>
             </li>
 
           </ul>
@@ -154,7 +154,7 @@ function Navbar() {
             
             {/* Header drawer */}
             <div className="mobile-menu__header">
-              <a href="/" className="site-logo" onClick={closeMenu}>
+              <a href="/Ngajirumi/" className="site-logo" onClick={closeMenu}>
                 <img src={logo} alt="Ngaji Rumi" className="site-logo__image" />
               </a>
               <button
@@ -171,22 +171,22 @@ function Navbar() {
             <nav className="mobile-menu__nav">
               <ul className="mobile-menu__list">
                 <li className="mobile-menu__item">
-                  <a href="/" className="mobile-menu__link" onClick={closeMenu}>
+                  <a href="/Ngajirumi/" className="mobile-menu__link" onClick={closeMenu}>
                     Beranda
                   </a>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/profil" className="mobile-menu__link" onClick={closeMenu}>
+                  <a href="/Ngajirumi/profil" className="mobile-menu__link" onClick={closeMenu}>
                     Profil
                   </a>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/perpustakaan" className="mobile-menu__link" onClick={closeMenu}>
+                  <a href="/Ngajirumi/perpustakaan" className="mobile-menu__link" onClick={closeMenu}>
                     Perpustakaan
                   </a>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/galeri" className="mobile-menu__link" onClick={closeMenu}>
+                  <a href="/Ngajirumi/galeri" className="mobile-menu__link" onClick={closeMenu}>
                     Galeri
                   </a>
                 </li>
@@ -230,7 +230,7 @@ function Navbar() {
                 </li>
 
                 <li className="mobile-menu__item">
-                  <a href="/#footer" className="mobile-menu__link" onClick={closeMenu}>
+                  <a href="/Ngajirumi/#footer" className="mobile-menu__link" onClick={closeMenu}>
                     Kontak
                   </a>
                 </li>

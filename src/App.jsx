@@ -16,8 +16,7 @@ import NgajiRumi5 from "./components/Ngajirumi-5";
 import "./App.css";
 
 function App() {
-  // Ganti baris ini agar mengabaikan nama repo di depan URL
-  const path = window.location.pathname.replace('/Ngajirumi', '');
+  const path = window.location.pathname;
 
   let page;
 
