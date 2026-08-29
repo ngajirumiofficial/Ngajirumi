@@ -16,8 +16,9 @@ import NgajiRumi5 from "./components/Ngajirumi-5";
 import "./App.css";
 
 function App() {
-  // Membersihkan nama repo dari URL agar halaman bisa dibaca dengan benar
-  const path = window.location.pathname.replace('/Ngajirumi', '');
+  // Menggunakan window.location.hash agar tidak butuh file fisik
+  // Format URL: /Ngajirumi/#/profil
+  const path = window.location.hash.replace('#', '').replace('/Ngajirumi', '');
 
   let page;
 

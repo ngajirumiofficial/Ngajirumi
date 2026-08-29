@@ -62,13 +62,13 @@ function Navbar() {
               <a href="/Ngajirumi/" className="main-nav__link">Beranda</a>
             </li>
             <li className="main-nav__item">
-              <a href="/Ngajirumi/profil" className="main-nav__link">Profil</a>
+              <a href="/Ngajirumi/#/profil" className="main-nav__link">Profil</a>
             </li>
             <li className="main-nav__item">
-              <a href="/Ngajirumi/perpustakaan" className="main-nav__link">Perpustakaan</a>
+              <a href="/Ngajirumi/#/perpustakaan" className="main-nav__link">Perpustakaan</a>
             </li>
             <li className="main-nav__item">
-              <a href="/Ngajirumi/galeri" className="main-nav__link">Galeri</a>
+              <a href="/Ngajirumi/#/galeri" className="main-nav__link">Galeri</a>
             </li>
             <li className="main-nav__item main-nav__item--dropdown" onMouseEnter={openDropdown} onMouseLeave={closeDropdown}>
               <button className="main-nav__link main-nav__link--dropdown-trigger" onClick={toggleDropdown} aria-expanded={blogOpen} aria-haspopup="true" type="button">
@@ -89,7 +89,7 @@ function Navbar() {
               )}
             </li>
             <li className="main-nav__item">
-              <a href="/Ngajirumi/#footer" className="main-nav__link">Kontak</a>
+              <a href="/Ngajirumi/#/kontak" className="main-nav__link">Kontak</a>
             </li>
           </ul>
         </nav>
@@ -116,13 +116,13 @@ function Navbar() {
                   <a href="/Ngajirumi/" className="mobile-menu__link" onClick={closeMenu}>Beranda</a>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/Ngajirumi/profil" className="mobile-menu__link" onClick={closeMenu}>Profil</a>
+                  <a href="/Ngajirumi/#/profil" className="mobile-menu__link" onClick={closeMenu}>Profil</a>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/Ngajirumi/perpustakaan" className="mobile-menu__link" onClick={closeMenu}>Perpustakaan</a>
+                  <a href="/Ngajirumi/#/perpustakaan" className="mobile-menu__link" onClick={closeMenu}>Perpustakaan</a>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/Ngajirumi/galeri" className="mobile-menu__link" onClick={closeMenu}>Galeri</a>
+                  <a href="/Ngajirumi/#/galeri" className="mobile-menu__link" onClick={closeMenu}>Galeri</a>
                 </li>
                 <li className="mobile-menu__item mobile-menu__item--dropdown">
                   <button className="mobile-menu__link mobile-menu__link--trigger" onClick={() => setMobileBlogOpen(!mobileBlogOpen)} aria-expanded={mobileBlogOpen} type="button">
@@ -141,7 +141,7 @@ function Navbar() {
                   </div>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/Ngajirumi/#footer" className="mobile-menu__link" onClick={closeMenu}>Kontak</a>
+                  <a href="/Ngajirumi/#/kontak" className="mobile-menu__link" onClick={closeMenu}>Kontak</a>
                 </li>
               </ul>
             </nav>
