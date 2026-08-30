@@ -3,14 +3,14 @@ import logo from "../assets/logo.png";
 
 const blogSubLinks = [
   {
-    label: "Ngaji Rumi Blog",
+    label: "Ngaji Rumi",
     href: "https://mjuharuddin.blogspot.com/",
     desc: "Tulisan & refleksi Ngaji Rumi",
     external: true,
   },
   {
-    label: "Jurnal Harian",
-    href: "https://mjuharuddin.blogspot.com/",
+    label: "SPOT LIGHT",
+    href: "http://joharudin2015.blogspot.com/",
     desc: "Catatan harian & keseharian",
     external: true,
   },

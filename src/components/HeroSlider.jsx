@@ -186,45 +186,6 @@ function HeroSlider() {
           </div>
         </div>
 
-
-        {/* ===================================================
-            HERO VISUAL
-           =================================================== */}
-
-        <div
-          className="hero-visual"
-          aria-hidden="true"
-        >
-          <div className="hero-visual__frame">
-
-            <div className="hero-visual__inner">
-
-              <span className="hero-visual__small">
-                {String(activeSlide.id).padStart(2, "0")}
-              </span>
-
-              <div className="hero-visual__symbol">
-                <span />
-                <span />
-                <span />
-              </div>
-
-              <span className="hero-visual__label">
-                {activeSlide.label}
-              </span>
-
-              <strong>Ngaji Rumi</strong>
-
-              <div className="hero-visual__line" />
-
-            </div>
-
-            <span className="hero-visual__corner hero-visual__corner--tl" />
-            <span className="hero-visual__corner hero-visual__corner--br" />
-
-          </div>
-        </div>
-
       </div>
 
 
