@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import FrameBackground from "./FrameBackground";
 
-const TOTAL_FRAMES = 240;
-
 const slides = [
   {
     id: 1,
@@ -44,46 +42,12 @@ const slides = [
 
 function HeroSlider() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [currentFrame, setCurrentFrame] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
   const activeSlide = slides[activeIndex];
 
   /* =========================================================
-     FRAME ANIMATION — 240 FRAME
-     ========================================================= */
-
-  useEffect(() => {
-    if (isPaused) {
-      return undefined;
-    }
-
-    let animationFrame;
-    let lastTime = 0;
-
-    const FRAME_INTERVAL = 1000 / 30;
-
-    const animate = (time) => {
-      if (time - lastTime >= FRAME_INTERVAL) {
-        lastTime = time;
-
-        setCurrentFrame((current) =>
-          (current + 1) % TOTAL_FRAMES
-        );
-      }
-
-      animationFrame = requestAnimationFrame(animate);
-    };
-
-    animationFrame = requestAnimationFrame(animate);
-
-    return () => {
-      cancelAnimationFrame(animationFrame);
-    };
-  }, [isPaused]);
-
-  /* =========================================================
-     HERO SLIDE
+     SLIDE NAVIGATION
      ========================================================= */
 
   const nextSlide = () => {
@@ -155,10 +119,10 @@ function HeroSlider() {
     >
 
       {/* =====================================================
-          240 FRAME BACKGROUND
+          BACKGROUND IMAGE
          ===================================================== */}
 
-      <FrameBackground currentFrame={currentFrame} />
+      <FrameBackground />
 
 
       {/* =====================================================
@@ -281,7 +245,7 @@ function HeroSlider() {
           <span>/</span>
 
           <span>
-            {String(slides.length).padStart(2, "0")}
+            {String(slides.length).padStart(2, "00")}
           </span>
         </div>
 

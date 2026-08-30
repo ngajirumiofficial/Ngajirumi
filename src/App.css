@@ -292,7 +292,8 @@
 }
 
 .mobile-menu__header .site-logo__image {
-  height: 38px;
+  height: 60px;
+  max-width: 160px;
 }
 
 .mobile-menu__close {
@@ -425,6 +426,11 @@
 
   .mobile-nav-toggle {
     display: flex;
+  }
+
+  /* Sembunyikan hamburger saat drawer terbuka agar X tidak dobel */
+  .mobile-nav-toggle--active {
+    display: none;
   }
 }
 
@@ -2019,12 +2025,19 @@
   }
 
   .hero-section__inner {
-    padding-top: 58px;
-    padding-bottom: 115px;
+    /* clamp pada rule utama sudah menangani padding, override hanya jika diperlukan */
+    grid-template-columns: 1fr;
+    padding-top: clamp(90px, 20vh, 160px);
+    padding-bottom: 130px;
+  }
+
+  /* Sembunyikan kartu visual di mobile agar gambar background tidak terhalang */
+  .hero-visual {
+    display: none;
   }
 
   .hero-content__title {
-    font-size: clamp(40px, 12vw, 58px);
+    font-size: clamp(36px, 10vw, 56px);
   }
 
   .hero-content__actions {
@@ -2035,10 +2048,6 @@
   .hero-content__actions .btn,
   .contact-content .btn {
     width: 100%;
-  }
-
-  .hero-visual__frame {
-    width: min(100%, 300px);
   }
 
   .hero-controls {
@@ -2098,6 +2107,12 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 8px;
+  }
+
+  /* Media sosial vertikal di mobile */
+  .site-footer__social-links {
+    flex-direction: column;
+    gap: 12px;
   }
 }
 
@@ -2200,45 +2215,23 @@
   }
 }
 
-.frame-background {
-  position: absolute;
-  inset: 0;
-
-  z-index: 0;
-
-  width: 100%;
-  height: 100%;
-
-  overflow: hidden;
-
-  pointer-events: none;
-}
-
-.frame-background__image {
-  display: block;
-
-  width: 100%;
-  height: 100%;
-
-  object-fit: cover;
-  object-position: center;
-
-  user-select: none;
-  -webkit-user-drag: none;
-}
-
 /* ==========================================================================
-   FRAME BACKGROUND — 240 FRAME
+   HERO SECTION — STATIC BACKGROUND IMAGE
    ========================================================================== */
 
 .hero-section {
   position: relative;
-  min-height: 720px;
+  min-height: 100svh;
   overflow: hidden;
   isolation: isolate;
 }
 
-/* Frame 001 → 240 */
+@media (min-width: 769px) {
+  .hero-section {
+    min-height: min(100vh, 900px);
+  }
+}
+
 .frame-background {
   position: absolute;
   inset: 0;
@@ -2251,16 +2244,14 @@
   pointer-events: none;
 }
 
-.frame-background__image {
+.frame-background__img {
   display: block;
 
   width: 100%;
   height: 100%;
 
   object-fit: cover;
-  object-position: center;
-
-  transform: scale(1.02);
+  object-position: center 30%;
 
   user-select: none;
   pointer-events: none;
@@ -2292,12 +2283,19 @@
 
   pointer-events: none;
 
-  background: linear-gradient(
-    90deg,
-    rgba(9, 37, 26, 0.62) 0%,
-    rgba(9, 37, 26, 0.35) 45%,
-    rgba(9, 37, 26, 0.12) 100%
-  );
+  /* Overlay gradien lebih gelap di bawah agar teks mudah dibaca di mobile */
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(9, 37, 26, 0.25) 0%,
+      rgba(9, 37, 26, 0.55) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(9, 37, 26, 0.70) 0%,
+      rgba(9, 37, 26, 0.30) 55%,
+      rgba(9, 37, 26, 0.05) 100%
+    );
 }
 
 /* ==========================================================================
@@ -2307,6 +2305,9 @@
 .hero-section__inner {
   position: relative;
   z-index: 2;
+  /* Gunakan padding yang cukup agar konten tidak terlalu rapat di mobile */
+  padding-top: clamp(80px, 14vh, 140px);
+  padding-bottom: clamp(80px, 12vh, 120px);
 }
 
 .hero-controls {
@@ -2325,7 +2326,8 @@
 
   justify-self: end;
 
-  transform: translateX(100px);
+  /* Tidak geser terlalu jauh agar tidak terpotong di mobile */
+  transform: translateX(0);
 }
 
 .hero-section::after {
