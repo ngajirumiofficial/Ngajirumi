@@ -2390,3 +2390,199 @@
   font-weight: 600;
   padding: 12px 6px;
 }
+
+
+/* ==========================================================================
+   ARABIC / ISLAMIC AESTHETIC ENHANCEMENTS
+   Sentuhan nuansa Arab yang halus & elegan
+   ========================================================================== */
+
+/* --- 1. GLOBAL BACKGROUND — dari putih ke krem hangat perkamen --- */
+
+html {
+  background-color: #f7f3eb;
+}
+
+body {
+  background-color: #f7f3eb;
+  color: var(--text);
+}
+
+/* Navbar background krem agar menyatu */
+.site-header {
+  background-color: #faf7f0;
+  border-bottom-color: rgba(201, 162, 75, 0.18);
+}
+
+/* --- 2. SECTION BACKGROUNDS — nuansa krem & emas lembut --- */
+
+/* Profile section */
+.profile-section {
+  background:
+    radial-gradient(ellipse at 80% 0%, rgba(201, 162, 75, 0.07) 0%, transparent 55%),
+    radial-gradient(ellipse at 10% 100%, rgba(201, 162, 75, 0.05) 0%, transparent 45%),
+    linear-gradient(160deg, #f7f3eb 0%, #f2ede0 100%);
+}
+
+/* Library section — dengan pola geometris Arab (bintang 8 titik via background) */
+.library-section {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(201, 162, 75, 0.08) 0%, transparent 60%),
+    linear-gradient(175deg, #eef2ec 0%, #e8ede5 100%);
+  position: relative;
+}
+
+/* Pola geometris halus di library — arabesque dots */
+.library-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.045;
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      var(--gold-500) 0px,
+      var(--gold-500) 1px,
+      transparent 1px,
+      transparent 22px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      var(--gold-500) 0px,
+      var(--gold-500) 1px,
+      transparent 1px,
+      transparent 22px
+    );
+  z-index: 0;
+}
+
+.library-section__inner {
+  position: relative;
+  z-index: 1;
+}
+
+/* Blog section */
+.blog-section {
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(201, 162, 75, 0.06) 0%, transparent 50%),
+    linear-gradient(170deg, #f7f3eb 0%, #f0ebe0 100%);
+}
+
+/* Contact section */
+.contact-section {
+  background:
+    radial-gradient(ellipse at 80% 100%, rgba(201, 162, 75, 0.09) 0%, transparent 55%),
+    linear-gradient(155deg, #eef2ec 0%, #e6ede1 100%);
+}
+
+/* Contact card — hangat bukan putih steril */
+.contact-content {
+  background: linear-gradient(145deg, #faf7f0 0%, #f5f0e6 100%);
+  border-color: rgba(201, 162, 75, 0.2);
+}
+
+/* --- 3. ORNAMEN PEMISAH SECTION — garis emas arabesque --- */
+
+/* Tambah garis dekoratif emas sebelum section heading di profile & blog */
+.section-heading__eyebrow::before,
+.profile-content__eyebrow::before {
+  background: linear-gradient(90deg, var(--gold-500), var(--gold-300));
+  height: 1.5px;
+  border-radius: 2px;
+}
+
+/* --- 4. KARTU LIBRARY — sentuhan emas & krem --- */
+
+.library-card {
+  background:
+    linear-gradient(145deg, #1a4c34 0%, var(--green-900) 100%);
+  border: 1px solid rgba(201, 162, 75, 0.15);
+}
+
+/* Border emas tipis di bawah heading section */
+.section-title::after {
+  content: "";
+  display: block;
+  width: 52px;
+  height: 2px;
+  margin-top: 14px;
+  background: linear-gradient(90deg, var(--gold-500), transparent);
+  border-radius: 2px;
+}
+
+/* --- 5. BLOG CARD — pola latar belakang halus --- */
+
+.blog-card {
+  background:
+    radial-gradient(ellipse at 90% 10%, rgba(201, 162, 75, 0.12) 0%, transparent 35%),
+    linear-gradient(145deg, #0f3524 0%, var(--green-900) 100%);
+  border: 1px solid rgba(201, 162, 75, 0.12);
+}
+
+/* --- 6. PROFILE VISUAL CARD — ornamen sudut emas lebih kaya --- */
+
+.profile-content__visual::after {
+  content: "✦";
+  position: absolute;
+  bottom: 22px;
+  right: 26px;
+  color: rgba(201, 162, 75, 0.35);
+  font-size: 20px;
+  line-height: 1;
+  pointer-events: none;
+}
+
+/* --- 7. DIVIDER ORNAMENTAL — antara hero dan section berikutnya --- */
+
+.profile-section::before {
+  content: "";
+  display: block;
+  width: min(320px, 80%);
+  height: 1px;
+  margin: 0 auto;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(201, 162, 75, 0.4),
+    transparent
+  );
+  margin-bottom: -1px;
+}
+
+/* --- 8. SCROLLBAR — nuansa gelap elegan --- */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f2ede0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 162, 75, 0.45);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 162, 75, 0.7);
+}
+
+/* --- 9. SELECTION COLOR --- */
+::selection {
+  background: rgba(201, 162, 75, 0.25);
+  color: var(--green-900);
+}
+
+/* --- 10. RESPONSIVE — pastikan pola tidak terlalu berat di mobile --- */
+
+@media (max-width: 768px) {
+  .library-section::before {
+    opacity: 0.03;
+  }
+
+  .contact-content {
+    background: linear-gradient(160deg, #faf7f0 0%, #f5f0e6 100%);
+  }
+}
