@@ -16,8 +16,7 @@ import NgajiRumi5 from "./components/Ngajirumi-5";
 import "./App.css";
 
 function App() {
-  // Menggunakan window.location.hash agar tidak butuh file fisik
-  // Format URL: /Ngajirumi/#/profil
+  // Menggunakan hash agar halaman bisa berpindah
   const path = window.location.hash.replace('#', '').replace('/Ngajirumi', '');
 
   let page;
