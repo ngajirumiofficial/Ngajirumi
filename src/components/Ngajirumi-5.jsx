@@ -578,7 +578,7 @@ export default function NgajiRumi5() {
                 yang nyata (Lauh Mahfuz).”
               </p>
 
-            <div className="mt-10 space-y-7 text-lg leading-9 text-[#173c2a]/65">
+              <div className="mt-10 space-y-7 text-lg leading-9 text-[#173c2a]/65">
 
                 <p>
                   Kita soroti pada makna:{" "}
@@ -1194,7 +1194,7 @@ export default function NgajiRumi5() {
           ================================================================ */}
       <section className="border-y border-[#173c2a]/10 bg-[#e4e7df]">
 
-      <div className="mx-auto max-w-5xl px-6 py-20 sm:px-10 lg:py-24">
+        <div className="mx-auto max-w-5xl px-6 py-20 sm:px-10 lg:py-24">
 
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#b18a3c]">
             Sumber Utama
@@ -1224,7 +1224,7 @@ export default function NgajiRumi5() {
             <p>
               Pembahasan tentang daun yang gugur merujuk pada
               pesan dalam <strong className="text-[#173c2a]">
-              QS. Al-An'am ayat 59
+                QS. Al-An'am ayat 59
               </strong>, tentang pengetahuan Allah terhadap
               segala sesuatu yang terjadi di alam.
             </p>
