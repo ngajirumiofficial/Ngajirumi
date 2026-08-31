@@ -40,7 +40,7 @@ const libraryItems = [
     id: 6,
     title: "Ngaji Rumi 06",
     description: "Koleksi materi dan pembahasan bersama Pak Jo.",
-    image: "/Ngajirumi/assets/images/ngaji-rumi-06.jpg",
+    image: "/Ngajirumi/assets/ngajirumi-6.png",
     link: "/Ngajirumi/#/ngajirumi-6",
   },
   {
