@@ -76,9 +76,9 @@ function Footer() {
               Navigasi
             </p>
 
-            <a href="/">Beranda</a>
-            <a href="/profil">Profil</a>
-            <a href="/perpustakaan">Pustaka</a>
+            <a href="/Ngajirumi/">Beranda</a>
+            <a href="/Ngajirumi/#/profil">Profil</a>
+            <a href="/Ngajirumi/#/perpustakaan">Pustaka</a>
           </div>
 
           <div className="site-footer__column">
@@ -94,7 +94,7 @@ function Footer() {
               Blog
             </a>
 
-            <a href="/#footer">
+            <a href="/Ngajirumi/#/kontak">
               Kontak
             </a>
           </div>
