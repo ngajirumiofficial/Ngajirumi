@@ -12,6 +12,7 @@ import NgajiRumi2 from "./components/Ngajirumi-2";
 import NgajiRumi3 from "./components/Ngajirumi-3";
 import NgajiRumi4 from "./components/Ngajirumi-4";
 import NgajiRumi5 from "./components/Ngajirumi-5";
+import NgajiRumi6 from "./components/Ngajirumi-6";
 
 import "./App.css";
 
@@ -39,6 +40,8 @@ function App() {
     page = <NgajiRumi4 />;
   } else if (path === "/ngajirumi-5") {
     page = <NgajiRumi5 />;
+  } else if (path === "/ngajirumi-6") {
+    page = <NgajiRumi6 />;
   } else {
     page = <Home />;
   }

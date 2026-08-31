@@ -1,3 +1,5 @@
+import React from "react";
+
 function NgajiRumi6() {
   return (
     <article className="min-h-screen bg-[#faf9f5] text-gray-800">

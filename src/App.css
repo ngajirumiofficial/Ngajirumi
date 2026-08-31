@@ -106,7 +106,7 @@
 }
 
 .main-nav__link:hover {
-  color: #00ff95;
+  color: #4e7c69;
 
   background: rgba(255, 255, 255, 0.1);
 
@@ -444,12 +444,6 @@
   border-bottom: 1px solid #e5e0d4 !important; /* Garis bawah tipis */
 }
 
-/* Jika ada teks di navbar yang ingin diubah warnanya */
-.main-nav__link,
-.mobile-menu__link {
-  color: #4a3b2a !important; /* Warna coklat tua sesuai logo */
-  font-weight: 500;
-}
 
 
 
