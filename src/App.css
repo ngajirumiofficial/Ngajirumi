@@ -444,61 +444,6 @@
   border-bottom: 1px solid #e5e0d4 !important; /* Garis bawah tipis */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    NGAJI RUMI — APP.CSS
    Modern • Clean • Warm • Professional
@@ -854,6 +799,15 @@
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+}
+
+/* Mobile Navbar Hamburger Menu */
+.mobile-nav-toggle__bar {
+  background-color: #333333 !important;
+}
+
+.mobile-nav-toggle--active .mobile-nav-toggle__bar {
+  background-color: #ffffff !important;
 }
 
 
