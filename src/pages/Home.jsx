@@ -236,7 +236,7 @@ function Home() {
 
               <div className="library-card__content">
                 <span className="library-card__eyebrow">
-                  NGAJI RUMI 05
+                  JANGAN BERSEDIH
                 </span>
 
                 <h3 className="library-card__title">
@@ -244,8 +244,7 @@ function Home() {
                 </h3>
 
                 <p className="library-card__description">
-                  Materi Ngaji Rumi 5 akan segera hadir. Lanjutkan perjalanan
-                  belajar untuk menemukan makna dari setiap pelajaran.
+                 Kehilangan bukan akhir dari perjalanan. Ada yang pergi untuk mengajarkan keikhlasan, dan ada yang datang membawa makna baru. Percayalah, apa yang Allah takdirkan untukmu tidak akan pernah salah jalan.
                 </p>
 
                 <a
@@ -264,7 +263,7 @@ function Home() {
 
               <div className="library-card__content">
                 <span className="library-card__eyebrow">
-                  NGAJI RUMI 06
+                  TAMU DALAM JIWA
                 </span>
 
                 <h3 className="library-card__title">
@@ -272,8 +271,11 @@ function Home() {
                 </h3>
 
                 <p className="library-card__description">
-                  Materi Ngaji Rumi 6 akan segera hadir. Lanjutkan perjalanan
-                  belajar dan temukan makna di setiap tahapnya.
+                Kesedihan, kegembiraan, kekecewaam, dan harapan.
+Semuanya adalah tamu. 
+Sambutlah mereka 
+dengan senyum yang lapang, 
+karena mungkin mereka datang membawa pesan Tuhan.
                 </p>
 
                 <a
