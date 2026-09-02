@@ -1095,6 +1095,33 @@ function NgajiRumi6() {
           </div>
         </div>
       </section>
+      {/* NAVIGASI */}
+      <section className="bg-[#0d3624] px-6 py-20 text-center text-white">
+        <div className="mx-auto max-w-3xl">
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center">
+            <a
+              href="/Ngajirumi/#/ngajirumi-5"
+              className="inline-flex items-center justify-center rounded-full border border-[#d9c27a]/30 px-6 py-3 text-sm font-medium tracking-wide text-[#d9c27a] transition hover:bg-[#d9c27a] hover:text-[#0d3624]"
+            >
+              ← Ngaji Rumi 05
+            </a>
+
+            <a
+              href="/Ngajirumi/#/perpustakaan"
+              className="inline-flex items-center justify-center rounded-full border border-[#d9c27a]/30 px-6 py-3 text-sm font-medium tracking-wide text-[#d9c27a] transition hover:bg-[#d9c27a] hover:text-[#0d3624]"
+            >
+              Kembali ke Perpustakaan →
+            </a>
+
+            <a
+              href="/Ngajirumi/#/ngajirumi-7"
+              className="inline-flex items-center justify-center rounded-full border border-[#d9c27a]/30 px-6 py-3 text-sm font-medium tracking-wide text-[#d9c27a] transition hover:bg-[#d9c27a] hover:text-[#0d3624]"
+            >
+              Lanjut ke Ngaji Rumi 07 →
+            </a>
+          </div>
+        </div>
+      </section>
     </article>
   );
 }

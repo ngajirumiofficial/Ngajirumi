@@ -1415,7 +1415,7 @@ export default function NgajiRumi5() {
       </section>
 
 
-      {/* ================================================================
+     {/* ================================================================
           NAVIGASI
           ================================================================ */}
       <section className="bg-[#f7f5ef]">
@@ -1423,7 +1423,7 @@ export default function NgajiRumi5() {
         <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-16 sm:px-10 md:flex-row md:items-center md:justify-between lg:px-12">
 
           <a
-            href="/ngajirumi-4"
+            href="/Ngajirumi/#/ngajirumi-4"
             className="
               group
               flex w-fit items-center gap-3
@@ -1445,7 +1445,7 @@ export default function NgajiRumi5() {
 
 
           <a
-            href="/perpustakaan"
+            href="/Ngajirumi/#/perpustakaan"
             className="
               group
               flex w-fit items-center gap-4
@@ -1469,7 +1469,7 @@ export default function NgajiRumi5() {
           </a>
 
           <a
-            href="/ngajirumi-6"
+            href="/Ngajirumi/#/ngajirumi-6"
             className="
               group
               flex w-fit items-center gap-3

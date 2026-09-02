@@ -431,6 +431,25 @@ function NgajiRumi4() {
     </p>
   </div>
 </section>
+    {/* NAVIGASI */}
+          <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+
+            <a
+              href="/Ngajirumi/#/ngajirumi-3"
+              className="inline-flex items-center justify-center rounded-full border border-green-900 px-6 py-3 text-sm font-semibold text-green-950 transition hover:bg-green-950 hover:text-white"
+            >
+              ← Ngaji Rumi 03
+            </a>
+
+            <a
+              href="/Ngajirumi/#/ngajirumi-5"
+              className="inline-flex items-center justify-center rounded-full bg-green-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-green-900"
+            >
+              Lanjut ke Ngaji Rumi 05 →
+            </a>
+
+          </div>
+
         </div>
       </article>
 
