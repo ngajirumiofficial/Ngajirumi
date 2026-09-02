@@ -83,7 +83,7 @@ function Home() {
                 </div>
               </div>
 
-              <a href="/profil" className="text-link">
+              <a href="/Ngajirumi/#/profil" className="text-link">
                 Kenali Pak Jo
                 <span aria-hidden="true">→</span>
               </a>
@@ -134,7 +134,7 @@ function Home() {
                 </p>
 
                 <a
-                  href="/ngajirumi-1"
+                  href="/Ngajirumi/#/ngajirumi-1"
                   className="library-card__arrow"
                   aria-label="Buka Ngaji Rumi 1"
                 >
@@ -163,7 +163,7 @@ function Home() {
                 </p>
 
                 <a
-                  href="/ngajirumi-2"
+                  href="/Ngajirumi/#/ngajirumi-2"
                   className="library-card__arrow"
                   aria-label="Buka Ngaji Rumi 2"
                 >
@@ -192,7 +192,7 @@ function Home() {
                 </p>
 
                 <a
-                  href="/ngajirumi-3"
+                  href="/Ngajirumi/#/ngajirumi-3"
                   className="library-card__arrow"
                   aria-label="Buka Ngaji Rumi 3"
                 >
@@ -221,7 +221,7 @@ function Home() {
                 </p>
 
                 <a
-                  href="/ngajirumi-4"
+                  href="/Ngajirumi/#/ngajirumi-4"
                   className="library-card__arrow"
                   aria-label="Buka Ngaji Rumi 4"
                 >
@@ -248,7 +248,7 @@ function Home() {
                 </p>
 
                 <a
-                  href="/ngajirumi-5"
+                  href="/Ngajirumi/#/ngajirumi-5"
                   className="library-card__arrow"
                   aria-label="Buka Ngaji Rumi 5"
                 >
@@ -279,7 +279,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
                 </p>
 
                 <a
-                  href="/ngajirumi-6"
+                  href="/Ngajirumi/#/ngajirumi-6"
                   className="library-card__arrow"
                   aria-label="Buka Ngaji Rumi 6"
                 >
@@ -307,7 +307,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
                 </p>
 
                 <a
-                  href="/ngajirumi-7"
+                  href="/Ngajirumi/#/ngajirumi-7"
                   className="library-card__arrow"
                   aria-label="Buka Ngaji Rumi 7"
                 >
@@ -335,7 +335,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
                 </p>
 
                 <a
-                  href="/ngajirumi-8"
+                  href="/Ngajirumi/#/ngajirumi-8"
                   className="library-card__arrow"
                   aria-label="Buka Ngaji Rumi 8"
                 >
@@ -363,7 +363,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
                 </p>
 
                 <a
-                  href="/ngajirumi-9"
+                  href="/Ngajirumi/#/ngajirumi-9"
                   className="library-card__arrow"
                   aria-label="Buka Ngaji Rumi 9"
                 >
@@ -391,7 +391,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
                 </p>
 
                 <a
-                  href="/ngajirumi-10"
+                  href="/Ngajirumi/#/ngajirumi-10"
                   className="library-card__arrow"
                   aria-label="Buka Ngaji Rumi 10"
                 >
@@ -474,7 +474,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
               </p>
             </div>
 
-            <a href="/profil" className="btn btn--primary">
+            <a href="/Ngajirumi/#/profil" className="btn btn--primary">
               Kenali Pak Jo
               <span aria-hidden="true">→</span>
             </a>
