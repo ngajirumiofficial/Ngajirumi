@@ -32,22 +32,22 @@ const libraryItems = [
   {
     id: 5,
     title: "Ngaji Rumi 05",
-    description: "Temukan materi pilihan dalam perjalanan Ngaji Rumi.",
+    description: "Tentang kehilangan, keikhlasan, dan keyakinan bahwa setiap yang pergi dapat membawa kita menuju hikmah yang lebih indah.",
     image: "/Ngajirumi/assets/ngajirumi-5.png",
     link: "/Ngajirumi/#/ngajirumi-5",
   },
   {
     id: 6,
     title: "Ngaji Rumi 06",
-    description: "Koleksi materi dan pembahasan bersama Pak Jo.",
+    description: "mengajak kita memahami bahwa suka, duka, kecewa, dan harapan adalah tamu yang datang silih berganti. Melalui pemikiran Rumi, kita belajar menerima setiap pengalaman dengan lapang dada dan menemukan hikmah di balik setiap ujian",
     image: "/Ngajirumi/assets/ngajirumi-6.png",
     link: "/Ngajirumi/#/ngajirumi-6",
   },
   {
     id: 7,
     title: "Ngaji Rumi 07",
-    description: "Jelajahi karya dan materi Ngaji Rumi selanjutnya.",
-    image: "/Ngajirumi/assets/images/ngaji-rumi-07.jpg",
+    description: "mengajak kita memahami cinta sebagai perjalanan spiritual: dari “aku” menuju “Dia”. Melalui pemikiran Jalaluddin Rumi, cinta dipahami bukan sekadar rasa memiliki, tetapi proses melepaskan ego (nafs), menemukan makna, dan mendekat kepada Allah hingga lahir ketenangan serta kasih sayang kepada sesama.",
+    image: "/Ngajirumi/assets/ngajirumi-7.png",
     link: "/Ngajirumi/#/ngajirumi-7",
   },
   {

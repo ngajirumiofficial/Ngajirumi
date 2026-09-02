@@ -301,9 +301,9 @@ karena mungkin mereka datang membawa pesan Tuhan.
                   Ngaji Rumi 7
                 </h3>
 
-                <p className="library-card__description">
-                  Materi Ngaji Rumi 7 akan segera hadir. Sebuah perjalanan
-                  belajar untuk memahami makna dengan lebih dekat.
+                <p> className="library-card__description"
+                membahas perjalanan cinta dari ego menuju kedekatan kepada Allah, melalui proses fana',
+                 pencarian makna, dan tumbuhnya kasih sayang universal.
                 </p>
 
                 <a
