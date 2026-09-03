@@ -2,28 +2,28 @@ import React from "react";
 
 const NgajiRumi7 = () => {
   return (
-    <article className="ngaji-rumi-content">
+    <article className="min-h-screen overflow-x-hidden bg-[#f7f5ef] font-sans text-[#173c2a]">
 
       {/* =====================================================
           NGAJI RUMI 7 — CINTA
           ===================================================== */}
 
-      <header className="ngaji-rumi-header">
-        <span className="ngaji-rumi-label">
+      <header className="relative overflow-hidden bg-[#173c2a] px-6 py-20 text-center text-white sm:px-8 sm:py-28">
+        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           NGAJI RUMI 7
         </span>
 
-        <h1>"CINTA"</h1>
+        <h1 className="mt-2 font-serif text-5xl font-semibold tracking-tight text-[#f7f5ef] sm:text-7xl">"CINTA"</h1>
 
-        <p className="author">
+        <p className="mt-4 text-sm leading-7 text-white/75 sm:text-base">
           Muhammad Jalāl ad-Dīn bin Muhammad al-Balkhī ar-Rūmī
         </p>
 
-        <p className="author-subtitle">
+        <p className="mt-1 text-sm italic leading-7 text-white/60">
           (Maulana Jalaluddin Rumi)
         </p>
 
-        <p className="author">
+        <p className="mt-4 text-sm leading-7 text-white/75 sm:text-base">
           Oleh: M. Juharuddin
         </p>
       </header>
@@ -31,23 +31,23 @@ const NgajiRumi7 = () => {
 
       {/* ================= PEMBUKA ================= */}
 
-      <section className="ngaji-section">
-        <p>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Assalamualaikum warahmatullahi wabarakatuh.
         </p>
 
-        <div className="tawassul">
-          <p>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/60 p-6 text-[#173c2a]/75 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Ila hadrotin Nabiyyil musthofa Sayyidina
             Muhammadin ﷺ.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Tsumma khusushon ila hadrati ruhi Sayyidi Syekh
             Maulana Jalaluddin Rumi.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Tsumma ila jami' ahlil kubur.
           </p>
         </div>
@@ -56,17 +56,17 @@ const NgajiRumi7 = () => {
 
       {/* ================= SEKILAS TENTANG RUMI ================= */}
 
-      <section className="ngaji-section">
-        <h2>Sekilas tentang Rumi</h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">Sekilas tentang Rumi</h2>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Rumi dan keluarganya meninggalkan Balkh karena
           invasi Mongol. Mereka kemudian melakukan perjalanan
           melalui Nishapur, Baghdad, Makkah, dan Damaskus,
           sebelum akhirnya menetap di Konya.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Perjalanan tersebut menjadi bagian penting dari
           latar kehidupan Rumi. Di Konya, Rumi berkembang
           menjadi salah satu tokoh besar dalam tradisi tasawuf
@@ -78,24 +78,24 @@ const NgajiRumi7 = () => {
 
       {/* ================= TEMA CINTA ================= */}
 
-      <section className="ngaji-section">
-        <h2>CINTA</h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">CINTA</h2>
 
-        <blockquote className="rumi-quote">
-          <p>
+        <blockquote className="my-8 rounded-r-2xl border-l-4 border-[#b18a3c] bg-white px-6 py-6 text-lg font-medium leading-8 text-[#173c2a] shadow-sm sm:px-8 sm:text-xl">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             “Cinta bukanlah antara aku dan engkau. Cinta adalah
             ketika aku lenyap dan hanya Dia yang tinggal. Di
             situlah rahasia segala rindu.”
           </p>
         </blockquote>
 
-        <p className="source-note">
+        <p className="mt-5 rounded-xl border border-[#b18a3c]/15 bg-[#e4e7df]/50 px-4 py-3 text-sm leading-7 text-[#173c2a]/60">
           Catatan: ungkapan tersebut merupakan kutipan modern
           yang terinspirasi dari gagasan sufistik Rumi, bukan
           kutipan literal dari puisi asli Rumi.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Ungkapan ini dapat dipahami sebagai gambaran
           perjalanan dari “aku” menuju “Dia”. Dalam pemikiran
           Rumi, cinta tidak berhenti pada hubungan antara dua
@@ -104,14 +104,14 @@ const NgajiRumi7 = () => {
           yaitu Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Gagasan tersebut berkaitan dengan konsep
           <em> ‘isyq</em>, yaitu cinta ilahi, serta
           <em> fanā’</em>, yaitu luruhnya dominasi ego dalam
           perjalanan spiritual manusia.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dengan demikian, cinta bukan sekadar rasa memiliki,
           kebutuhan untuk dicintai, atau hubungan emosional.
           Cinta dapat menjadi perjalanan batin dari “aku”
@@ -122,25 +122,25 @@ const NgajiRumi7 = () => {
 
       {/* ================= PETIKAN PERSIA RUMI ================= */}
 
-      <section className="ngaji-section">
-        <h2>Petikan Rumi</h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">Petikan Rumi</h2>
 
-        <div className="persian-text" dir="rtl">
-          <p>
+        <div className="my-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-2xl leading-[2.2] text-[#f7f5ef] shadow-sm sm:text-3xl" dir="rtl">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             جنس ما چون نیست جنس شاه ما
             <br />
             مای ما شد بهر مای او فنا
           </p>
         </div>
 
-        <p className="latin-text">
+        <p className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70 sm:px-8">
           <strong>Latin:</strong>
           <br />
           Jens-e mā chun nīst jens-e shāh-e mā,
           Mā-ye mā shod bahr-e mā-ye ū fanā.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           <strong>Terjemahan:</strong>
           <br />
           “Karena hakikat kita bukanlah seperti hakikat Sang
@@ -148,29 +148,29 @@ const NgajiRumi7 = () => {
           ‘Aku’-Nya.”
         </p>
 
-        <div className="persian-text" dir="rtl">
-          <p>
+        <div className="my-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-2xl leading-[2.2] text-[#f7f5ef] shadow-sm sm:text-3xl" dir="rtl">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             چون فنا شد مای ما او ماند فرد
             <br />
             پیش پای اسب او گردم چو گرد
           </p>
         </div>
 
-        <p className="latin-text">
+        <p className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70 sm:px-8">
           <strong>Latin:</strong>
           <br />
           Chun fanā shod mā-ye mā, ū mānd fard,
           Pīsh-e pā-ye asb-e ū gardam chu gard.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           <strong>Terjemahan:</strong>
           <br />
           “Ketika ‘aku’ kita telah lenyap, Dia tinggal sendiri;
           aku menjadi seperti debu di bawah kaki kuda-Nya.”
         </p>
 
-        <p className="source-note">
+        <p className="mt-5 rounded-xl border border-[#b18a3c]/15 bg-[#e4e7df]/50 px-4 py-3 text-sm leading-7 text-[#173c2a]/60">
           <strong>Sumber:</strong> Mas‌navī-ye Ma‘navī,
           Jilid II, sekitar bait 1168–1175.
         </p>
@@ -179,25 +179,25 @@ const NgajiRumi7 = () => {
 
       {/* ================= UNGKAPAN MODERN ================= */}
 
-      <section className="ngaji-section">
-        <h2>Ungkapan tentang Ego dan Cinta</h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">Ungkapan tentang Ego dan Cinta</h2>
 
-        <blockquote className="rumi-quote">
-          <p>
+        <blockquote className="my-8 rounded-r-2xl border-l-4 border-[#b18a3c] bg-white px-6 py-6 text-lg font-medium leading-8 text-[#173c2a] shadow-sm sm:px-8 sm:text-xl">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             “Jika engkau ingin menemukan rahasia jiwa,
             tinggalkan ego (nafsu diri) yang berdiri
             di tengah-tengah.”
           </p>
         </blockquote>
 
-        <blockquote className="rumi-quote">
-          <p>
+        <blockquote className="my-8 rounded-r-2xl border-l-4 border-[#b18a3c] bg-white px-6 py-6 text-lg font-medium leading-8 text-[#173c2a] shadow-sm sm:px-8 sm:text-xl">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             “Aku bukanlah aku, aku bukanlah aku, aku bukanlah
             aku; dalam cinta kepada-Nya aku kehilangan diriku.”
           </p>
         </blockquote>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Ungkapan-ungkapan seperti ini banyak beredar dalam
           bentuk adaptasi modern. Karena itu, atribusi kepada
           Rumi perlu dilakukan dengan hati-hati. Dalam konteks
@@ -210,20 +210,20 @@ const NgajiRumi7 = () => {
 
       {/* ================= KARYA UTAMA RUMI ================= */}
 
-      <section className="ngaji-section">
-        <h2>Karya-Karya Utama Rumi</h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">Karya-Karya Utama Rumi</h2>
 
-        <div className="rumi-work">
-          <h3>
+        <div className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             1. Mas‌navī-ye Ma‘navī
           </h3>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <em>Masnawi Maknawi</em> atau
             <em> The Spiritual Couplets</em>.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Karya ini ditulis Rumi pada abad ke-13 di Konya.
             Isinya mencakup cerita, perumpamaan, ajaran
             tasawuf, cinta, perjalanan jiwa, dan hubungan
@@ -231,24 +231,24 @@ const NgajiRumi7 = () => {
           </p>
         </div>
 
-        <div className="rumi-work">
-          <h3>
+        <div className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             2. Dīvān-e Shams-e Tabrīz
           </h3>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Kumpulan ghazal mistik yang banyak membicarakan
             cinta, kerinduan, pengalaman spiritual, dan
             hubungan antara pencinta dengan Sang Kekasih.
           </p>
         </div>
 
-        <div className="rumi-work">
-          <h3>
+        <div className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             3. Fīhi Mā Fīh
           </h3>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Kumpulan percakapan dan ajaran Rumi mengenai
             cinta, diri, Tuhan, dan kehidupan spiritual.
           </p>
@@ -260,37 +260,37 @@ const NgajiRumi7 = () => {
           INTERPRETASI CINTA
           ===================================================== */}
 
-      <section className="ngaji-section">
-        <h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           1. “Cinta bukanlah antara aku dan engkau”
         </h2>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam pengertian biasa, cinta sering dipahami
           sebagai hubungan antara dua pihak: “aku mencintai”,
           “aku membutuhkan”, “aku ingin memiliki”, atau
           “aku ingin dimiliki”.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Rumi mengkritik cinta yang terlalu berpusat pada
           ego atau <em>nafs</em>. Cinta pada tingkat yang
           lebih tinggi menjadi jalan untuk mengenal Sang
           Pencipta.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Misalnya, seseorang dapat membantu orang lain
           karena ingin mendapatkan pujian:
         </p>
 
-        <blockquote className="rumi-quote">
-          <p>
+        <blockquote className="my-8 rounded-r-2xl border-l-4 border-[#b18a3c] bg-white px-6 py-6 text-lg font-medium leading-8 text-[#173c2a] shadow-sm sm:px-8 sm:text-xl">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             “Aku membantu supaya orang tahu aku baik.”
           </p>
         </blockquote>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Namun, cinta yang lebih matang membuat seseorang
           berbuat baik bukan semata-mata demi pengakuan.
           Kebaikan dilakukan karena kebaikan itu sendiri
@@ -300,18 +300,18 @@ const NgajiRumi7 = () => {
       </section>
 
 
-      <section className="ngaji-section">
-        <h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           2. “Cinta adalah ketika aku lenyap”
         </h2>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           “Lenyap” tidak berarti manusia menghilang secara
           fisik. Dalam konteks tasawuf, yang diluruhkan
           adalah dominasi ego.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           <em>Fanā’</em> berkaitan dengan berkurangnya
           kesombongan, keterikatan berlebihan terhadap diri,
           kebutuhan untuk selalu dipuji, keinginan untuk
@@ -319,29 +319,29 @@ const NgajiRumi7 = () => {
           sebagai pusat segala sesuatu.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Perubahan itu dapat digambarkan melalui pergeseran
           sikap:
         </p>
 
-        <blockquote className="rumi-quote">
-          <p>
+        <blockquote className="my-8 rounded-r-2xl border-l-4 border-[#b18a3c] bg-white px-6 py-6 text-lg font-medium leading-8 text-[#173c2a] shadow-sm sm:px-8 sm:text-xl">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             “Aku harus selalu dipuji dan menang.”
           </p>
         </blockquote>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           menjadi:
         </p>
 
-        <blockquote className="rumi-quote">
-          <p>
+        <blockquote className="my-8 rounded-r-2xl border-l-4 border-[#b18a3c] bg-white px-6 py-6 text-lg font-medium leading-8 text-[#173c2a] shadow-sm sm:px-8 sm:text-xl">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             “Yang penting kebaikan dan kebenaran, bukan ego
             terlihat.”
           </p>
         </blockquote>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam kehidupan seorang guru, misalnya, ketulusan
           mengajar tidak lagi diukur dari penghargaan atau
           popularitas. Kebahagiaan justru muncul ketika
@@ -350,12 +350,12 @@ const NgajiRumi7 = () => {
       </section>
 
 
-      <section className="ngaji-section">
-        <h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           3. “Dan hanya Dia yang tinggal”
         </h2>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Ketika ego semakin berkurang, manusia mulai
           menyadari bahwa cinta, kebaikan, kemampuan,
           kehidupan, dan segala sesuatu yang dimilikinya
@@ -363,19 +363,19 @@ const NgajiRumi7 = () => {
           Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Hal tersebut tidak berarti manusia berhenti
           mencintai keluarga, sahabat, pasangan, maupun
           dunia.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Sebaliknya, cinta kepada semuanya dapat menjadi
           lebih bersih ketika manusia melihat mereka sebagai
           tanda kasih sayang Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Seseorang dapat mencintai orang tuanya bukan hanya
           karena apa yang diberikan kepadanya, tetapi karena
           melalui mereka Allah menghadirkan kasih sayang,
@@ -384,32 +384,32 @@ const NgajiRumi7 = () => {
       </section>
 
 
-      <section className="ngaji-section">
-        <h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           4. “Di situlah rahasia segala rindu”
         </h2>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Rumi banyak berbicara tentang rindu atau
           <em> syawq</em> (شوق), yaitu kerinduan mendalam
           yang mengarahkan jiwa kepada asalnya.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Salah satu simbol yang terkenal dalam karya Rumi
           adalah seruling atau <em>ney</em>. Seruling yang
           terpisah dari tempat asalnya menjadi simbol jiwa
           manusia yang merindukan sumber keberadaannya.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Manusia sering mengarahkan kerinduannya kepada
           kekayaan, pengakuan, popularitas, perhatian,
           maupun kenikmatan. Namun semua itu tidak selalu
           mampu memenuhi ruang batin.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam pembacaan spiritual Rumi, yang sebenarnya
           dicari bukan semata-mata objek keindahan, melainkan
           Sumber dari segala keindahan, yaitu Allah.
@@ -419,22 +419,22 @@ const NgajiRumi7 = () => {
 
       {/* ================= CINTA DALAM KEHIDUPAN ================= */}
 
-      <section className="ngaji-section">
-        <h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           Cinta dalam Kehidupan Modern
         </h2>
 
-        <div className="rumi-example">
-          <h3>Media Sosial</h3>
+        <div className="my-6 rounded-2xl border border-[#b18a3c]/20 bg-[#e4e7df]/60 p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Media Sosial</h3>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Media sosial dapat menjadi tempat seseorang
             mencari validasi. Jumlah suka, komentar, pengikut,
             dan perhatian dapat membuat seseorang merasa
             berharga ketika mendapatkan pengakuan.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Namun, perspektif Rumi mengajak manusia melihat
             lebih dalam: apakah sesuatu dilakukan hanya agar
             dilihat orang lain, atau karena memang memberikan
@@ -442,16 +442,16 @@ const NgajiRumi7 = () => {
           </p>
         </div>
 
-        <div className="rumi-example">
-          <h3>Karier</h3>
+        <div className="my-6 rounded-2xl border border-[#b18a3c]/20 bg-[#e4e7df]/60 p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Karier</h3>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dalam kehidupan profesional, seseorang dapat
             mengejar keberhasilan hanya untuk membuktikan
             bahwa dirinya lebih unggul daripada orang lain.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Perspektif cinta spiritual mengubah pertanyaan
             tersebut menjadi lebih mendalam: apakah pekerjaan
             yang dilakukan memberikan manfaat, membawa
@@ -460,16 +460,16 @@ const NgajiRumi7 = () => {
           </p>
         </div>
 
-        <div className="rumi-example">
-          <h3>Hubungan Manusia</h3>
+        <div className="my-6 rounded-2xl border border-[#b18a3c]/20 bg-[#e4e7df]/60 p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Hubungan Manusia</h3>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dalam hubungan antarmanusia, cinta dapat berubah
             menjadi rasa memiliki yang berlebihan, ketakutan
             kehilangan, dan keinginan menguasai orang lain.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Cinta yang lebih matang justru mengajarkan kasih
             sayang, kesabaran, penghormatan, dan kemampuan
             untuk memberikan ruang kepada orang lain untuk
@@ -481,21 +481,21 @@ const NgajiRumi7 = () => {
 
       {/* ================= PENUTUP POST UTAMA ================= */}
 
-      <section className="ngaji-section">
-        <h2>Inti Pemikiran</h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">Inti Pemikiran</h2>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Cinta pada tingkat spiritual merupakan perjalanan
           dari dominasi ego menuju kesadaran kepada Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           “Lenyap” dalam konteks ini adalah lenyapnya
           kesombongan, keterikatan berlebihan, dan keinginan
           menjadikan diri sebagai pusat segala sesuatu.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Ketika ego semakin berkurang, cinta tidak lagi
           hanya menjadi persoalan antara “aku” dan “engkau”.
           Cinta berubah menjadi kesadaran bahwa segala
@@ -503,30 +503,30 @@ const NgajiRumi7 = () => {
           memiliki hubungan dengan-Nya.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam pengertian simbolik, cinta seakan membakar
           batas antara pencinta dan Yang Dicintai. Namun
           dalam pemahaman Islam, manusia tetap manusia dan
           Allah tetap Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           “Lenyapnya aku” bukan berarti manusia menyatu secara
           hakikat dengan Tuhan, melainkan luruhnya
           kesombongan dan rasa keterpisahan dalam kesadaran
           batin.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Wallahu a’lam.
         </p>
       </section>
 
 
-      <section className="ngaji-section">
-        <h2>Referensi</h2>
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">Referensi</h2>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Franklin D. Lewis. (2000).{" "}
           <em>
             Rumi: Past and Present, East and West
@@ -535,8 +535,8 @@ const NgajiRumi7 = () => {
         </p>
       </section>
 
-      <footer className="ngaji-hashtags">
-        <p>
+      <footer className="mt-8 flex flex-wrap gap-2 text-xs font-medium tracking-wide text-[#b18a3c]">
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           #artikel #ngaji #rumi #jalaluddinrumi
           #mjuharuddin #semuaorang #sorotan
         </p>
@@ -547,23 +547,23 @@ const NgajiRumi7 = () => {
           PETIKAN QURDIS NGAJI RUMI 7
           ===================================================== */}
 
-      <section className="ngaji-section qurdis-section">
+      <section className="border-y border-[#173c2a]/10 bg-[#e4e7df] px-5 py-16 sm:px-8 sm:py-20">
 
-        <span className="ngaji-rumi-label">
+        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           PETIKAN QURDIS NGAJI RUMI 7
         </span>
 
-        <h2>"CINTA"</h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">"CINTA"</h2>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Cinta dalam pemikiran Rumi dapat dibaca bersama
           dengan petunjuk Al-Qur’an dan hadis. Keduanya
           memberikan landasan bahwa cinta tertinggi seorang
           manusia seharusnya mengarah kepada Allah.
         </p>
 
-        <blockquote className="rumi-quote">
-          <p>
+        <blockquote className="my-8 rounded-r-2xl border-l-4 border-[#b18a3c] bg-white px-6 py-6 text-lg font-medium leading-8 text-[#173c2a] shadow-sm sm:px-8 sm:text-xl">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             “Cinta bukanlah antara aku dan engkau. Cinta
             adalah ketika aku lenyap dan hanya Dia yang
             tinggal. Di situlah rahasia segala rindu.”
@@ -573,22 +573,22 @@ const NgajiRumi7 = () => {
 
         {/* ================= AYAT 1 ================= */}
 
-        <div className="qurdis-item">
-          <h3>
+        <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             1. “Cinta bukanlah antara aku dan engkau”
           </h3>
 
-          <h4>
+          <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">
             QS. Al-Baqarah (2): 165
           </h4>
 
-          <p className="arabic-text" dir="rtl">
+          <p className="my-6 rounded-2xl bg-[#f7f5ef] px-5 py-7 text-right text-2xl leading-[2.2] text-[#173c2a] sm:text-3xl" dir="rtl">
             وَمِنَ النَّاسِ مَن يَتَّخِذُ مِن دُونِ اللَّهِ
             أَندَادًا يُحِبُّونَهُمْ كَحُبِّ اللَّهِ ۖ
             وَالَّذِينَ آمَنُوا أَشَدُّ حُبًّا لِّلَّهِ
           </p>
 
-          <p className="latin-text">
+          <p className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70 sm:px-8">
             <strong>Latin:</strong>
             <br />
             Wa minan-nāsi may yattakhidzu min dūnillāhi
@@ -596,7 +596,7 @@ const NgajiRumi7 = () => {
             āmanū asyaddu ḥubbal lillāh.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>Terjemahan:</strong>
             <br />
             “Di antara manusia ada yang menjadikan
@@ -606,7 +606,7 @@ const NgajiRumi7 = () => {
             cintanya kepada Allah.”
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Ayat ini menunjukkan bahwa cinta kepada Allah
             memiliki kedudukan tertinggi. Cinta kepada
             manusia dan makhluk lainnya tetap ada, tetapi
@@ -614,7 +614,7 @@ const NgajiRumi7 = () => {
             cinta seorang mukmin.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Ibn Kathir menjelaskan bahwa cinta orang beriman
             kepada Allah melebihi kecintaan mereka kepada
             selain-Nya. Cinta kepada makhluk seharusnya
@@ -625,12 +625,12 @@ const NgajiRumi7 = () => {
 
         {/* ================= HADIS ================= */}
 
-        <div className="qurdis-item">
-          <h3>
+        <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             Hadis tentang Manisnya Iman
           </h3>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>
               HR. Bukhari No. 16 dan Muslim No. 43
             </strong>
@@ -638,13 +638,13 @@ const NgajiRumi7 = () => {
             Dari Anas bin Malik.
           </p>
 
-          <p className="arabic-text" dir="rtl">
+          <p className="my-6 rounded-2xl bg-[#f7f5ef] px-5 py-7 text-right text-2xl leading-[2.2] text-[#173c2a] sm:text-3xl" dir="rtl">
             ثَلَاثٌ مَنْ كُنَّ فِيهِ وَجَدَ بِهِنَّ
             حَلَاوَةَ الْإِيمَانِ: أَنْ يَكُونَ اللَّهُ
             وَرَسُولُهُ أَحَبَّ إِلَيْهِ مِمَّا سِوَاهُمَا...
           </p>
 
-          <p className="latin-text">
+          <p className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70 sm:px-8">
             <strong>Latin:</strong>
             <br />
             Ṡalāṡun man kunna fīhi wajada bihinna
@@ -652,7 +652,7 @@ const NgajiRumi7 = () => {
             aḥabba ilaihi mimmā siwāhumā...
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>Terjemahan:</strong>
             <br />
             “Tiga perkara yang apabila ada pada diri seseorang,
@@ -661,13 +661,13 @@ const NgajiRumi7 = () => {
             keduanya....”
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Hadis ini memperkuat gagasan bahwa cinta kepada
             Allah dan Rasul-Nya harus menjadi cinta yang
             paling utama.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Rasulullah ﷺ menjadi cahaya petunjuk yang
             mengarahkan manusia kepada cinta Ilahi. Dalam
             tradisi Aswaja, seseorang dapat menadah cahaya
@@ -675,7 +675,7 @@ const NgajiRumi7 = () => {
             <em> warasatul anbiya’</em>.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dalam perjalanan Ngaji Rumi, cahaya cinta dari
             Rumi dapat menjadi jalan untuk memahami cinta
             kepada Rasulullah ﷺ, kemudian mengantarkan hati
@@ -686,39 +686,39 @@ const NgajiRumi7 = () => {
 
         {/* ================= AYAT 2 ================= */}
 
-        <div className="qurdis-item">
-          <h3>
+        <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             2. “Cinta adalah ketika aku lenyap”
           </h3>
 
-          <h4>
+          <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">
             QS. Asy-Syams (91): 9
           </h4>
 
-          <p className="arabic-text" dir="rtl">
+          <p className="my-6 rounded-2xl bg-[#f7f5ef] px-5 py-7 text-right text-2xl leading-[2.2] text-[#173c2a] sm:text-3xl" dir="rtl">
             قَدْ أَفْلَحَ مَن زَكَّاهَا
           </p>
 
-          <p className="latin-text">
+          <p className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70 sm:px-8">
             <strong>Latin:</strong>
             <br />
             Qad aflaḥa man zakkāhā.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>Terjemahan:</strong>
             <br />
             “Sungguh beruntung orang yang menyucikan jiwanya.”
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dalam penjelasan Al-Tabari, penyucian jiwa
             berkaitan dengan membersihkan diri dari
             kesyirikan, riya’, kesombongan, dan dorongan
             hawa nafsu yang menjauhkan manusia dari Allah.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dalam perspektif Ngaji Rumi, cinta menjadi semakin
             murni ketika “kerak-kerak hati” seperti kesombongan,
             iri, dengki, kebencian, riya’, dan keakuan
@@ -729,22 +729,22 @@ const NgajiRumi7 = () => {
 
         {/* ================= AYAT PENDUKUNG ================= */}
 
-        <div className="qurdis-item">
-          <h3>
+        <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             Ayat tentang Menahan Hawa Nafsu
           </h3>
 
-          <h4>
+          <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">
             QS. An-Nazi’at (79): 40–41
           </h4>
 
-          <p className="arabic-text" dir="rtl">
+          <p className="my-6 rounded-2xl bg-[#f7f5ef] px-5 py-7 text-right text-2xl leading-[2.2] text-[#173c2a] sm:text-3xl" dir="rtl">
             وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ
             وَنَهَى النَّفْسَ عَنِ الْهَوَىٰ ۝
             فَإِنَّ الْجَنَّةَ هِيَ الْمَأْوَىٰ
           </p>
 
-          <p className="latin-text">
+          <p className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70 sm:px-8">
             <strong>Latin:</strong>
             <br />
             Wa ammā man khāfa maqāma rabbihī
@@ -752,7 +752,7 @@ const NgajiRumi7 = () => {
             Fa innal-jannata hiyal ma'wā.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>Terjemahan:</strong>
             <br />
             “Adapun orang yang takut kepada kebesaran
@@ -760,7 +760,7 @@ const NgajiRumi7 = () => {
             maka sungguh surgalah tempat tinggalnya.”
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Ayat ini menunjukkan pentingnya kemampuan
             manusia untuk mengendalikan hawa nafsu.
             Dalam perjalanan spiritual, seseorang tidak
@@ -768,7 +768,7 @@ const NgajiRumi7 = () => {
             kehidupan.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Kesadaran terhadap kebesaran Allah membuat
             manusia memahami kedudukannya sebagai hamba.
             Ketika dominasi ego semakin berkurang, hati
@@ -780,44 +780,44 @@ const NgajiRumi7 = () => {
 
         {/* ================= AYAT 3 ================= */}
 
-        <div className="qurdis-item">
-          <h3>
+        <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             3. “Hanya Dia yang tinggal”
           </h3>
 
-          <h4>
+          <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">
             QS. Al-Qasas (28): 88
           </h4>
 
-          <p className="arabic-text" dir="rtl">
+          <p className="my-6 rounded-2xl bg-[#f7f5ef] px-5 py-7 text-right text-2xl leading-[2.2] text-[#173c2a] sm:text-3xl" dir="rtl">
             كُلُّ شَيْءٍ هَالِكٌ إِلَّا وَجْهَهُ
           </p>
 
-          <p className="latin-text">
+          <p className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70 sm:px-8">
             <strong>Latin:</strong>
             <br />
             Kullu syai'in hālikun illā wajhah.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>Terjemahan:</strong>
             <br />
             “Segala sesuatu pasti binasa kecuali Wajah-Nya.”
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dalam Tafsir al-Qurtubi, makna ayat ini
             menunjukkan bahwa seluruh makhluk akan mengalami
             kefanaan, sedangkan Allah tetap ada dan kekal.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Karena itu, hati manusia tidak seharusnya
             menggantungkan dirinya secara mutlak kepada
             sesuatu selain Allah.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dalam bahasa spiritual Rumi, manusia diajak
             untuk “mematikan ke-aku-an” dengan menyadari
             bahwa segala kemampuan, keberhasilan, dan
@@ -829,28 +829,28 @@ const NgajiRumi7 = () => {
 
         {/* ================= AYAT PENDUKUNG ================= */}
 
-        <div className="qurdis-item">
-          <h3>
+        <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             Ayat tentang Hidup yang Dipersembahkan kepada Allah
           </h3>
 
-          <h4>
+          <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">
             QS. Al-An’am (6): 162
           </h4>
 
-          <p className="arabic-text" dir="rtl">
+          <p className="my-6 rounded-2xl bg-[#f7f5ef] px-5 py-7 text-right text-2xl leading-[2.2] text-[#173c2a] sm:text-3xl" dir="rtl">
             قُلْ إِنَّ صَلَاتِي وَنُسُكِي وَمَحْيَايَ
             وَمَمَاتِي لِلَّهِ رَبِّ الْعَالَمِينَ
           </p>
 
-          <p className="latin-text">
+          <p className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70 sm:px-8">
             <strong>Latin:</strong>
             <br />
             Qul inna ṣalātī wa nusukī wa maḥyāya
             wa mamātī lillāhi rabbil-'ālamīn.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>Terjemahan:</strong>
             <br />
             “Katakanlah: Sesungguhnya salatku, ibadahku,
@@ -858,7 +858,7 @@ const NgajiRumi7 = () => {
             Tuhan seluruh alam.”
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Ayat ini menegaskan bahwa Allah menjadi tujuan
             dari seluruh kehidupan manusia. Ibadah tidak
             semata-mata dilakukan untuk memperoleh
@@ -867,7 +867,7 @@ const NgajiRumi7 = () => {
             kepada Allah.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dengan demikian, seluruh kehidupan lahir dan
             batin diarahkan kepada-Nya.
           </p>
@@ -876,23 +876,23 @@ const NgajiRumi7 = () => {
 
         {/* ================= AYAT 4 ================= */}
 
-        <div className="qurdis-item">
-          <h3>
+        <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             4. “Di situlah rahasia segala rindu”
           </h3>
 
-          <h4>
+          <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">
             QS. Al-Fajr (89): 27–30
           </h4>
 
-          <p className="arabic-text" dir="rtl">
+          <p className="my-6 rounded-2xl bg-[#f7f5ef] px-5 py-7 text-right text-2xl leading-[2.2] text-[#173c2a] sm:text-3xl" dir="rtl">
             يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ ۝
             ارْجِعِي إِلَىٰ رَبِّكِ رَاضِيَةً مَرْضِيَّةً ۝
             فَادْخُلِي فِي عِبَادِي ۝
             وَادْخُلِي جَنَّتِي
           </p>
 
-          <p className="latin-text">
+          <p className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70 sm:px-8">
             <strong>Latin:</strong>
             <br />
             Yā ayyatuhan-nafsul muṭma'innah.
@@ -901,7 +901,7 @@ const NgajiRumi7 = () => {
             Wadkhulī jannatī.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>Terjemahan:</strong>
             <br />
             “Wahai jiwa yang tenang! Kembalilah kepada
@@ -910,14 +910,14 @@ const NgajiRumi7 = () => {
             dan masuklah ke dalam surga-Ku.”
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dalam perspektif Fakhr al-Din al-Razi, puncak
             perjalanan spiritual manusia adalah kembali
             kepada Allah dengan jiwa yang tenang, penuh
             keimanan, keridaan, dan cinta.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Ketika dominasi ego semakin melemah dan hati
             semakin terbuka terhadap kesadaran Ilahi,
             kebahagiaan spiritual dapat dirasakan secara
@@ -928,12 +928,12 @@ const NgajiRumi7 = () => {
 
         {/* ================= HADIS TENTANG RINDU ================= */}
 
-        <div className="qurdis-item">
-          <h3>
+        <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             Hadis tentang Kerinduan kepada Allah
           </h3>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>
               Sahih al-Bukhari 6507 dan Sahih Muslim
             </strong>
@@ -941,26 +941,26 @@ const NgajiRumi7 = () => {
             Dari Ubadah bin ash-Shamit.
           </p>
 
-          <p className="arabic-text" dir="rtl">
+          <p className="my-6 rounded-2xl bg-[#f7f5ef] px-5 py-7 text-right text-2xl leading-[2.2] text-[#173c2a] sm:text-3xl" dir="rtl">
             مَنْ أَحَبَّ لِقَاءَ اللَّهِ
             أَحَبَّ اللَّهُ لِقَاءَهُ
           </p>
 
-          <p className="latin-text">
+          <p className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70 sm:px-8">
             <strong>Latin:</strong>
             <br />
             Man aḥabba liqā'allāhi
             aḥabballāhu liqā'ah.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>Terjemahan:</strong>
             <br />
             “Barang siapa mencintai perjumpaan dengan Allah,
             maka Allah mencintai perjumpaan dengannya.”
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Hadis ini menggambarkan bahwa kerinduan kepada
             Allah merupakan bagian dari kedalaman iman.
             Ketika seseorang memiliki cinta dan kerinduan
@@ -973,10 +973,10 @@ const NgajiRumi7 = () => {
 
         {/* ================= KESIMPULAN QURDIS ================= */}
 
-        <div className="qurdis-summary">
-          <h3>Kesimpulan</h3>
+        <div className="mx-auto mt-10 max-w-4xl rounded-3xl bg-[#173c2a] p-7 text-lg leading-9 text-white shadow-sm sm:p-10">
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Kesimpulan</h3>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Pemikiran Rumi mengenai cinta dapat dibaca
             sebagai perjalanan spiritual menuju Allah.
             “Lenyapnya aku” bukan berarti hilangnya
@@ -984,7 +984,7 @@ const NgajiRumi7 = () => {
             dominasi ego, kesombongan, dan hawa nafsu.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Al-Qur’an memberikan landasan mengenai
             tingginya cinta kepada Allah dalam QS. Al-Baqarah
             ayat 165, penyucian jiwa dalam QS. Asy-Syams
@@ -993,7 +993,7 @@ const NgajiRumi7 = () => {
             kepada Allah dalam QS. Al-Fajr ayat 27–30.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Hadis juga mengajarkan bahwa manisnya iman
             berkaitan dengan kecintaan kepada Allah dan
             Rasul-Nya di atas segala sesuatu. Kerinduan
@@ -1001,7 +1001,7 @@ const NgajiRumi7 = () => {
             satu gambaran kedalaman cinta spiritual.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dengan demikian, cinta dalam perspektif Rumi
             bukan hanya persoalan hubungan antarmanusia.
             Ia merupakan jalan untuk membersihkan jiwa,
@@ -1010,7 +1010,7 @@ const NgajiRumi7 = () => {
             sesama.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Wallahu a’lam.
           </p>
         </div>
@@ -1022,25 +1022,25 @@ const NgajiRumi7 = () => {
           JURNAL NGAJI RUMI 7 — POST I
           ===================================================== */}
 
-      <section className="ngaji-section jurnal-section">
+      <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
 
-        <span className="ngaji-rumi-label">
+        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
-        <h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           DARI "AKU" MENUJU "DIA":
         </h2>
 
-        <h3 className="jurnal-subtitle">
+        <h3 className="mt-3 text-2xl font-semibold leading-tight text-[#173c2a] sm:text-3xl">
           Interpretasi Fenomenologis atas Cinta Transendental
           Jalaluddin Rumi dalam Membangun Spiritualitas
           Generasi Digital
         </h3>
 
-        <h2>Abstrak</h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">Abstrak</h2>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Perkembangan teknologi digital telah mengubah
           hubungan manusia secara signifikan. Media sosial,
           komunikasi instan, dan berbagai platform digital
@@ -1048,7 +1048,7 @@ const NgajiRumi7 = () => {
           batas geografis.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Namun, kemudahan komunikasi tersebut secara
           paradoks juga berjalan bersamaan dengan munculnya
           kesepian, krisis identitas, kecemasan eksistensial,
@@ -1056,7 +1056,7 @@ const NgajiRumi7 = () => {
           konsumsi emosional dan fisik.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Jalaluddin Rumi menawarkan perspektif alternatif
           bahwa cinta bukanlah hubungan yang berhenti pada
           dua individu, melainkan perjalanan spiritual yang
@@ -1064,21 +1064,21 @@ const NgajiRumi7 = () => {
           Ilahi.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini bertujuan menganalisis konsep cinta
           transendental dalam pemikiran Rumi melalui pendekatan
           fenomenologi hermeneutik serta melihat relevansinya
           terhadap masyarakat digital kontemporer.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian menggunakan pendekatan kualitatif dengan
           informan yang dipilih secara purposive berdasarkan
           pengalaman praktik spiritual, kajian tasawuf,
           psikologi, serta pengalaman pencarian makna hidup.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Data diperoleh melalui wawancara mendalam,
           observasi, dan dokumentasi. Analisis dilakukan
           menggunakan model Miles, Huberman, dan Saldaña
@@ -1086,7 +1086,7 @@ const NgajiRumi7 = () => {
           penarikan dan verifikasi kesimpulan.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Hasil penelitian menunjukkan bahwa cinta dipahami
           sebagai transformasi eksistensial yang ditandai
           dengan berkurangnya dominasi ego atau
@@ -1094,21 +1094,21 @@ const NgajiRumi7 = () => {
           Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Konsep tersebut memiliki relevansi dengan persoalan
           kesepian, ketergantungan terhadap validasi sosial,
           kecemasan identitas, serta kehilangan makna yang
           dialami sebagian masyarakat dalam kehidupan digital.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini memberikan kontribusi terhadap kajian
           tasawuf kontemporer serta menawarkan paradigma
           spiritual yang adaptif terhadap kehidupan modern
           tanpa kehilangan kedalaman filosofisnya.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           <strong>Kata kunci:</strong>{" "}
           Cinta Transendental, Jalaluddin Rumi, Tasawuf,
           Fenomenologi, Spiritualitas Digital, Fanā',
@@ -1118,9 +1118,9 @@ const NgajiRumi7 = () => {
 
         {/* ================= PENDAHULUAN ================= */}
 
-        <h2>PENDAHULUAN</h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">PENDAHULUAN</h2>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Peradaban digital telah mengubah cara manusia
           membangun hubungan, identitas, dan memahami cinta.
           Media sosial, kecerdasan buatan, serta komunikasi
@@ -1128,7 +1128,7 @@ const NgajiRumi7 = () => {
           dan geografis.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Namun, meningkatnya interaksi digital tidak selalu
           menghasilkan kedekatan emosional. Kesepian,
           kelelahan psikologis, dan kehilangan makna justru
@@ -1136,7 +1136,7 @@ const NgajiRumi7 = () => {
           diperhatikan.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Krisis modern bukan hanya krisis sosial dan
           psikologis, tetapi juga dapat menjadi krisis
           spiritual. Cinta yang sebelumnya dapat menjadi
@@ -1145,7 +1145,7 @@ const NgajiRumi7 = () => {
           melalui perhatian, validasi, dan pengakuan publik.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Rumi memandang cinta sebagai energi kosmik yang
           menghubungkan manusia dengan Tuhan. Cinta bukan
           sekadar ketertarikan psikologis atau hubungan
@@ -1153,15 +1153,15 @@ const NgajiRumi7 = () => {
           dan mengungkap manusia sebagai makhluk spiritual.
         </p>
 
-        <blockquote className="rumi-quote">
-          <p>
+        <blockquote className="my-8 rounded-r-2xl border-l-4 border-[#b18a3c] bg-white px-6 py-6 text-lg font-medium leading-8 text-[#173c2a] shadow-sm sm:px-8 sm:text-xl">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             “Cinta bukanlah antara aku dan engkau. Cinta
             adalah ketika aku lenyap dan hanya Dia yang
             tinggal. Di situlah rahasia segala rindu.”
           </p>
         </blockquote>
 
-        <p className="source-note">
+        <p className="mt-5 rounded-xl border border-[#b18a3c]/15 bg-[#e4e7df]/50 px-4 py-3 text-sm leading-7 text-[#173c2a]/60">
           Ungkapan tersebut merupakan parafrasa modern yang
           terinspirasi dari gagasan Rumi dan bukan kutipan
           literal dari karya asli Rumi. Gagasannya dapat
@@ -1171,7 +1171,7 @@ const NgajiRumi7 = () => {
           <em> Divan-e Shams-e Tabrizi</em>.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Generasi digital sering membangun identitas melalui
           citra diri, jumlah pengikut, pengakuan publik,
           serta perhatian yang diperoleh dari ruang digital.
@@ -1180,7 +1180,7 @@ const NgajiRumi7 = () => {
           penting dalam perjalanan spiritual Rumi.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini tidak menempatkan tasawuf hanya
           sebagai doktrin keagamaan, tetapi juga sebagai
           sumber pengetahuan yang dapat berdialog dengan
@@ -1188,14 +1188,14 @@ const NgajiRumi7 = () => {
           spiritualitas.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Fenomenologi digunakan untuk memahami pengalaman
           subjektif manusia mengenai cinta sebagai proses
           transformasi diri, bukan sekadar sebagai hubungan
           interpersonal.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Secara akademik, penelitian ini diharapkan
           memberikan kontribusi terhadap kajian tasawuf
           kontemporer, membuka dialog antara spiritualitas
@@ -1204,8 +1204,8 @@ const NgajiRumi7 = () => {
           kehidupan manusia abad ke-21.
         </p>
 
-        <div className="jurnal-next">
-          <p>
+        <div className="mt-10 rounded-2xl border border-[#b18a3c]/20 bg-[#e4e7df]/60 p-6 text-sm font-medium leading-7 text-[#173c2a]/70">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>
               Nantikan berikutnya di Post II:
             </strong>{" "}
@@ -1213,7 +1213,7 @@ const NgajiRumi7 = () => {
             Penelitian, dan Tinjauan Pustaka secara mendalam.
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Di bagian tersebut akan dibahas konsep cinta
             menurut Rumi berdasarkan karya-karya autentik
             seperti <em>Masnavi-ye Ma'navi</em> dan
@@ -1223,8 +1223,8 @@ const NgajiRumi7 = () => {
           </p>
         </div>
 
-        <footer className="ngaji-hashtags">
-          <p>
+        <footer className="mt-8 flex flex-wrap gap-2 text-xs font-medium tracking-wide text-[#b18a3c]">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             #jurnal #artikel #karyailmiah #jalaluddinrumi
             #mjuharuddin #fbpro
           </p>
@@ -1237,17 +1237,17 @@ const NgajiRumi7 = () => {
           JURNAL NGAJI RUMI 7 — POST II
           ===================================================== */}
 
-      <section className="ngaji-section jurnal-section">
+      <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
 
-        <span className="ngaji-rumi-label">
+        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
-        <h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           DARI "AKU" MENUJU "DIA":
         </h2>
 
-        <h3 className="jurnal-subtitle">
+        <h3 className="mt-3 text-2xl font-semibold leading-tight text-[#173c2a] sm:text-3xl">
           Interpretasi Fenomenologis atas Cinta Transendental
           Jalaluddin Rumi dalam Membangun Spiritualitas
           Generasi Digital
@@ -1256,7 +1256,7 @@ const NgajiRumi7 = () => {
 
         {/* ================= RUMUSAN MASALAH ================= */}
 
-        <h2>RUMUSAN MASALAH</h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">RUMUSAN MASALAH</h2>
 
         <ol>
           <li>
@@ -1292,7 +1292,7 @@ const NgajiRumi7 = () => {
 
         {/* ================= TUJUAN PENELITIAN ================= */}
 
-        <h2>TUJUAN PENELITIAN</h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">TUJUAN PENELITIAN</h2>
 
         <ol>
           <li>
@@ -1327,9 +1327,9 @@ const NgajiRumi7 = () => {
 
         {/* ================= MANFAAT PENELITIAN ================= */}
 
-        <h2>MANFAAT PENELITIAN</h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">MANFAAT PENELITIAN</h2>
 
-        <h3>A. Teoretis</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">A. Teoretis</h3>
 
         <ul>
           <li>
@@ -1346,7 +1346,7 @@ const NgajiRumi7 = () => {
         </ul>
 
 
-        <h3>B. Praktis</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">B. Praktis</h3>
 
         <ul>
           <li>
@@ -1373,11 +1373,11 @@ const NgajiRumi7 = () => {
 
         {/* ================= TINJAUAN PUSTAKA ================= */}
 
-        <h2>TINJAUAN PUSTAKA</h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">TINJAUAN PUSTAKA</h2>
 
-        <h3>A. Rumi dan Tradisi Tasawuf</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">A. Rumi dan Tradisi Tasawuf</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Jalaluddin Rumi (1207–1273 M) merupakan salah satu
           tokoh besar dalam tradisi tasawuf. Ia lahir di Balkh
           dan kemudian menetap di Konya. Pertemuannya dengan
@@ -1385,7 +1385,7 @@ const NgajiRumi7 = () => {
           transformasi spiritual dan intelektual Rumi.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam pemikiran Rumi, kerinduan manusia untuk kembali
           kepada Tuhan diwujudkan melalui konsep <em>‘isyq</em>,
           yaitu cinta yang mendalam dan bersifat transendental.
@@ -1393,62 +1393,62 @@ const NgajiRumi7 = () => {
           yang bersumber dari Tuhan.
         </p>
 
-        <h3>B. Cinta (‘Isyq)</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">B. Cinta (‘Isyq)</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam karya <em>Masnavi-ye Ma'navi</em> dan
           <em> Divan-e Shams-e Tabrizi</em>, cinta dipahami
           sebagai energi ilahi yang melampaui batas-batas
           rasional.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Cinta bukan sekadar bentuk kepemilikan antara dua
           individu, tetapi merupakan perjalanan menuju
           pelepasan kepentingan diri.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Semakin besar cinta kepada Tuhan, semakin berkurang
           dominasi ego dalam diri manusia.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Cinta menjadi sebuah proses pelepasan terhadap
           kesombongan, rasa memiliki secara berlebihan,
           keakuan, ambisi pribadi, serta keterikatan yang
           berlebihan terhadap dunia.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam proses tersebut, manusia tidak kehilangan
           dirinya, tetapi justru menemukan hakikat dirinya
           yang lebih dalam.
         </p>
 
 
-        <h3>C. Fana' sebagai Transformasi Ego</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">C. Fana' sebagai Transformasi Ego</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Secara harfiah, <em>fana'</em> berarti "lenyap".
           Namun, dalam konteks tasawuf, istilah tersebut tidak
           berarti hilangnya keberadaan manusia secara fisik.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Fana' menunjuk pada lenyapnya dominasi ego,
           kesombongan, dan keinginan-keinginan yang menjauhkan
           manusia dari Tuhan.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Setelah mengalami <em>fana'</em>, terdapat konsep
           <em>baqa'</em>, yaitu keberlangsungan hidup manusia
           di dunia dengan orientasi batin yang dipenuhi
           kesadaran kepada Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam psikologi modern, konsep fana' dapat dibaca
           sebagai proses melampaui egosentrisme menuju kesadaran
           yang lebih luas. Konsep ini memiliki kemiripan dengan
@@ -1457,7 +1457,7 @@ const NgajiRumi7 = () => {
           identik.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dengan demikian, fana' dalam pemikiran Rumi bukanlah
           kehancuran manusia, melainkan transformasi orientasi
           hidup. Manusia tetap menjalani kehidupan, tetapi tidak
@@ -1466,9 +1466,9 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>D. Hermeneutika</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">D. Hermeneutika</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Karya-karya Rumi banyak menggunakan simbol, metafora,
           perumpamaan, dan bahasa spiritual yang memiliki makna
           berlapis. Oleh karena itu, pemikiran Rumi tidak cukup
@@ -1476,14 +1476,14 @@ const NgajiRumi7 = () => {
           teks.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini menggunakan pendekatan hermeneutika
           fenomenologis untuk memahami pengalaman hidup informan
           melalui dialog antara narasi pengalaman, teks-teks
           klasik Rumi, dan konteks kehidupan digital.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam kerangka tersebut, ungkapan
           "Cinta bukanlah antara aku dan engkau. Cinta adalah
           ketika aku lenyap dan hanya Dia yang tinggal"
@@ -1493,9 +1493,9 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>E. Spiritualitas di Era Digital</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">E. Spiritualitas di Era Digital</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Perkembangan media sosial telah mengubah cara manusia
           membentuk identitas, berkomunikasi, dan memperoleh
           pengakuan. Jumlah pengikut, tanda suka, komentar, dan
@@ -1503,13 +1503,13 @@ const NgajiRumi7 = () => {
           seseorang.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Budaya digital dapat memperkuat orientasi terhadap
           ego karena seseorang terdorong untuk terus membangun
           citra dirinya di hadapan orang lain.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam perspektif Rumi, keadaan tersebut dapat menjadi
           tantangan bagi perjalanan spiritual karena manusia
           terlalu berorientasi pada bagaimana dirinya dilihat
@@ -1517,14 +1517,14 @@ const NgajiRumi7 = () => {
           batinnya dengan Tuhan.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pemikiran Rumi tetap relevan dengan mengajak manusia
           menggeser perhatian dari pencitraan diri menuju makna,
           kasih sayang, kesadaran diri, dan kedekatan kepada
           Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dengan demikian, penelitian ini tidak hanya
           menempatkan pemikiran Rumi sebagai warisan intelektual
           masa lalu, tetapi juga sebagai sumber refleksi untuk
@@ -1532,7 +1532,7 @@ const NgajiRumi7 = () => {
           makna dalam kehidupan masyarakat modern.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pembahasan mengenai metodologi penelitian akan
           dijelaskan pada bagian berikutnya untuk menunjukkan
           bagaimana pengalaman spiritual tersebut dikaji secara
@@ -1546,32 +1546,32 @@ const NgajiRumi7 = () => {
           JURNAL NGAJI RUMI 7 — POST III
           ===================================================== */}
 
-      <section className="ngaji-section jurnal-section">
+      <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
 
-        <span className="ngaji-rumi-label">
+        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
-        <h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           DARI "AKU" MENUJU "DIA":
         </h2>
 
-        <h3 className="jurnal-subtitle">
+        <h3 className="mt-3 text-2xl font-semibold leading-tight text-[#173c2a] sm:text-3xl">
           Interpretasi Fenomenologis atas Cinta Transendental
           Jalaluddin Rumi dalam Membangun Spiritualitas
           Generasi Digital
         </h3>
 
-        <h2>METODOLOGI PENELITIAN</h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">METODOLOGI PENELITIAN</h2>
 
-        <h3>A. Pendekatan dan Jenis Penelitian</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">A. Pendekatan dan Jenis Penelitian</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini menggunakan pendekatan kualitatif
           dengan desain fenomenologi hermeneutik.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pendekatan ini dipilih karena penelitian tidak
           bertujuan menguji hubungan sebab-akibat atau
           melakukan pengukuran statistik, melainkan memahami
@@ -1579,7 +1579,7 @@ const NgajiRumi7 = () => {
           sebagai perjalanan spiritual.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Fenomenologi digunakan untuk mengeksplorasi
           pengalaman hidup (<em>lived experience</em>) para
           informan, sedangkan hermeneutika digunakan untuk
@@ -1588,7 +1588,7 @@ const NgajiRumi7 = () => {
           konteks kehidupan digital.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dengan pendekatan tersebut, penelitian berusaha
           memahami bagaimana konsep cinta transendental Rumi
           dialami, dimaknai, dan diwujudkan dalam kehidupan
@@ -1596,13 +1596,13 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>B. Paradigma Penelitian</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">B. Paradigma Penelitian</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini menggunakan paradigma konstruktivisme.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Paradigma konstruktivisme memandang bahwa realitas
           sosial tidak hanya memiliki satu bentuk yang mutlak,
           tetapi dapat dibangun melalui pengalaman, interaksi,
@@ -1610,7 +1610,7 @@ const NgajiRumi7 = () => {
           individu.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Oleh karena itu, makna cinta tidak dipandang sebagai
           sesuatu yang hanya memiliki satu definisi absolut,
           tetapi dibentuk melalui pengalaman spiritual,
@@ -1618,15 +1618,15 @@ const NgajiRumi7 = () => {
           manusia dengan Tuhan.
         </p>
 
-        <h3>C. Lokasi Penelitian</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">C. Lokasi Penelitian</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian dilaksanakan pada beberapa komunitas
           yang aktif dalam kegiatan spiritualitas, kajian
           tasawuf, filsafat, dan pengembangan diri.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pemilihan lokasi penelitian didasarkan pada
           beberapa pertimbangan, yaitu adanya aktivitas
           kajian spiritual, keberagaman latar belakang
@@ -1635,7 +1635,7 @@ const NgajiRumi7 = () => {
           pengumpulan data secara etis.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Selain lokasi secara langsung, penelitian juga
           mempertimbangkan forum daring dan komunitas
           pembelajaran spiritual digital sebagai konteks
@@ -1643,9 +1643,9 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>D. Informan Penelitian</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">D. Informan Penelitian</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Informan penelitian dipilih menggunakan teknik
           <em>purposive sampling</em>, yaitu pemilihan
           informan berdasarkan pertimbangan tertentu agar
@@ -1653,7 +1653,7 @@ const NgajiRumi7 = () => {
           dengan fokus penelitian.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pemilihan informan tidak didasarkan semata-mata
           pada jumlah, tetapi pada kemampuan informan dalam
           memberikan pengalaman dan pemaknaan yang mendalam
@@ -1661,7 +1661,7 @@ const NgajiRumi7 = () => {
           makna kehidupan.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Adapun kriteria informan dalam penelitian ini
           meliputi:
         </p>
@@ -1691,13 +1691,13 @@ const NgajiRumi7 = () => {
           </li>
         </ol>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Informan yang direncanakan dalam penelitian ini
           berjumlah sekitar 15–20 orang dengan latar belakang
           yang beragam.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Komposisi informan meliputi:
         </p>
 
@@ -1716,7 +1716,7 @@ const NgajiRumi7 = () => {
           </li>
         </ul>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Jumlah informan dapat berkembang selama proses
           penelitian berlangsung hingga mencapai titik
           kejenuhan data (<em>data saturation</em>), yaitu
@@ -1725,24 +1725,24 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>E. Teknik Pengumpulan Data</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">E. Teknik Pengumpulan Data</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pengumpulan data dilakukan melalui wawancara
           mendalam, observasi partisipatif terbatas, dan
           dokumentasi.
         </p>
 
-        <h4>1. Wawancara Mendalam</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">1. Wawancara Mendalam</h4>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Wawancara dilakukan secara semi-terstruktur agar
           peneliti memiliki pedoman pertanyaan, tetapi tetap
           memberikan ruang kepada informan untuk menceritakan
           pengalaman secara bebas dan mendalam.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Beberapa pertanyaan yang digunakan antara lain:
         </p>
 
@@ -1777,9 +1777,9 @@ const NgajiRumi7 = () => {
         </ul>
 
 
-        <h3>H. Keabsahan Data</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">H. Keabsahan Data</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Keabsahan data dalam penelitian ini dilakukan
           melalui beberapa teknik, yaitu:
         </p>
@@ -1793,9 +1793,9 @@ const NgajiRumi7 = () => {
         </ul>
 
 
-        <h3>I. Etika Penelitian</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">I. Etika Penelitian</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Setiap informan diberikan penjelasan mengenai tujuan
           penelitian, manfaat penelitian, prosedur wawancara,
           hak untuk menolak menjawab pertanyaan tertentu, serta
@@ -1803,32 +1803,32 @@ const NgajiRumi7 = () => {
           kapan saja tanpa konsekuensi.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Identitas informan akan disamarkan menggunakan
           nama samaran atau pseudonim untuk menjaga privasi
           dan kerahasiaan data.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Data yang diperoleh hanya digunakan untuk kepentingan
           akademik dan disimpan secara aman.
         </p>
 
 
-        <h3>J. Kerangka Konseptual</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">J. Kerangka Konseptual</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Kerangka konseptual penelitian ini menggambarkan
           perjalanan spiritual manusia dari dominasi ego
           menuju kedekatan kepada Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Alur konseptual penelitian dapat dirumuskan sebagai
           berikut:
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           <strong>
             Ego (Nafs) → Pencarian Makna → Pengalaman Cinta
             → Proses Fana' → Kedekatan kepada Allah (Baqa')
@@ -1837,14 +1837,14 @@ const NgajiRumi7 = () => {
           </strong>
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Media digital, budaya masyarakat, serta kebutuhan
           terhadap validasi eksternal menjadi faktor kontekstual
           yang dapat memperkuat ego dan memberikan tantangan
           terhadap perjalanan spiritual manusia.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini melihat bagaimana individu menavigasi
           kondisi tersebut dan bagaimana pemikiran Rumi dapat
           digunakan sebagai kerangka pemaknaan terhadap
@@ -1852,7 +1852,7 @@ const NgajiRumi7 = () => {
           kehidupan digital.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dengan kerangka tersebut, penelitian tidak hanya
           melihat cinta sebagai pengalaman emosional, tetapi
           juga sebagai proses transformasi diri yang dapat
@@ -1867,39 +1867,39 @@ const NgajiRumi7 = () => {
           JURNAL NGAJI RUMI 7 — POST IV
           ===================================================== */}
 
-      <section className="ngaji-section jurnal-section">
+      <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
 
-        <span className="ngaji-rumi-label">
+        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
-        <h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           DARI "AKU" MENUJU "DIA":
         </h2>
 
-        <h3 className="jurnal-subtitle">
+        <h3 className="mt-3 text-2xl font-semibold leading-tight text-[#173c2a] sm:text-3xl">
           Interpretasi Fenomenologis atas Cinta Transendental
           Jalaluddin Rumi dalam Membangun Spiritualitas
           Generasi Digital
         </h3>
 
-        <h2>HASIL PENELITIAN (FINDINGS)</h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">HASIL PENELITIAN (FINDINGS)</h2>
 
-        <h3>A. Informan Penelitian</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">A. Informan Penelitian</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini melibatkan 18 informan yang dipilih
           secara purposive dan memenuhi kriteria yang telah
           ditetapkan dalam metodologi penelitian.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Para informan memiliki latar belakang yang beragam
           sehingga memberikan perspektif yang kaya mengenai
           cinta, spiritualitas, dan pencarian makna kehidupan.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Komposisi informan terdiri atas:
         </p>
 
@@ -1913,7 +1913,7 @@ const NgajiRumi7 = () => {
           <li>2 praktisi kajian spiritual.</li>
         </ul>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Para informan berada pada rentang usia 22–58 tahun.
           Sebagian besar informan merupakan pengguna aktif
           media digital dengan tingkat pengalaman spiritual
@@ -1921,9 +1921,9 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>B. Proses Analisis Data</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">B. Proses Analisis Data</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Analisis data dilakukan melalui beberapa tahapan
           yang saling berkaitan, mulai dari proses transkripsi
           hingga interpretasi fenomenologis.
@@ -1932,7 +1932,7 @@ const NgajiRumi7 = () => {
         <ol>
           <li>
             <strong>Transkripsi</strong>
-            <p>
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
               Seluruh hasil wawancara ditranskripsikan untuk
               memperoleh data dalam bentuk teks yang dapat
               dianalisis secara mendalam.
@@ -1941,7 +1941,7 @@ const NgajiRumi7 = () => {
 
           <li>
             <strong>Open Coding</strong>
-            <p>
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
               Data wawancara dibaca secara berulang untuk
               menemukan kata, kalimat, pengalaman, dan makna
               penting yang berkaitan dengan pengalaman cinta,
@@ -1951,7 +1951,7 @@ const NgajiRumi7 = () => {
 
           <li>
             <strong>Axial Coding</strong>
-            <p>
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
               Kode-kode yang memiliki keterkaitan kemudian
               dikelompokkan menjadi kategori dan hubungan
               antarkategori.
@@ -1960,7 +1960,7 @@ const NgajiRumi7 = () => {
 
           <li>
             <strong>Selective Coding</strong>
-            <p>
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
               Kategori utama kemudian disusun menjadi tema
               sentral yang menjelaskan pengalaman cinta
               transendental para informan.
@@ -1969,7 +1969,7 @@ const NgajiRumi7 = () => {
 
           <li>
             <strong>Interpretasi Fenomenologis</strong>
-            <p>
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
               Pengalaman subjektif informan kemudian
               diinterpretasikan untuk memahami makna cinta
               sebagai perjalanan spiritual dan transformasi
@@ -1981,7 +1981,7 @@ const NgajiRumi7 = () => {
             <strong>
               Dialog antara Pengalaman Informan dan Pemikiran Rumi
             </strong>
-            <p>
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
               Temuan penelitian kemudian didialogkan dengan
               pemikiran Jalaluddin Rumi serta konsep-konsep
               tasawuf yang relevan.
@@ -1990,18 +1990,18 @@ const NgajiRumi7 = () => {
         </ol>
 
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dari proses analisis tersebut ditemukan enam tema
           utama yang menggambarkan pengalaman cinta
           transendental para informan.
         </p>
 
 
-        <h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
           TOPIK 1 — Cinta Dipahami sebagai Perjalanan, Bukan Tujuan
         </h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Sebagian besar informan mengalami perubahan
           pemahaman mengenai cinta. Cinta tidak lagi dipahami
           semata-mata sebagai proses memiliki seseorang,
@@ -2020,24 +2020,24 @@ const NgajiRumi7 = () => {
           sendiri.”
         </blockquote>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Temuan ini menunjukkan adanya pergeseran orientasi
           cinta dari orientasi eksternal menuju transformasi
           internal.
         </p>
 
 
-        <h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
           TOPIK 2 — Ego Dipandang sebagai Hambatan Terbesar dalam Mencintai
         </h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Hampir seluruh informan menyebut ego sebagai salah
           satu penyebab utama konflik dalam hubungan
           interpersonal.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Bentuk ego yang muncul antara lain kebutuhan untuk
           selalu merasa benar, kebutuhan mendapatkan pujian,
           rasa memiliki yang berlebihan, ketakutan kehilangan,
@@ -2054,7 +2054,7 @@ const NgajiRumi7 = () => {
           lain, tetapi mengalahkan diri sendiri.”
         </blockquote>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Temuan tersebut memiliki keterkaitan dengan konsep
           fana' dalam pemikiran tasawuf, yaitu berkurangnya
           dominasi ego sebagai bagian dari proses kematangan
@@ -2062,11 +2062,11 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
           TOPIK 3 — Media Sosial Memperkuat Identitas Semu
         </h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Media sosial memiliki dua sisi. Di satu sisi,
           media sosial memudahkan komunikasi dan memperluas
           hubungan sosial. Namun di sisi lain, media sosial
@@ -2074,7 +2074,7 @@ const NgajiRumi7 = () => {
           berdasarkan citra dan pengakuan dari orang lain.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Beberapa informan mengungkapkan bahwa penggunaan
           media sosial membuat mereka lebih mudah merasa
           kurang berharga, membandingkan diri dengan orang
@@ -2087,13 +2087,13 @@ const NgajiRumi7 = () => {
           unggahan orang lain, semakin saya merasa kosong.”
         </blockquote>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Temuan ini menunjukkan bahwa budaya digital dapat
           memperkuat ego melalui pembentukan citra diri dan
           kebutuhan terhadap validasi eksternal.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam perspektif Rumi, kondisi tersebut menjadi
           tantangan karena cinta transendental mengajak manusia
           bergerak melampaui ego dan mencari makna yang lebih
@@ -2101,17 +2101,17 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
           TOPIK 4 — Kerinduan kepada Tuhan Muncul Melalui Penderitaan
         </h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Hampir seluruh informan menyatakan bahwa pengalaman
           spiritual yang paling dalam sering muncul melalui
           kehilangan, kegagalan, dan penderitaan.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pengalaman tersebut antara lain kehilangan orang yang
           dicintai, kegagalan dalam karier, sakit, perceraian,
           serta kesepian.
@@ -2127,24 +2127,24 @@ const NgajiRumi7 = () => {
           dekat kepada Tuhan.”
         </blockquote>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Temuan ini memiliki keterkaitan dengan simbolisme
           Rumi mengenai luka yang dapat menjadi pintu masuk
           bagi hadirnya cahaya Ilahi.
         </p>
 
 
-        <h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
           TOPIK 5 — Cinta Melahirkan Kepedulian Universal
         </h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Informan yang aktif dalam kehidupan spiritual
           menunjukkan kecenderungan memiliki empati yang lebih
           besar terhadap orang lain.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Perubahan yang terlihat antara lain lebih mudah
           memaafkan, mengurangi kebencian, lebih sabar,
           menghargai perbedaan, serta lebih peduli terhadap
@@ -2156,7 +2156,7 @@ const NgajiRumi7 = () => {
           saya sulit membenci manusia.”
         </blockquote>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Temuan ini menunjukkan bahwa cinta spiritual tidak
           berhenti pada hubungan vertikal antara manusia dan
           Tuhan, tetapi juga melahirkan kepedulian dalam
@@ -2164,25 +2164,25 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
           TOPIK 6 — Makna “Aku Lenyap dan Dia Tinggal”
         </h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Tema ini menjadi salah satu temuan utama dalam
           penelitian. Para informan pada umumnya tidak
           memahami ungkapan tersebut sebagai kehilangan
           identitas manusia.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Sebaliknya, “aku lenyap” dipahami sebagai
           berkurangnya kesombongan, keakuan, keinginan untuk
           selalu merasa benar, rasa memiliki yang berlebihan,
           serta keterikatan terhadap dunia.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Yang kemudian tersisa adalah kesadaran bahwa seluruh
           kehidupan berasal dari Allah dan pada akhirnya akan
           kembali kepada-Nya.
@@ -2198,20 +2198,20 @@ const NgajiRumi7 = () => {
           justru saya menemukan kedamaian.”
         </blockquote>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Temuan ini menunjukkan bahwa cinta menurut Rumi
           merupakan transformasi eksistensial, bukan sekadar
           pengalaman emosional.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dengan demikian, konsep fana' dalam penelitian ini
           dipahami sebagai berkurangnya dominasi ego tanpa
           menghilangkan keberadaan manusia.
         </p>
 
 
-        <h3>C. Ringkasan Temuan</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">C. Ringkasan Temuan</h3>
 
         <ol>
           <li>
@@ -2250,7 +2250,7 @@ const NgajiRumi7 = () => {
           </li>
         </ol>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Secara keseluruhan, cinta transendental memiliki
           dimensi teologis, psikologis, sosial, dan eksistensial.
           Konsep tersebut dapat dibaca sebagai kerangka
@@ -2266,46 +2266,46 @@ const NgajiRumi7 = () => {
           JURNAL NGAJI RUMI 7 — POST V
           ===================================================== */}
 
-      <section className="ngaji-section jurnal-section">
+      <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
 
-        <span className="ngaji-rumi-label">
+        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
-        <h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           DARI "AKU" MENUJU "DIA":
         </h2>
 
-        <h3 className="jurnal-subtitle">
+        <h3 className="mt-3 text-2xl font-semibold leading-tight text-[#173c2a] sm:text-3xl">
           Interpretasi Fenomenologis atas Cinta Transendental
           Jalaluddin Rumi dalam Membangun Spiritualitas
           Generasi Digital
         </h3>
 
-        <h2>PEMBAHASAN (DISCUSSION)</h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">PEMBAHASAN (DISCUSSION)</h2>
 
 
-        <h3>A. Cinta sebagai Jalan Transformasi Eksistensial</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">A. Cinta sebagai Jalan Transformasi Eksistensial</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Sebagian besar informan tidak lagi mendefinisikan
           cinta sebagai kepemilikan, tetapi sebagai proses
           perubahan diri.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pergeseran tersebut menunjukkan perubahan dari
           cinta yang berpusat pada ego menuju cinta
           transendental.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam tradisi tasawuf, 'isyq tidak hanya dipahami
           sebagai emosi, tetapi sebagai kekuatan yang
           menggerakkan manusia menuju kesempurnaan spiritual.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Rumi menggunakan simbol ney atau seruling dalam
           pembukaan Masnavi. Tangisan seruling muncul karena
           keterpisahannya dari tempat asalnya, yang menjadi
@@ -2313,13 +2313,13 @@ const NgajiRumi7 = () => {
           asalnya.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dengan demikian, cinta dapat dipahami sebagai
           kerinduan ontologis manusia untuk kembali kepada
           Sang Pencipta.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pengalaman para informan menunjukkan dinamika yang
           serupa. Cinta menjadi pengalaman yang mengarahkan
           manusia untuk meninggalkan sikap yang berpusat pada
@@ -2327,21 +2327,21 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>B. Ego sebagai Penghalang Cinta</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">B. Ego sebagai Penghalang Cinta</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Ego menjadi salah satu hambatan utama dalam
           pengalaman mencintai.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam psikologi modern, ego memiliki fungsi penting
           dalam membantu manusia beradaptasi dengan realitas.
           Namun, tasawuf mengkritik dominasi nafs al-ammārah,
           bukan keberadaan diri manusia itu sendiri.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Karena itu, konsep fana' tidak berarti hilangnya
           identitas manusia. Yang “lenyap” adalah kesombongan,
           rasa memiliki secara mutlak, keterikatan yang
@@ -2349,48 +2349,48 @@ const NgajiRumi7 = () => {
           menghalangi hubungan dengan Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam hubungan interpersonal, ego dapat muncul dalam
           bentuk kebutuhan untuk selalu merasa benar, kebutuhan
           mendapatkan pengakuan, ketakutan kehilangan, dan
           keinginan untuk menguasai.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Berkurangnya dominasi ego memungkinkan seseorang
           mengembangkan empati, kemampuan memaafkan, dan
           kasih sayang.
         </p>
 
 
-        <h3>C. Budaya Digital dan Krisis Keakuan</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">C. Budaya Digital dan Krisis Keakuan</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Media sosial dapat menjadi ruang pembentukan
           “identitas semu”, ketika seseorang mengukur nilai
           dirinya berdasarkan jumlah pengikut, tanda suka,
           perhatian, dan pengakuan dari orang lain.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Kondisi tersebut menunjukkan adanya pergeseran dari
           nilai intrinsik menuju validasi eksternal.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Budaya digital tidak hanya memiliki sisi negatif.
           Media digital juga dapat digunakan untuk belajar,
           berbagi pengetahuan, membangun komunitas, dan
           memperluas akses terhadap berbagai sumber spiritual.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Namun, ketergantungan terhadap pengakuan publik dapat
           meningkatkan kerentanan terhadap kecemasan,
           perbandingan sosial, dan kehilangan makna.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pemikiran Rumi menawarkan alternatif dengan
           menggeser orientasi manusia dari kebutuhan akan
           pengakuan menuju pencarian makna dan kedalaman
@@ -2398,37 +2398,37 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>D. Penderitaan sebagai Gerbang Spiritualitas</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">D. Penderitaan sebagai Gerbang Spiritualitas</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Kehilangan dapat menjadi titik balik dalam kehidupan
           spiritual seseorang.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Kegagalan, duka, dan kesepian dapat mendorong manusia
           untuk mencari makna yang lebih dalam dalam kehidupan.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam simbolisme Rumi, luka dapat menjadi pintu yang
           membuka kesadaran baru.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penderitaan dapat menjadi proses yang memurnikan
           apabila dihadapi dengan kesabaran, refleksi, dan
           kedekatan kepada Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Namun, penderitaan itu sendiri tidak secara otomatis
           menghasilkan pertumbuhan spiritual. Proses pemberian
           makna terhadap penderitaan menjadi bagian yang
           menentukan.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dengan demikian, unsur transformatif bukan terletak
           semata-mata pada penderitaan, tetapi pada proses
           manusia dalam memberikan makna terhadap pengalaman
@@ -2436,54 +2436,54 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
           E. Fana' dan Self-Transcendence: Titik Temu Tasawuf
           dan Psikologi
         </h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Salah satu kontribusi konseptual penelitian ini adalah
           dialog antara konsep fana' dalam tasawuf dengan
           konsep self-transcendence dalam psikologi humanistik
           dan transpersonal.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Keduanya memiliki kesamaan dalam melihat perkembangan
           manusia sebagai proses bergerak melampaui kepentingan
           diri sendiri.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Perbedaannya terletak pada orientasi dan dasar
           filosofisnya.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam psikologi, self-transcendence dapat dipahami
           sebagai gerakan melampaui kepentingan personal menuju
           nilai, tujuan, atau kemanusiaan yang lebih luas.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Sementara itu, dalam tasawuf, fana' merupakan proses
           penyucian diri dan pengarahan kehidupan kepada Allah.
           Karena itu, orientasinya bersifat teosentris dan
           bukan semata-mata humanistik.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Konsep Rumi memiliki dimensi teologis yang khas,
           namun tetap dapat didialogkan secara produktif dengan
           psikologi modern.
         </p>
 
 
-        <h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
           F. Relevansi Pemikiran Rumi bagi Generasi Digital
         </h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pemikiran Rumi tetap relevan dalam menghadapi
           berbagai tantangan kehidupan abad ke-21, seperti
           krisis identitas, kesepian di tengah konektivitas,
@@ -2492,14 +2492,14 @@ const NgajiRumi7 = () => {
           batin.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Rumi mengajak manusia menggeser orientasi dari
           pencarian pengakuan menuju pencarian makna, dari
           keinginan memiliki menuju kemampuan memberi, serta
           dari dominasi ego menuju kesadaran kepada Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pemikiran tersebut tidak berarti menolak dunia modern
           maupun teknologi. Sebaliknya, manusia diajak untuk
           menggunakan teknologi secara bijaksana dengan tetap
@@ -2507,7 +2507,7 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>G. Kontribusi Ilmiah Penelitian</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">G. Kontribusi Ilmiah Penelitian</h3>
 
         <ol>
           <li>
@@ -2528,7 +2528,7 @@ const NgajiRumi7 = () => {
           </li>
         </ol>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           <strong>
             Kesadaran Ego → Pencarian Makna → Pengalaman Cinta
             → Proses Fana' → Kedekatan kepada Allah
@@ -2536,29 +2536,29 @@ const NgajiRumi7 = () => {
           </strong>
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Cinta dipahami sebagai proses transformasi
           eksistensial yang berlangsung secara terus-menerus,
           bukan sebagai keadaan yang bersifat statis.
         </p>
 
 
-        <h3>H. Sintesis Pembahasan</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">H. Sintesis Pembahasan</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Pemikiran Rumi mengenai cinta tidak dapat direduksi
           hanya menjadi persoalan romantisme atau pengalaman
           emosional.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Cinta merupakan bentuk pendidikan spiritual terhadap
           jiwa atau tarbiyah al-nafs yang membentuk kerendahan
           hati, kesadaran terhadap keterbatasan diri, serta
           orientasi kehidupan kepada Allah.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dalam kehidupan yang cepat, digital, dan penuh dengan
           pencitraan, kedalaman kehidupan tidak semestinya
           diukur dari banyaknya perhatian yang diterima,
@@ -2567,7 +2567,7 @@ const NgajiRumi7 = () => {
           Tuhan dalam kehidupan sehari-hari.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Dengan demikian, cinta transendental bukan hanya
           warisan sastra tasawuf abad ke-13, tetapi juga dapat
           menjadi paradigma etis dan spiritual yang relevan
@@ -2575,8 +2575,8 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <div className="jurnal-next">
-          <p>
+        <div className="mt-10 rounded-2xl border border-[#b18a3c]/20 bg-[#e4e7df]/60 p-6 text-sm font-medium leading-7 text-[#173c2a]/70">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             <strong>
               Nantikan berikutnya di Post VI:
             </strong>{" "}
@@ -2585,8 +2585,8 @@ const NgajiRumi7 = () => {
           </p>
         </div>
 
-        <footer className="ngaji-hashtags">
-          <p>
+        <footer className="mt-8 flex flex-wrap gap-2 text-xs font-medium tracking-wide text-[#b18a3c]">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             #jurnal #artikel #karyailmiah #jalaluddinrumi
             #mjuharuddin #fbpro
           </p>
@@ -2599,38 +2599,38 @@ const NgajiRumi7 = () => {
           JURNAL NGAJI RUMI 7 — POST VI
           ===================================================== */}
 
-      <section className="ngaji-section jurnal-section">
+      <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
 
-        <span className="ngaji-rumi-label">
+        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
-        <h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           DARI "AKU" MENUJU "DIA":
         </h2>
 
-        <h3 className="jurnal-subtitle">
+        <h3 className="mt-3 text-2xl font-semibold leading-tight text-[#173c2a] sm:text-3xl">
           Interpretasi Fenomenologis atas Cinta Transendental
           Jalaluddin Rumi dalam Membangun Spiritualitas
           Generasi Digital
         </h3>
 
-        <h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
           POST VI — KESIMPULAN, IMPLIKASI, KETERBATASAN,
           REKOMENDASI PENELITIAN, DAFTAR PUSTAKA
         </h2>
 
 
-        <h3>A. Kesimpulan</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">A. Kesimpulan</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini menginterpretasikan cinta transendental
           dalam pemikiran Jalaluddin Rumi melalui pendekatan
           fenomenologi hermeneutik serta melihat relevansinya
           dengan kehidupan masyarakat digital.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Berdasarkan hasil wawancara, observasi, dan dokumentasi,
           dapat disimpulkan beberapa hal berikut:
         </p>
@@ -2679,7 +2679,7 @@ const NgajiRumi7 = () => {
           </li>
         </ol>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Secara keseluruhan, cinta transendental dalam pemikiran
           Rumi mengintegrasikan dimensi psikologis, etis, sosial,
           dan spiritual dalam satu perjalanan transformasi
@@ -2687,17 +2687,17 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h3>B. Implikasi Penelitian</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">B. Implikasi Penelitian</h3>
 
-        <h4>1. Implikasi Teoretis</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">1. Implikasi Teoretis</h4>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini memperluas kajian tasawuf melalui
           dialog dengan filsafat, psikologi, fenomenologi,
           dan kajian spiritualitas kontemporer.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini juga memperlihatkan adanya ruang dialog
           antara konsep fana' dalam tasawuf dengan konsep
           self-transcendence dalam psikologi, dengan tetap
@@ -2705,7 +2705,7 @@ const NgajiRumi7 = () => {
         </p>
 
 
-        <h4>2. Implikasi Praktis</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">2. Implikasi Praktis</h4>
 
         <ul>
           <li>
@@ -2732,23 +2732,23 @@ const NgajiRumi7 = () => {
         </ul>
 
 
-        <h4>3. Implikasi Sosial</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">3. Implikasi Sosial</h4>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Penelitian ini dapat menginspirasi berkembangnya
           kepedulian, solidaritas, penghormatan terhadap
           martabat manusia, dan tanggung jawab moral dalam
           kehidupan sosial.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Cinta tidak dipahami sebagai bentuk kepemilikan,
           tetapi sebagai kekuatan yang memperkuat hubungan
           antarmanusia.
         </p>
 
 
-        <h3>C. Keterbatasan Penelitian</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">C. Keterbatasan Penelitian</h3>
 
         <ol>
           <li>
@@ -2773,7 +2773,7 @@ const NgajiRumi7 = () => {
         </ol>
 
 
-        <h3>D. Rekomendasi Penelitian Selanjutnya</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">D. Rekomendasi Penelitian Selanjutnya</h3>
 
         <ol>
           <li>
@@ -2804,27 +2804,27 @@ const NgajiRumi7 = () => {
         </ol>
 
 
-        <h3>Penutup</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Penutup</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Rumi’s love changes human orientation from “aku” to “Dia”.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           Human does not lose self, but finds deepest identity as
           servant of Allah called to bring compassion to all creation.
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           In fast, competitive, image-heavy world, greatness isn’t
           how widely known, but how much ego is reduced, compassion
           expanded, and closeness to God increased.
         </p>
 
 
-        <h3>DAFTAR PUSTAKA</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">DAFTAR PUSTAKA</h3>
 
-        <h4>A. Sumber Primer Jalaluddin Rumi</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">A. Sumber Primer Jalaluddin Rumi</h4>
 
         <ol>
           <li>
@@ -2855,7 +2855,7 @@ const NgajiRumi7 = () => {
         </ol>
 
 
-        <h4>B. Literatur Tasawuf Klasik</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">B. Literatur Tasawuf Klasik</h4>
 
         <ol>
           <li>
@@ -2888,7 +2888,7 @@ const NgajiRumi7 = () => {
         </ol>
 
 
-        <h4>C. Biografi dan Kajian Rumi</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">C. Biografi dan Kajian Rumi</h4>
 
         <ol>
           <li>
@@ -2919,7 +2919,7 @@ const NgajiRumi7 = () => {
         </ol>
 
 
-        <h4>D. Metodologi Penelitian Kualitatif</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">D. Metodologi Penelitian Kualitatif</h4>
 
         <ol>
           <li>
@@ -2941,7 +2941,7 @@ const NgajiRumi7 = () => {
         </ol>
 
 
-        <h4>E. Fenomenologi dan Hermeneutika</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">E. Fenomenologi dan Hermeneutika</h4>
 
         <ol>
           <li>
@@ -2964,7 +2964,7 @@ const NgajiRumi7 = () => {
         </ol>
 
 
-        <h4>F. Psikologi Humanistik dan Transpersonal</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">F. Psikologi Humanistik dan Transpersonal</h4>
 
         <ol>
           <li>
@@ -2985,7 +2985,7 @@ const NgajiRumi7 = () => {
         </ol>
 
 
-        <h4>G. Spiritualitas dan Masyarakat Digital</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">G. Spiritualitas dan Masyarakat Digital</h4>
 
         <ol>
           <li>
@@ -3008,7 +3008,7 @@ const NgajiRumi7 = () => {
         </ol>
 
 
-        <h4>H. Artikel Jurnal Internasional yang Relevan</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">H. Artikel Jurnal Internasional yang Relevan</h4>
 
         <ol>
           <li>
@@ -3029,7 +3029,7 @@ const NgajiRumi7 = () => {
         </ol>
 
 
-        <h4>I. Artikel Jurnal Indonesia</h4>
+        <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">I. Artikel Jurnal Indonesia</h4>
 
         <ol>
           <li>
@@ -3057,25 +3057,25 @@ const NgajiRumi7 = () => {
           BENANG MERAH NGAJI RUMI 7
           ===================================================== */}
 
-      <section className="ngaji-section benang-merah-section">
+      <section className="bg-[#173c2a] px-5 py-20 text-white sm:px-8 sm:py-28">
 
-        <h2>BENANG MERAH NGAJI RUMI 7</h2>
+        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#f7f5ef] sm:text-4xl">BENANG MERAH NGAJI RUMI 7</h2>
 
-        <h3>SAAT AKU TIADA, CINTA BERNAPAS</h3>
+        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#d9c27a] sm:text-3xl">SAAT AKU TIADA, CINTA BERNAPAS</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           <strong>
             Benang Merah Ngaji Rumi 7 — By. Juhar
           </strong>
         </p>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           <strong>Kendal, 15 Juli 2026</strong>
         </p>
 
-        <div className="poem">
+        <div className="mx-auto max-w-3xl text-lg leading-9 text-white/85 sm:text-xl sm:leading-10">
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Ku kira cinta itu perjalanan<br />
             dari mataku ke matamu,<br />
             dari tanganku genggam tanganmu,<br />
@@ -3083,14 +3083,14 @@ const NgajiRumi7 = () => {
             lantas langit terasa dekat
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Ku sangka rindu adalah jarak,<br />
             bahagia adalah memiliki,<br />
             pelukan adalah tujuan<br />
             dari doa yang terpanjat
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Namun, semakin jauh melangkah,<br />
             semakin sunyi jalan kutempuh,<br />
             ku temukan kenyataan<br />
@@ -3100,18 +3100,18 @@ const NgajiRumi7 = () => {
             tapi siapa yang sanggup kehilangan dirinya
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Sebab selama "aku" berdiri<br />
             sebagai raja di dada,<br />
             cinta hanya bayang menari di atas pasir
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Ia indah, tapi hilang<br />
             ketika ombak datang
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Lalu hidup mengajarku<br />
             dengan bahasa yang tak pernah terucap<br />
             Ia robohkan sombongku,<br />
@@ -3120,7 +3120,7 @@ const NgajiRumi7 = () => {
             segala yang kusebut milikku
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dan di tengah kehilangan itu,<br />
             ku dengar bisik<br />
             lebih lembut dari embun,<br />
@@ -3129,7 +3129,7 @@ const NgajiRumi7 = () => {
             agar Aku memenuhi ruang hatimu"
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Sejak itu, aku tak lagi mengejar cinta<br />
             Aku belajar jadi ruang tempat Cahaya<br />
             Aku belajar jadi tanah<br />
@@ -3139,7 +3139,7 @@ const NgajiRumi7 = () => {
             asal angin Tuhan berkenan membawa ke mana Dia kehendaki
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Kini aku tahu,<br />
             rindu paling dalam<br />
             bukan rindu pada manusia<br />
@@ -3149,14 +3149,14 @@ const NgajiRumi7 = () => {
             keindahan semesta
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Aku mencintaimu,<br />
             bukan karena kau adalah tujuan,<br />
             tapi melalui dirimu<br />
             aku belajar membaca jejak-Nya
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Jika suatu hari kau pergi,<br />
             aku tak kehilangan cinta<br />
             Karena cinta tak pergi bersamamu<br />
@@ -3164,7 +3164,7 @@ const NgajiRumi7 = () => {
             bersemayam dalam nama-Nya
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Betapa indah saat hati<br />
             tak lagi sibuk berkata,<br />
             "Aku ingin..."<br />
@@ -3172,21 +3172,21 @@ const NgajiRumi7 = () => {
             "Apa yang Kau kehendaki?"
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Di situlah ego perlahan luruh,<br />
             seperti salju rela mencair<br />
             demi menjadi air<br />
             lalu menghidupi ladang-ladang
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Doa tak lagi meminta dunia,<br />
             tapi memohon<br />
             agar tabir hamba dan Tuhannya menipis<br />
             hingga tersisa kehadiran
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Barangkali ini sebabnya<br />
             para pencinta<br />
             lebih banyak menangis daripada tertawa<br />
@@ -3196,7 +3196,7 @@ const NgajiRumi7 = () => {
             yang sembunyi di sudut jiwa
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Ketika "aku" akhirnya lelah<br />
             mempertahankan keberadaan,<br />
             ketika segala puji dan cela<br />
@@ -3207,7 +3207,7 @@ const NgajiRumi7 = () => {
             yang tak terjemah oleh kata
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Di sana,<br />
             tak ada lagi aku,<br />
             tak ada lagi engkau,<br />
@@ -3215,28 +3215,28 @@ const NgajiRumi7 = () => {
             tak ada lagi milik
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Yang ada hanya<br />
             Samudra tak bertepi,<br />
             tempat setiap sungai kembali<br />
             ke asalnya
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dan aku paham<br />
             rahasia cinta<br />
             bukan menemukan orang<br />
             yang mengisi kekosongan
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Rahasia cinta justru<br />
             menjadi begitu kosong,<br />
             agar hanya Dia<br />
             yang memenuhi keberadaan
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Sebab ketika hanya Dia<br />
             setiap bunga menjadi tasbih,<br />
             angin menjadi salam,<br />
@@ -3244,14 +3244,14 @@ const NgajiRumi7 = () => {
             dan rindu menjadi jalan pulang
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Maka, jika kau mencariku,<br />
             jangan temukan di balik namaku<br />
             Cari aku dalam hening yang mengingat-Nya<br />
             Sebab di sanalah aku lenyap
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Karena itulah,<br />
             untuk pertama kali,<br />
             aku benar-benar hidup
@@ -3262,47 +3262,47 @@ const NgajiRumi7 = () => {
 
         {/* ================= SERULING ================= */}
 
-        <h3>SERULING</h3>
+        <h3 className="mt-16 mb-4 font-serif text-2xl font-semibold text-[#d9c27a] sm:text-3xl">SERULING</h3>
 
-        <p>
+        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
           <strong>
             Benang Merah Ngaji Rumi 7 - By. Juhar
           </strong>
         </p>
 
-        <div className="poem">
+        <div className="mx-auto max-w-3xl text-lg leading-9 text-white/85 sm:text-xl sm:leading-10">
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Jangan bertanya<br />
             mengapa aku memilih sunyi
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Sebab dalam sunyi,<br />
             aku mendengar seruling tua<br />
             menangis pada hutan<br />
             yang lama ditinggalkan
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Bukankah setiap nada<br />
             lahir dari perpisahan?
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dan setiap rindu<br />
             adalah jalan rahasia<br />
             menuju Rumah yang terlupakan?
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Aku mengembara<br />
             dari satu wajah ke wajah lain,<br />
             mengira cinta berdiam<br />
             di balik sepasang mata
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Aku memetik mawar demi mawar,<br />
             namun setiap kelopak<br />
             mengajarkan satu pelajaran,<br />
@@ -3311,7 +3311,7 @@ const NgajiRumi7 = () => {
             yang tak pernah terlihat
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Aku mengejar cahaya<br />
             dengan kedua tangan<br />
             Semakin kugenggam,<br />
@@ -3319,7 +3319,7 @@ const NgajiRumi7 = () => {
             dari sela jemariku
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Lalu seorang tua<br />
             matanya dipenuhi fajar<br />
             berbisik kepadaku,<br />
@@ -3327,7 +3327,7 @@ const NgajiRumi7 = () => {
             jadilah jendela"
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Sejak itu<br />
             aku belajar jadi bening<br />
             Bukan agar dunia melihatku,<br />
@@ -3336,14 +3336,14 @@ const NgajiRumi7 = () => {
             oleh bayang diriku
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Lihatlah ngengat itu<br />
             Ia tidak belajar hakikat api<br />
             melalui kitab-kitab<br />
             Ia tahu dengan cara terbakar
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Begitulah cinta<br />
             Ia bukan pelajaran<br />
             yang selesai dibaca<br />
@@ -3353,30 +3353,30 @@ const NgajiRumi7 = () => {
             langit menumbuh sayap
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Wahai sahabat,<br />
             jangan takut kehilangan
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Biji gandum<br />
             tak pernah jadi ladang<br />
             jika takut dikubur tanah
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Embun<br />
             tak akan jadi sungai<br />
             jika enggan jatuh dari daun
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dan manusia<br />
             tak akan mengenal Kekasih<br />
             jika masih sibuk memeluk dirinya
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Aku mengetuk ribuan pintu<br />
             Tak satu pun terbuka<br />
             Akhirnya ku robohkan rumah egoku<br />
@@ -3384,33 +3384,33 @@ const NgajiRumi7 = () => {
             akulah pintu yang terkunci
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Ketika dinding runtuh,<br />
             angin masuk di dadaku<br />
             membawa aroma<br />
             yang tak dikenal bumi
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Saat itulah aku paham<br />
             seluruh alam bertasbih
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Gunung adalah sujud membatu<br />
             Laut adalah dzikir bergelombang<br />
             Burung adalah doa bersayap<br />
             Dan manusia adalah rahasia yang mengingat asalnya
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Kini aku tak lagi mencari<br />
             yang mencintaiku<br />
             Ku ingin hatiku lapang<br />
             agar Dia berkenan singgah
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Jika Dia datang,<br />
             segala hilang jadi musim semi<br />
             Jika Dia hadir,<br />
@@ -3419,26 +3419,26 @@ const NgajiRumi7 = () => {
             air mata menjelma mutiara
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Maka biar aku tetap jadi seruling<br />
             Kosong di dalam,<br />
             agar Nafas-Nya mengalir jadi lagu
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Biar aku tetap jadi cermin<br />
             Tak memiliki wajah,<br />
             agar hanya Dia yang tampak
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Biar aku tetap jadi debu<br />
             di jalan pencinta<br />
             Karena debu tak minta dihormati,<br />
             tapi slalu sampai di kaki Sang Kekasih
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Bila suatu hari<br />
             kau tak lagi menemukanku,<br />
             jangan bersedih<br />
@@ -3447,7 +3447,7 @@ const NgajiRumi7 = () => {
             kembali pada lautan
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Tak ada lagi aku<br />
             Tak ada lagi engkau<br />
             Yang ada hanya Samudra Cinta<br />
@@ -3455,7 +3455,7 @@ const NgajiRumi7 = () => {
             memanggil kita pulang
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Di sana<br />
             seruling berhenti menangis<br />
             Di sana<br />
@@ -3467,7 +3467,7 @@ const NgajiRumi7 = () => {
             tak pernah minta dimiliki
           </p>
 
-          <p>
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Cinta hanya minta kita lenyap,<br />
             agar Yang Maha Ada<br />
             jadi satu-satunya<br />
@@ -3513,4 +3513,4 @@ const NgajiRumi7 = () => {
   );
 };
 
-export default NgajiRumi7;
+export default NgajiRumi7;O
