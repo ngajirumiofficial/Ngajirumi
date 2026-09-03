@@ -468,7 +468,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
                 Mari Mengenal Ngaji Rumi
               </h2>
 
-              <p className="contact-content__description">
+              <p> className="contact-content__description"
                 Kenali lebih jauh perjalanan Pak Jo dan pendekatan
                 pembelajaran Ngaji Rumi.
               </p>
