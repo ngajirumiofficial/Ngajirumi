@@ -126,7 +126,7 @@ const NgajiRumi7 = () => {
         <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">Petikan Rumi</h2>
 
         <div className="my-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-2xl leading-[2.2] text-[#f7f5ef] shadow-sm sm:text-3xl" dir="rtl">
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p className="text-2xl leading-[2.2] text-[#f7f5ef] sm:text-3xl">
             جنس ما چون نیست جنس شاه ما
             <br />
             مای ما شد بهر مای او فنا
@@ -149,7 +149,7 @@ const NgajiRumi7 = () => {
         </p>
 
         <div className="my-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-2xl leading-[2.2] text-[#f7f5ef] shadow-sm sm:text-3xl" dir="rtl">
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p className="text-2xl leading-[2.2] text-[#f7f5ef] sm:text-3xl">
             چون فنا شد مای ما او ماند فرد
             <br />
             پیش پای اسب او گردم چو گرد
@@ -214,7 +214,7 @@ const NgajiRumi7 = () => {
         <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">Karya-Karya Utama Rumi</h2>
 
         <div className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             1. Mas‌navī-ye Ma‘navī
           </h3>
 
@@ -232,7 +232,7 @@ const NgajiRumi7 = () => {
         </div>
 
         <div className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             2. Dīvān-e Shams-e Tabrīz
           </h3>
 
@@ -244,7 +244,7 @@ const NgajiRumi7 = () => {
         </div>
 
         <div className="my-6 rounded-2xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             3. Fīhi Mā Fīh
           </h3>
 
@@ -425,7 +425,7 @@ const NgajiRumi7 = () => {
         </h2>
 
         <div className="my-6 rounded-2xl border border-[#b18a3c]/20 bg-[#e4e7df]/60 p-6 shadow-sm sm:p-8">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Media Sosial</h3>
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Media Sosial</h3>
 
           <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Media sosial dapat menjadi tempat seseorang
@@ -443,7 +443,7 @@ const NgajiRumi7 = () => {
         </div>
 
         <div className="my-6 rounded-2xl border border-[#b18a3c]/20 bg-[#e4e7df]/60 p-6 shadow-sm sm:p-8">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Karier</h3>
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Karier</h3>
 
           <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dalam kehidupan profesional, seseorang dapat
@@ -461,7 +461,7 @@ const NgajiRumi7 = () => {
         </div>
 
         <div className="my-6 rounded-2xl border border-[#b18a3c]/20 bg-[#e4e7df]/60 p-6 shadow-sm sm:p-8">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Hubungan Manusia</h3>
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Hubungan Manusia</h3>
 
           <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
             Dalam hubungan antarmanusia, cinta dapat berubah
@@ -548,8 +548,8 @@ const NgajiRumi7 = () => {
           ===================================================== */}
 
       <section className="border-y border-[#173c2a]/10 bg-[#e4e7df] px-5 py-16 sm:px-8 sm:py-20">
-
-        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
+        <div className="mx-auto max-w-5xl">
+          <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           PETIKAN QURDIS NGAJI RUMI 7
         </span>
 
@@ -574,7 +574,7 @@ const NgajiRumi7 = () => {
         {/* ================= AYAT 1 ================= */}
 
         <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             1. “Cinta bukanlah antara aku dan engkau”
           </h3>
 
@@ -626,7 +626,7 @@ const NgajiRumi7 = () => {
         {/* ================= HADIS ================= */}
 
         <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             Hadis tentang Manisnya Iman
           </h3>
 
@@ -687,7 +687,7 @@ const NgajiRumi7 = () => {
         {/* ================= AYAT 2 ================= */}
 
         <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             2. “Cinta adalah ketika aku lenyap”
           </h3>
 
@@ -730,7 +730,7 @@ const NgajiRumi7 = () => {
         {/* ================= AYAT PENDUKUNG ================= */}
 
         <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             Ayat tentang Menahan Hawa Nafsu
           </h3>
 
@@ -781,7 +781,7 @@ const NgajiRumi7 = () => {
         {/* ================= AYAT 3 ================= */}
 
         <div className="mx-auto my-8 max-w-4xl rounded-3xl border border-[#173c2a]/10 bg-white p-6 shadow-sm sm:p-8">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">
             3. “Hanya Dia yang tinggal”
           </h3>
 
@@ -973,10 +973,10 @@ const NgajiRumi7 = () => {
 
         {/* ================= KESIMPULAN QURDIS ================= */}
 
-        <div className="mx-auto mt-10 max-w-4xl rounded-3xl bg-[#173c2a] p-7 text-lg leading-9 text-white shadow-sm sm:p-10">
-          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">Kesimpulan</h3>
+        <div className="mx-auto mt-10 max-w-4xl space-y-6 rounded-3xl bg-[#173c2a] p-7 text-lg leading-9 text-white shadow-sm sm:p-10">
+          <h3 className="mb-4 font-serif text-2xl font-semibold text-[#f7f5ef] sm:text-3xl">Kesimpulan</h3>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p className="text-base leading-8 text-white/85 sm:text-lg sm:leading-9">
             Pemikiran Rumi mengenai cinta dapat dibaca
             sebagai perjalanan spiritual menuju Allah.
             “Lenyapnya aku” bukan berarti hilangnya
@@ -984,7 +984,7 @@ const NgajiRumi7 = () => {
             dominasi ego, kesombongan, dan hawa nafsu.
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p className="text-base leading-8 text-white/85 sm:text-lg sm:leading-9">
             Al-Qur’an memberikan landasan mengenai
             tingginya cinta kepada Allah dalam QS. Al-Baqarah
             ayat 165, penyucian jiwa dalam QS. Asy-Syams
@@ -993,7 +993,7 @@ const NgajiRumi7 = () => {
             kepada Allah dalam QS. Al-Fajr ayat 27–30.
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p className="text-base leading-8 text-white/85 sm:text-lg sm:leading-9">
             Hadis juga mengajarkan bahwa manisnya iman
             berkaitan dengan kecintaan kepada Allah dan
             Rasul-Nya di atas segala sesuatu. Kerinduan
@@ -1001,7 +1001,7 @@ const NgajiRumi7 = () => {
             satu gambaran kedalaman cinta spiritual.
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p className="text-base leading-8 text-white/85 sm:text-lg sm:leading-9">
             Dengan demikian, cinta dalam perspektif Rumi
             bukan hanya persoalan hubungan antarmanusia.
             Ia merupakan jalan untuk membersihkan jiwa,
@@ -1010,11 +1010,12 @@ const NgajiRumi7 = () => {
             sesama.
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p className="text-base leading-8 text-white/85 sm:text-lg sm:leading-9">
             Wallahu a’lam.
           </p>
         </div>
 
+        </div>
       </section>
 
 
@@ -1023,8 +1024,8 @@ const NgajiRumi7 = () => {
           ===================================================== */}
 
       <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
-
-        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
+        <div className="mx-auto max-w-5xl">
+          <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
@@ -1229,7 +1230,7 @@ const NgajiRumi7 = () => {
             #mjuharuddin #fbpro
           </p>
         </footer>
-
+        </div>
       </section>
 
 
@@ -1238,8 +1239,8 @@ const NgajiRumi7 = () => {
           ===================================================== */}
 
       <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
-
-        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
+        <div className="mx-auto max-w-5xl">
+          <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
@@ -1539,6 +1540,7 @@ const NgajiRumi7 = () => {
           ilmiah melalui pendekatan fenomenologi hermeneutik.
         </p>
 
+        </div>
       </section>
 
 
@@ -1547,8 +1549,8 @@ const NgajiRumi7 = () => {
           ===================================================== */}
 
       <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
-
-        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
+        <div className="mx-auto max-w-5xl">
+          <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
@@ -1857,9 +1859,9 @@ const NgajiRumi7 = () => {
           melihat cinta sebagai pengalaman emosional, tetapi
           juga sebagai proses transformasi diri yang dapat
           membawa manusia menuju kesadaran spiritual,
-          ketenangan batin, dan kehidupan yang lebih bermakna.
         </p>
 
+        </div>
       </section>
 
 
@@ -1868,8 +1870,8 @@ const NgajiRumi7 = () => {
           ===================================================== */}
 
       <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
-
-        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
+        <div className="mx-auto max-w-5xl">
+          <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
@@ -2256,9 +2258,9 @@ const NgajiRumi7 = () => {
           Konsep tersebut dapat dibaca sebagai kerangka
           spiritual dalam menghadapi berbagai tantangan
           kehidupan di era digital tanpa kehilangan orientasi
-          kepada Allah.
         </p>
 
+        </div>
       </section>
 
 
@@ -2267,8 +2269,8 @@ const NgajiRumi7 = () => {
           ===================================================== */}
 
       <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
-
-        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
+        <div className="mx-auto max-w-5xl">
+          <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
@@ -2592,6 +2594,7 @@ const NgajiRumi7 = () => {
           </p>
         </footer>
 
+        </div>
       </section>
 
 
@@ -2600,25 +2603,25 @@ const NgajiRumi7 = () => {
           ===================================================== */}
 
       <section className="border-b border-[#173c2a]/10 bg-white/40 px-5 py-16 sm:px-8 sm:py-20">
-
-        <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
+        <div className="mx-auto max-w-5xl">
+          <span className="mb-6 inline-flex rounded-full border border-[#b18a3c]/50 bg-[#b18a3c]/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">
           JURNAL NGAJI RUMI 7
         </span>
 
-        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
+        <h2 className="mb-3 font-serif text-3xl font-bold tracking-tight text-[#173c2a] sm:text-4xl">
           DARI "AKU" MENUJU "DIA":
         </h2>
 
-        <h3 className="mt-3 text-2xl font-semibold leading-tight text-[#173c2a] sm:text-3xl">
+        <p className="mb-6 text-xl font-medium leading-relaxed text-[#173c2a]/80 sm:text-2xl">
           Interpretasi Fenomenologis atas Cinta Transendental
           Jalaluddin Rumi dalam Membangun Spiritualitas
           Generasi Digital
-        </h3>
+        </p>
 
-        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#173c2a] sm:text-4xl">
+        <div className="mb-10 rounded-xl border border-[#b18a3c]/20 bg-[#b18a3c]/5 px-4 py-3 font-medium text-[#b18a3c]">
           POST VI — KESIMPULAN, IMPLIKASI, KETERBATASAN,
           REKOMENDASI PENELITIAN, DAFTAR PUSTAKA
-        </h2>
+        </div>
 
 
         <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">A. Kesimpulan</h3>
@@ -2635,7 +2638,7 @@ const NgajiRumi7 = () => {
           dapat disimpulkan beberapa hal berikut:
         </p>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Cinta dalam pemikiran Rumi tidak hanya merupakan
             pengalaman emosional atau romantis, tetapi merupakan
@@ -2750,7 +2753,7 @@ const NgajiRumi7 = () => {
 
         <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">C. Keterbatasan Penelitian</h3>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Pendekatan penelitian yang digunakan adalah
             fenomenologi kualitatif sehingga hasil penelitian
@@ -2775,7 +2778,7 @@ const NgajiRumi7 = () => {
 
         <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#173c2a] sm:text-3xl">D. Rekomendasi Penelitian Selanjutnya</h3>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Melakukan penelitian lintas budaya mengenai konsep
             cinta transendental untuk melihat bagaimana konsep
@@ -2826,7 +2829,7 @@ const NgajiRumi7 = () => {
 
         <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">A. Sumber Primer Jalaluddin Rumi</h4>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Rumi, J. (2004). The Masnavi, Book One
             (J. Mojaddedi, Trans.). Oxford University Press.
@@ -2857,7 +2860,7 @@ const NgajiRumi7 = () => {
 
         <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">B. Literatur Tasawuf Klasik</h4>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Al-Ghazali, A. H. (2010). Iḥyāʾ ʿUlūm al-Dīn
             (The Revival of the Religious Sciences)
@@ -2890,7 +2893,7 @@ const NgajiRumi7 = () => {
 
         <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">C. Biografi dan Kajian Rumi</h4>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Lewis, F. D. (2000). Rumi: Past and Present,
             East and West. Oneworld Publications.
@@ -2921,7 +2924,7 @@ const NgajiRumi7 = () => {
 
         <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">D. Metodologi Penelitian Kualitatif</h4>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Creswell, J. W., &amp; Poth, C. N. (2018).
             Qualitative Inquiry and Research Design: Choosing
@@ -2943,7 +2946,7 @@ const NgajiRumi7 = () => {
 
         <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">E. Fenomenologi dan Hermeneutika</h4>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Husserl, E. (1970). The Crisis of European Sciences
             and Transcendental Phenomenology (D. Carr, Trans.).
@@ -2966,7 +2969,7 @@ const NgajiRumi7 = () => {
 
         <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">F. Psikologi Humanistik dan Transpersonal</h4>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Maslow, A. H. (1968). Toward a Psychology of Being
             (2nd ed.). Van Nostrand Reinhold.
@@ -2987,7 +2990,7 @@ const NgajiRumi7 = () => {
 
         <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">G. Spiritualitas dan Masyarakat Digital</h4>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Turkle, S. (2011). Alone Together: Why We Expect More
             from Technology and Less from Each Other. Basic Books.
@@ -3010,7 +3013,7 @@ const NgajiRumi7 = () => {
 
         <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">H. Artikel Jurnal Internasional yang Relevan</h4>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Chittick, W. C. (1984). Rūmī and waḥdat al-wujūd.
             Islamic Studies, 23(1), 39–50.
@@ -3031,7 +3034,7 @@ const NgajiRumi7 = () => {
 
         <h4 className="mt-10 mb-4 text-lg font-semibold text-[#173c2a]">I. Artikel Jurnal Indonesia</h4>
 
-        <ol>
+        <ol className="my-6 list-decimal space-y-3 pl-6 text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">
           <li>
             Octafany, A. (2021). Konsep Mahabbah Jalaluddin Rumi.
             Refleksi: Jurnal Filsafat dan Pemikiran Islam,
@@ -3046,6 +3049,7 @@ const NgajiRumi7 = () => {
           </li>
         </ol>
 
+        </div>
       </section>
 
 
@@ -3053,29 +3057,26 @@ const NgajiRumi7 = () => {
           BENANG MERAH NGAJI RUMI 7
           ===================================================== */}
 
-           {/* =====================================================
-          BENANG MERAH NGAJI RUMI 7
-          ===================================================== */}
-
       <section className="bg-[#173c2a] px-5 py-20 text-white sm:px-8 sm:py-28">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#f7f5ef] sm:text-4xl">BENANG MERAH NGAJI RUMI 7</h2>
 
-        <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#f7f5ef] sm:text-4xl">BENANG MERAH NGAJI RUMI 7</h2>
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#d9c27a] sm:text-3xl">SAAT AKU TIADA, CINTA BERNAPAS</h3>
 
-        <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#d9c27a] sm:text-3xl">SAAT AKU TIADA, CINTA BERNAPAS</h3>
+          <p className="text-base leading-8 text-white/80 sm:text-lg sm:leading-9">
+            <strong>
+              Benang Merah Ngaji Rumi 7 — By. Juhar
+            </strong>
+          </p>
 
-        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
-          <strong>
-            Benang Merah Ngaji Rumi 7 — By. Juhar
-          </strong>
-        </p>
+          <p className="mb-8 text-base leading-8 text-white/70 sm:text-lg sm:leading-9">
+            <strong>Kendal, 15 Juli 2026</strong>
+          </p>
+        </div>
 
-        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
-          <strong>Kendal, 15 Juli 2026</strong>
-        </p>
+        <div className="mx-auto max-w-3xl space-y-6 text-lg leading-9 text-white/85 sm:text-xl sm:leading-10">
 
-        <div className="mx-auto max-w-3xl text-lg leading-9 text-white/85 sm:text-xl sm:leading-10">
-
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Ku kira cinta itu perjalanan<br />
             dari mataku ke matamu,<br />
             dari tanganku genggam tanganmu,<br />
@@ -3083,14 +3084,14 @@ const NgajiRumi7 = () => {
             lantas langit terasa dekat
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Ku sangka rindu adalah jarak,<br />
             bahagia adalah memiliki,<br />
             pelukan adalah tujuan<br />
             dari doa yang terpanjat
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Namun, semakin jauh melangkah,<br />
             semakin sunyi jalan kutempuh,<br />
             ku temukan kenyataan<br />
@@ -3100,18 +3101,18 @@ const NgajiRumi7 = () => {
             tapi siapa yang sanggup kehilangan dirinya
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Sebab selama "aku" berdiri<br />
             sebagai raja di dada,<br />
             cinta hanya bayang menari di atas pasir
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Ia indah, tapi hilang<br />
             ketika ombak datang
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Lalu hidup mengajarku<br />
             dengan bahasa yang tak pernah terucap<br />
             Ia robohkan sombongku,<br />
@@ -3120,7 +3121,7 @@ const NgajiRumi7 = () => {
             segala yang kusebut milikku
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Dan di tengah kehilangan itu,<br />
             ku dengar bisik<br />
             lebih lembut dari embun,<br />
@@ -3129,7 +3130,7 @@ const NgajiRumi7 = () => {
             agar Aku memenuhi ruang hatimu"
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Sejak itu, aku tak lagi mengejar cinta<br />
             Aku belajar jadi ruang tempat Cahaya<br />
             Aku belajar jadi tanah<br />
@@ -3139,7 +3140,7 @@ const NgajiRumi7 = () => {
             asal angin Tuhan berkenan membawa ke mana Dia kehendaki
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Kini aku tahu,<br />
             rindu paling dalam<br />
             bukan rindu pada manusia<br />
@@ -3149,14 +3150,14 @@ const NgajiRumi7 = () => {
             keindahan semesta
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Aku mencintaimu,<br />
             bukan karena kau adalah tujuan,<br />
             tapi melalui dirimu<br />
             aku belajar membaca jejak-Nya
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Jika suatu hari kau pergi,<br />
             aku tak kehilangan cinta<br />
             Karena cinta tak pergi bersamamu<br />
@@ -3164,7 +3165,7 @@ const NgajiRumi7 = () => {
             bersemayam dalam nama-Nya
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Betapa indah saat hati<br />
             tak lagi sibuk berkata,<br />
             "Aku ingin..."<br />
@@ -3172,21 +3173,21 @@ const NgajiRumi7 = () => {
             "Apa yang Kau kehendaki?"
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Di situlah ego perlahan luruh,<br />
             seperti salju rela mencair<br />
             demi menjadi air<br />
             lalu menghidupi ladang-ladang
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Doa tak lagi meminta dunia,<br />
             tapi memohon<br />
             agar tabir hamba dan Tuhannya menipis<br />
             hingga tersisa kehadiran
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Barangkali ini sebabnya<br />
             para pencinta<br />
             lebih banyak menangis daripada tertawa<br />
@@ -3196,7 +3197,7 @@ const NgajiRumi7 = () => {
             yang sembunyi di sudut jiwa
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Ketika "aku" akhirnya lelah<br />
             mempertahankan keberadaan,<br />
             ketika segala puji dan cela<br />
@@ -3207,7 +3208,7 @@ const NgajiRumi7 = () => {
             yang tak terjemah oleh kata
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Di sana,<br />
             tak ada lagi aku,<br />
             tak ada lagi engkau,<br />
@@ -3215,28 +3216,28 @@ const NgajiRumi7 = () => {
             tak ada lagi milik
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Yang ada hanya<br />
             Samudra tak bertepi,<br />
             tempat setiap sungai kembali<br />
             ke asalnya
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Dan aku paham<br />
             rahasia cinta<br />
             bukan menemukan orang<br />
             yang mengisi kekosongan
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Rahasia cinta justru<br />
             menjadi begitu kosong,<br />
             agar hanya Dia<br />
             yang memenuhi keberadaan
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Sebab ketika hanya Dia<br />
             setiap bunga menjadi tasbih,<br />
             angin menjadi salam,<br />
@@ -3244,14 +3245,14 @@ const NgajiRumi7 = () => {
             dan rindu menjadi jalan pulang
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Maka, jika kau mencariku,<br />
             jangan temukan di balik namaku<br />
             Cari aku dalam hening yang mengingat-Nya<br />
             Sebab di sanalah aku lenyap
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Karena itulah,<br />
             untuk pertama kali,<br />
             aku benar-benar hidup
@@ -3262,47 +3263,49 @@ const NgajiRumi7 = () => {
 
         {/* ================= SERULING ================= */}
 
-        <h3 className="mt-16 mb-4 font-serif text-2xl font-semibold text-[#d9c27a] sm:text-3xl">SERULING</h3>
+        <div className="mx-auto max-w-5xl">
+          <h3 className="mt-16 mb-4 font-serif text-2xl font-semibold text-[#d9c27a] sm:text-3xl">SERULING</h3>
 
-        <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
-          <strong>
-            Benang Merah Ngaji Rumi 7 - By. Juhar
-          </strong>
-        </p>
+          <p className="mb-8 text-base leading-8 text-white/80 sm:text-lg sm:leading-9">
+            <strong>
+              Benang Merah Ngaji Rumi 7 - By. Juhar
+            </strong>
+          </p>
+        </div>
 
-        <div className="mx-auto max-w-3xl text-lg leading-9 text-white/85 sm:text-xl sm:leading-10">
+        <div className="mx-auto max-w-3xl space-y-6 text-lg leading-9 text-white/85 sm:text-xl sm:leading-10">
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Jangan bertanya<br />
             mengapa aku memilih sunyi
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Sebab dalam sunyi,<br />
             aku mendengar seruling tua<br />
             menangis pada hutan<br />
             yang lama ditinggalkan
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Bukankah setiap nada<br />
             lahir dari perpisahan?
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Dan setiap rindu<br />
             adalah jalan rahasia<br />
             menuju Rumah yang terlupakan?
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Aku mengembara<br />
             dari satu wajah ke wajah lain,<br />
             mengira cinta berdiam<br />
             di balik sepasang mata
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Aku memetik mawar demi mawar,<br />
             namun setiap kelopak<br />
             mengajarkan satu pelajaran,<br />
@@ -3311,7 +3314,7 @@ const NgajiRumi7 = () => {
             yang tak pernah terlihat
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Aku mengejar cahaya<br />
             dengan kedua tangan<br />
             Semakin kugenggam,<br />
@@ -3319,7 +3322,7 @@ const NgajiRumi7 = () => {
             dari sela jemariku
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Lalu seorang tua<br />
             matanya dipenuhi fajar<br />
             berbisik kepadaku,<br />
@@ -3327,7 +3330,7 @@ const NgajiRumi7 = () => {
             jadilah jendela"
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Sejak itu<br />
             aku belajar jadi bening<br />
             Bukan agar dunia melihatku,<br />
@@ -3336,14 +3339,14 @@ const NgajiRumi7 = () => {
             oleh bayang diriku
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Lihatlah ngengat itu<br />
             Ia tidak belajar hakikat api<br />
             melalui kitab-kitab<br />
             Ia tahu dengan cara terbakar
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Begitulah cinta<br />
             Ia bukan pelajaran<br />
             yang selesai dibaca<br />
@@ -3353,30 +3356,30 @@ const NgajiRumi7 = () => {
             langit menumbuh sayap
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Wahai sahabat,<br />
             jangan takut kehilangan
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Biji gandum<br />
             tak pernah jadi ladang<br />
             jika takut dikubur tanah
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Embun<br />
             tak akan jadi sungai<br />
             jika enggan jatuh dari daun
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Dan manusia<br />
             tak akan mengenal Kekasih<br />
             jika masih sibuk memeluk dirinya
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Aku mengetuk ribuan pintu<br />
             Tak satu pun terbuka<br />
             Akhirnya ku robohkan rumah egoku<br />
@@ -3384,33 +3387,33 @@ const NgajiRumi7 = () => {
             akulah pintu yang terkunci
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Ketika dinding runtuh,<br />
             angin masuk di dadaku<br />
             membawa aroma<br />
             yang tak dikenal bumi
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Saat itulah aku paham<br />
             seluruh alam bertasbih
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Gunung adalah sujud membatu<br />
             Laut adalah dzikir bergelombang<br />
             Burung adalah doa bersayap<br />
             Dan manusia adalah rahasia yang mengingat asalnya
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Kini aku tak lagi mencari<br />
             yang mencintaiku<br />
             Ku ingin hatiku lapang<br />
             agar Dia berkenan singgah
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Jika Dia datang,<br />
             segala hilang jadi musim semi<br />
             Jika Dia hadir,<br />
@@ -3419,26 +3422,26 @@ const NgajiRumi7 = () => {
             air mata menjelma mutiara
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Maka biar aku tetap jadi seruling<br />
             Kosong di dalam,<br />
             agar Nafas-Nya mengalir jadi lagu
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Biar aku tetap jadi cermin<br />
             Tak memiliki wajah,<br />
             agar hanya Dia yang tampak
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Biar aku tetap jadi debu<br />
             di jalan pencinta<br />
             Karena debu tak minta dihormati,<br />
             tapi slalu sampai di kaki Sang Kekasih
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Bila suatu hari<br />
             kau tak lagi menemukanku,<br />
             jangan bersedih<br />
@@ -3447,7 +3450,7 @@ const NgajiRumi7 = () => {
             kembali pada lautan
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Tak ada lagi aku<br />
             Tak ada lagi engkau<br />
             Yang ada hanya Samudra Cinta<br />
@@ -3455,7 +3458,7 @@ const NgajiRumi7 = () => {
             memanggil kita pulang
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Di sana<br />
             seruling berhenti menangis<br />
             Di sana<br />
@@ -3467,7 +3470,7 @@ const NgajiRumi7 = () => {
             tak pernah minta dimiliki
           </p>
 
-          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
             Cinta hanya minta kita lenyap,<br />
             agar Yang Maha Ada<br />
             jadi satu-satunya<br />
