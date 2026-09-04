@@ -169,7 +169,7 @@ function HeroSlider() {
           <div className="hero-content__actions">
 
             <a
-              href="/profil"
+              href="/Ngajirumi/#/profil"
               className="btn btn--primary"
             >
               Kenali Pak Jo
@@ -177,7 +177,7 @@ function HeroSlider() {
             </a>
 
             <a
-              href="#perpustakaan"
+              href="/Ngajirumi/#/perpustakaan"
               className="btn btn--secondary"
             >
               Jelajahi Ngaji Rumi

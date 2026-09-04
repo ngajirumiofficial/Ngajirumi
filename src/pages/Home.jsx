@@ -301,9 +301,9 @@ karena mungkin mereka datang membawa pesan Tuhan.
                   Ngaji Rumi 7
                 </h3>
 
-                <p> className="library-card__description"
-                membahas perjalanan cinta dari ego menuju kedekatan kepada Allah, melalui proses fana',
-                 pencarian makna, dan tumbuhnya kasih sayang universal.
+                <p className="library-card__description">
+                  Membahas perjalanan cinta dari ego menuju kedekatan kepada Allah, melalui proses fana',
+                  pencarian makna, dan tumbuhnya kasih sayang universal.
                 </p>
 
                 <a
@@ -468,7 +468,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
                 Mari Mengenal Ngaji Rumi
               </h2>
 
-              <p> className="contact-content__description"
+              <p className="contact-content__description">
                 Kenali lebih jauh perjalanan Pak Jo dan pendekatan
                 pembelajaran Ngaji Rumi.
               </p>
