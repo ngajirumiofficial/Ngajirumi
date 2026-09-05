@@ -294,7 +294,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
 
               <div className="library-card__content">
                 <span className="library-card__eyebrow">
-                  NGAJI RUMI 07
+                 CINTA
                 </span>
 
                 <h3 className="library-card__title">
@@ -302,9 +302,8 @@ karena mungkin mereka datang membawa pesan Tuhan.
                 </h3>
 
                 <p className="library-card__description">
-                  Membahas perjalanan cinta dari ego menuju kedekatan kepada Allah, melalui proses fana',
-                  pencarian makna, dan tumbuhnya kasih sayang universal.
-                </p>
+                 Cinta bukanlah antara aku dan engkau. Cinta adalah ketika aku lenyap dan hanya Dia yang tinggal. Di situlah rahasia segala rindu
+                 </p>
 
                 <a
                   href="/Ngajirumi/#/ngajirumi-7"
