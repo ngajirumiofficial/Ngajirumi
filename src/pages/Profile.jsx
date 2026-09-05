@@ -303,31 +303,6 @@ export default function Profile() {
               </h2>
             </div>
 
-            <a
-              href="/perpustakaan"
-              className="
-                group flex w-fit items-center gap-3
-                border-b border-[#173c2a]/25 pb-2
-                text-xs font-semibold uppercase
-                tracking-[0.18em]
-                transition-all duration-300
-                hover:border-[#b18a3c]
-                hover:text-[#b18a3c]
-              "
-            >
-              Lihat Perpustakaan
-
-              <span
-                className="
-                  text-base
-                  transition-transform duration-300
-                  group-hover:translate-x-1
-                "
-              >
-                →
-              </span>
-            </a>
-
           </div>
 
           {/* ============================================================
@@ -475,7 +450,7 @@ export default function Profile() {
             </div>
 
             <a
-              href="/perpustakaan"
+              href="/Ngajirumi/#/perpustakaan"
               className="
                 group flex w-fit shrink-0 items-center gap-4
                 border border-[#f7f5ef]/30

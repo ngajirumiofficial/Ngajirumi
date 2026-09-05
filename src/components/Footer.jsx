@@ -91,7 +91,15 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Blog
+              Ngaji Rumi
+            </a>
+
+            <a
+              href="http://joharudin2015.blogspot.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SPOT LIGHT
             </a>
 
             <a href="/Ngajirumi/#/kontak">
