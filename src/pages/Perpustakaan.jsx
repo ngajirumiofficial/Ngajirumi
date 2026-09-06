@@ -3,50 +3,50 @@ import React, { useState } from "react";
 const libraryItems = [
   {
     id: 1,
-    title: "Ngaji Rumi 01",
-    description: "Renungan Rumi tentang pencarian makna dan kedamaian di dalam hati.",
+    title: "Apa Yang Kau Cari",
+    description: "Apa yang kau cari sesungguhnya sedang mencarimu. Jangan habiskan hidupmu mengetuk setiap pintu, karena pintu yang kau cari ada di dalam hatimu sendiri.",
     image: "/Ngajirumi/assets/ngajirumi-1.png",
     link: "/Ngajirumi/#/ngajirumi-1",
   },
   {
     id: 2,
-    title: "Ngaji Rumi 02",
-    description: "Tentang luka, kerentanan, dan cahaya Tuhan yang hadir melalui setiap ujian. 🌿✨",
+    title: " LUKA DAN CAHAYA",
+    description: "The wound is the place where Light enters you.   Luka adalah tempat di mana Cahaya masuk kepadamu.",
     image: "/Ngajirumi/assets/ngajirumi-2.png",
     link: "/Ngajirumi/#/ngajirumi-2",
   },
   {
     id: 3,
-    title: "Ngaji Rumi 03",
-    description: "Kumpulan materi dan Belajar membersihkan cermin hati dengan cinta, dzikir, dan kerinduan kepada Allah.",
+    title: "CERMIN HATI",
+    description: "Hatimu adalah cermin, namun ia berdebu. Bersihkanlah dengan cinta, dengan dzikir, dengan air mata kerinduan, agar wajah Tuhan tampak di sana.",
     image: "/Ngajirumi/assets/ngajirumi-3.png",
     link: "/Ngajirumi/#/ngajirumi-3",
   },
   {
     id: 4,
-    title: "Ngaji Rumi 04",
-    description: "Menyelami makna diam dan sunyi sebagai jalan untuk mendengarkan hati, merasakan kehadiran Tuhan, serta menemukan makna yang tidak selalu dapat diungkapkan dengan kata-kata.",
+    title: "DIAM",
+    description: "Belajarlah sunyi agar dapat memahami apa yang tak dapat diucapkan. Dalam diam, hati belajar mendengar makna yang melampaui kata-kata.",
     image: "/Ngajirumi/assets/ngajirumi-4.png",
     link: "/Ngajirumi/#/ngajirumi-4",
   },
   {
     id: 5,
-    title: "Ngaji Rumi 05",
-    description: "Tentang kehilangan, keikhlasan, dan keyakinan bahwa setiap yang pergi dapat membawa kita menuju hikmah yang lebih indah.",
+    title: "JANGAN BERSEDIH",
+    description: "  Kehilangan bukan akhir dari perjalanan. Ada yang pergi untuk mengajarkan keikhlasan, dan ada yang datang membawa makna baru. Percayalah, apa yang Allah takdirkan untukmu tidak akan pernah salah jalan.",
     image: "/Ngajirumi/assets/ngajirumi-5.png",
     link: "/Ngajirumi/#/ngajirumi-5",
   },
   {
     id: 6,
-    title: "Ngaji Rumi 06",
-    description: "mengajak kita memahami bahwa suka, duka, kecewa, dan harapan adalah tamu yang datang silih berganti. Melalui pemikiran Rumi, kita belajar menerima setiap pengalaman dengan lapang dada dan menemukan hikmah di balik setiap ujian",
+    title: "TAMU DALAM JIWA",
+    description: "Kesedihan, kegembiraan, kekecewaam, dan harapan. Semuanya adalah tamu. Sambutlah mereka dengan senyum yang lapang, karena mungkin mereka datang membawa pesan Tuhan.",
     image: "/Ngajirumi/assets/ngajirumi-6.png",
     link: "/Ngajirumi/#/ngajirumi-6",
   },
   {
     id: 7,
-    title: "Ngaji Rumi 07",
-    description: "mengajak kita memahami cinta sebagai perjalanan spiritual: dari “aku” menuju “Dia”. Melalui pemikiran Jalaluddin Rumi, cinta dipahami bukan sekadar rasa memiliki, tetapi proses melepaskan ego (nafs), menemukan makna, dan mendekat kepada Allah hingga lahir ketenangan serta kasih sayang kepada sesama.",
+    title: "CINTA",
+    description: "Cinta bukanlah antara aku dan engkau. Cinta adalah ketika aku lenyap dan hanya Dia yang tinggal. Di situlah rahasia segala rindu",
     image: "/Ngajirumi/assets/ngajirumi-7.png",
     link: "/Ngajirumi/#/ngajirumi-7",
   },
@@ -77,6 +77,8 @@ function Perpustakaan() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const activeItem = libraryItems[activeIndex];
+  const collectionLabel = (item) =>
+    item.id <= 7 ? `Ngaji Rumi ${item.id}` : `Koleksi ${String(item.id).padStart(2, "0")}`;
 
   return (
     <section
@@ -153,7 +155,7 @@ function Perpustakaan() {
 
             <div className="mb-8">
               <span className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">
-                Koleksi {String(activeItem.id).padStart(2, "0")}
+                {collectionLabel(activeItem)}
               </span>
 
               <h3 className="mt-4 text-3xl font-bold text-white md:text-4xl">
@@ -208,7 +210,7 @@ function Perpustakaan() {
 
             <div className="absolute bottom-7 left-7 right-7 md:bottom-10 md:left-10">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-300">
-                Ngaji Rumi
+                {collectionLabel(activeItem)}
               </p>
 
               <p className="mt-2 text-2xl font-semibold text-white md:text-3xl">
