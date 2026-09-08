@@ -1,5 +1,7 @@
 import React from "react";
 import pakJoImage from "../assets/pak-jo-removebg-preview.png";
+import ngajiRumi01Image from "../assets/ngaji-rumi-01.jpeg";
+import ngajiRumi02Image from "../assets/ngaji-rumi-02.jpeg";
 
 /* ============================================================================
    PROFILE PAGE — NGAJI RUMI
@@ -9,13 +11,13 @@ import pakJoImage from "../assets/pak-jo-removebg-preview.png";
 const selectedWorks = [
   {
     id: "01",
-    title: "Ngaji Rumi 01",
-    image: null,
+    title: "Doc. Wisata Religi ke Makam Mbah Dalhar (Komplek Makam Aulia Gunungpring - Magelang)",
+    image: ngajiRumi01Image,
   },
   {
     id: "02",
-    title: "Ngaji Rumi 02",
-    image: null,
+    title: "Doc. Kegiatan Parenting & Character Building di SMA NU 05 Brangsong",
+    image: ngajiRumi02Image,
   },
   {
     id: "03",
@@ -294,12 +296,8 @@ export default function Profile() {
           >
 
             <div>
-              <p className="mb-5 text-xs font-semibold uppercase tracking-[0.28em] text-[#b18a3c]">
-                Selected Works
-              </p>
-
               <h2 className="font-serif text-5xl leading-none tracking-tight sm:text-6xl lg:text-7xl">
-                Karya Pak Jo
+                Kenangan Pak Jo di Setiap Langkah
               </h2>
             </div>
 
@@ -394,22 +392,11 @@ export default function Profile() {
                 </div>
 
                 {/* Title */}
-                <div className="mt-5 flex items-center justify-between border-b border-[#173c2a]/15 pb-4">
+                <div className="mt-5 border-b border-[#173c2a]/15 pb-4">
 
-                  <h3 className="font-serif text-2xl transition-transform duration-500 group-hover:translate-x-1">
+                  <h3 className="min-w-0 font-serif text-xl leading-snug transition-transform duration-500 group-hover:translate-x-1 sm:text-2xl">
                     {work.title}
                   </h3>
-
-                  <span
-                    className="
-                      text-lg text-[#b18a3c]
-                      transition-transform duration-500
-                      group-hover:translate-x-1
-                      group-hover:-translate-y-1
-                    "
-                  >
-                    ↗
-                  </span>
 
                 </div>
 
