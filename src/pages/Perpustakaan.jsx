@@ -54,7 +54,7 @@ const libraryItems = [
     id: 8,
     title: "BURUNG JIWA",
     description: "Kumpulan materi yang dapat kamu jelajahi.",
-    image: "/Ngajirumi/assets/images/ngaji-rumi-08.jpg",
+    image: "/Ngajirumi/assets/ngajirumi-8.png",
     link: "/Ngajirumi/#/ngajirumi-8",
   },
   {

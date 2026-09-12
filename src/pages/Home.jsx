@@ -321,7 +321,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
 
               <div className="library-card__content">
                 <span className="library-card__eyebrow">
-                  NGAJI RUMI 08
+                  BURUNG JIWA
                 </span>
 
                 <h3 className="library-card__title">
