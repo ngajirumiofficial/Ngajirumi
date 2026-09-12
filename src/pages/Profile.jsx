@@ -297,7 +297,7 @@ export default function Profile() {
 
             <div>
               <h2 className="font-serif text-5xl leading-none tracking-tight sm:text-6xl lg:text-7xl">
-                Kenangan Pak Jo di Setiap Langkah
+               Kenangan Disetiap Langkah
               </h2>
             </div>
 

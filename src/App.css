@@ -2611,3 +2611,86 @@ body {
     background: linear-gradient(160deg, #faf7f0 0%, #f5f0e6 100%);
   }
 }
+
+/* --- NAVBAR LOGO — aset referensi dengan latar hitam --- */
+
+.site-header,
+.site-header__inner {
+  background-color: #000000 !important;
+}
+
+.site-header {
+  border-bottom-color: rgba(229, 199, 124, 0.24) !important;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.38);
+}
+
+.site-logo__image {
+  width: 230px !important;
+  height: auto !important;
+  max-width: none !important;
+}
+
+.main-nav__link {
+  color: rgba(255, 247, 223, 0.9) !important;
+}
+
+.main-nav__link:hover {
+  color: #e5c77c !important;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.mobile-nav-toggle__bar {
+  background-color: #f6e4a5 !important;
+}
+
+.mobile-menu {
+  background-color: rgba(5, 7, 6, 0.82) !important;
+}
+
+.mobile-menu__inner {
+  background-color: #000000 !important;
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.34);
+}
+
+.mobile-menu__header {
+  border-bottom-color: rgba(229, 199, 124, 0.18);
+}
+
+.mobile-menu__link {
+  color: rgba(255, 247, 223, 0.92) !important;
+  border-bottom-color: rgba(229, 199, 124, 0.12);
+}
+
+.mobile-menu__link:hover,
+.mobile-menu__link:active,
+.mobile-menu__close {
+  color: #e5c77c !important;
+}
+
+.mobile-menu__sublink {
+  background-color: rgba(229, 199, 124, 0.08);
+}
+
+@media (max-width: 1024px) {
+  .site-header__inner {
+    min-height: 104px;
+  }
+
+  .site-logo__image {
+    width: 205px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header__inner {
+    min-height: 86px;
+    background-color: #000000 !important;
+  }
+
+  .site-logo__image,
+  .mobile-menu__header .site-logo__image {
+    width: 176px !important;
+    height: auto !important;
+    max-width: none !important;
+  }
+}

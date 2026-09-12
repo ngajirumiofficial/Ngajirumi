@@ -52,7 +52,7 @@ const libraryItems = [
   },
   {
     id: 8,
-    title: "Ngaji Rumi 08",
+    title: "BURUNG JIWA",
     description: "Kumpulan materi yang dapat kamu jelajahi.",
     image: "/Ngajirumi/assets/images/ngaji-rumi-08.jpg",
     link: "/Ngajirumi/#/ngajirumi-8",

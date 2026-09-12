@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from "react";
-import logo from "../assets/logo.png";
+import { useState, useRef, useEffect } from "react";
+import logo from "../assets/logo-ngajirumi.webp";
 
 const blogSubLinks = [
   {
