@@ -146,6 +146,61 @@ export default function NgajiRumi8() {
         <div className="mx-auto max-w-5xl"><h2 className="font-serif text-3xl font-semibold sm:text-4xl">Kesimpulan menurut spiritualitas Rumi</h2><div className="mt-7 max-w-4xl space-y-6 text-base leading-8 text-white/75 sm:text-lg sm:leading-9"><p>Manusia adalah musafir yang berasal dari Allah dan sedang kembali kepada-Nya. Tubuh hanyalah pakaian sementara, sedangkan ruh adalah burung yang merindukan langit asalnya.</p><p>Jangan merasa kecil, sebab Allah telah memuliakanmu. Jangan merasa cukup dengan dunia, sebab ruhmu merindukan Tuhan. Jangan biarkan jiwamu terpenjara oleh hawa nafsu, karena ia diciptakan untuk terbang menuju cinta Ilahi.</p><p>Ketika manusia melepaskan ego dan berserah diri kepada Allah, ia tidak kehilangan dirinya, tetapi menemukan keluasan hidup yang sesungguhnya: perjalanan dari nafs menuju qalb, dari qalb menuju ruh, dan dari ruh menuju ma'rifat kepada Allah.</p></div></div>
       </section>
 
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Krisis Identitas Manusia Modern</h2>
+        <p className="mt-6 text-sm font-semibold uppercase tracking-[0.2em] text-[#b18a3c]">Kau bukan setetes air di lautan luas</p>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Manusia abad ke-21 hidup di tengah sebuah paradoks. Peradaban mencapai kemajuan yang belum pernah terjadi sebelumnya: teknologi memungkinkan manusia berbicara lintas benua dalam hitungan detik, informasi tersedia tanpa batas, pendidikan semakin mudah diakses, dan berbagai fasilitas membuat hidup terasa lebih nyaman.</p>
+          <p>Namun, di sisi lain, banyak orang justru merasa semakin jauh dari dirinya sendiri. Tidak sedikit yang bangun setiap pagi tanpa benar-benar mengetahui untuk apa ia menjalani hari itu. Aktivitas dilakukan secara otomatis: bekerja, belajar, membuka media sosial, mengejar target, mencari hiburan, lalu tidur. Esok hari siklus yang sama kembali berulang. Hidup berjalan cepat, tetapi kehilangan arah.</p>
+        </div>
+
+        <div className="mt-10 grid gap-6 md:grid-cols-3">
+          <article className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+            <h3 className="font-serif text-2xl font-semibold">Prestasi yang hampa</h3>
+            <p className="mt-4 leading-8 text-[#173c2a]/70">Seorang mahasiswa lulus dengan predikat terbaik, tetapi setelah wisuda merasa hampa karena selama ini ia mengejar nilai, bukan memahami tujuan hidupnya.</p>
+          </article>
+          <article className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+            <h3 className="font-serif text-2xl font-semibold">Karier yang melelahkan</h3>
+            <p className="mt-4 leading-8 text-[#173c2a]/70">Seorang pegawai memperoleh jabatan impian dan gaji tinggi, tetapi setiap malam mengalami kecemasan karena merasa hidupnya hanya dipenuhi tuntutan pekerjaan.</p>
+          </article>
+          <article className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+            <h3 className="font-serif text-2xl font-semibold">Angka di layar</h3>
+            <p className="mt-4 leading-8 text-[#173c2a]/70">Seorang kreator memiliki jutaan pengikut, tetapi saat telepon genggam dimatikan ia merasa sendirian. Harga dirinya perlahan bergantung pada angka-angka di layar.</p>
+          </article>
+        </div>
+
+        <div className="mt-10 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Media sosial menjadi contoh nyata bagaimana identitas sering dibangun dari pengakuan orang lain. Banyak orang tidak lagi bertanya, “Siapakah aku?”, melainkan, “Bagaimana agar aku disukai?” Nilai diri akhirnya diukur melalui jumlah pengikut, jumlah penonton, atau seberapa viral seseorang. Identitas berubah menjadi sesuatu yang harus terus dipertontonkan, bukan lagi sesuatu yang ditemukan di dalam diri.</p>
+          <p>Fenomena serupa tampak dalam budaya konsumtif. Mobil, pakaian, gawai, hingga tempat liburan sering dijadikan simbol harga diri. Ketika simbol-simbol itu hilang, rasa percaya diri pun ikut goyah. Manusia menjadi sibuk menghias citra, tetapi lupa merawat jiwa.</p>
+          <p>Di dunia pendidikan, pelajar dapat merasa gagal hanya karena nilai ujiannya lebih rendah dari teman. Di dunia kerja, seseorang merasa hidupnya tidak berarti ketika kariernya tertinggal dibanding rekan sebayanya. Di lingkungan keluarga, orang terus membandingkan kehidupannya dengan potongan kebahagiaan yang dipilih untuk ditampilkan di media sosial.</p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Kehampaan eksistensial</h2>
+          <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Inilah yang oleh banyak psikolog disebut sebagai krisis identitas: manusia kehilangan pusat dirinya. Ia mengenal begitu banyak informasi tentang dunia, tetapi asing terhadap jiwanya sendiri.</p>
+            <p className="mt-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Psikiater Viktor Frankl, melalui <em>Man&apos;s Search for Meaning</em>, menyebut keadaan ini sebagai <em>existential vacuum</em> atau kehampaan eksistensial. Manusia tidak cukup hidup hanya dengan kesenangan, kenyamanan, atau kesuksesan; ia membutuhkan makna hidup. Ketika makna itu hilang, manusia dapat tetap tertawa, bekerja, bahkan tampak berhasil, tetapi di dalam dirinya tumbuh rasa kosong yang sulit dijelaskan.</p>
+          </div>
+          <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10 sm:py-10">
+            <p className="font-serif text-2xl leading-relaxed sm:text-3xl">“Dan janganlah kamu seperti orang-orang yang melupakan Allah, sehingga Allah menjadikan mereka lupa kepada diri mereka sendiri.”</p>
+            <p className="mt-5 text-sm text-white/65">Q.S. Al-Hasyr [59]: 19</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Pulang mengenali diri</h2>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Delapan abad sebelum Frankl, Jalaluddin Rumi telah menyampaikan pesan yang sejalan. Akar penderitaan manusia bukan semata-mata kekurangan harta atau kegagalan mencapai cita-cita, melainkan lupa terhadap hakikat dirinya. Manusia terlalu sibuk mencari pengakuan dari luar sehingga melupakan sumber kemuliaan dalam hubungannya dengan Allah.</p>
+          <p>Ketika manusia memutus hubungan batinnya dengan Allah, ia perlahan kehilangan kompas kehidupan. Ia mungkin mengetahui pekerjaan, status sosial, bahkan cita-citanya, tetapi tidak lagi mengenal diri sejatinya. Lupa kepada Allah berujung pada lupa kepada diri sendiri: manusia mudah dikuasai rasa takut kehilangan, haus akan pengakuan, dan terus mengejar sesuatu yang tidak pernah benar-benar memuaskan hatinya.</p>
+          <p>Rumi tidak memulai perjalanan spiritual dengan pertanyaan, “Apa yang harus kamu miliki?”, tetapi dengan pertanyaan yang lebih mendasar: “Siapakah dirimu sebenarnya?” Jabatan, kekayaan, popularitas, bahkan ilmu pengetahuan hanyalah pakaian; semuanya dapat berubah dan hilang. Yang tetap adalah jiwa yang mengenal asal-usulnya dan kembali kepada Tuhannya.</p>
+        </div>
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-white/70 px-6 py-8 text-center font-serif text-2xl leading-relaxed text-[#173c2a] shadow-sm sm:px-10 sm:text-3xl">Perjalanan ini bukan untuk menemukan sesuatu yang baru, melainkan perjalanan pulang—kembali mengenali diri yang tertutup oleh kesibukan, ego, dan hiruk-pikuk dunia.</blockquote>
+        <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Sebagaimana embun yang mengira dirinya hanya setetes air, padahal sesungguhnya ia berasal dari samudra yang tak bertepi. Nantikan jabaran berikutnya: “Kau bukan setetes air di lautan luas. Kau adalah seluruh lautan yang terpantul dalam setetes air.”</p>
+      </section>
+
       <section className="mx-auto max-w-5xl px-5 py-16 sm:px-8 sm:py-20"><p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#b18a3c]">Letter to Rumi</p><h2 className="mt-4 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Pesan 3 — Perpustakaan Cahaya</h2><div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/70 shadow-sm sm:p-8 sm:text-lg sm:leading-9"><p>Wahai Maulana, Sang Guru Mulia. Kulanjutkan cerita momen selamatan pembukaan Perpustakaan Cahaya-ku.</p><p className="mt-5">Abah: “Monggo sareng-sareng ndongo, mugi-mugi perpustakaan meniko angsal ridho saking Allah SWT lan saget manfaate kangge masyarakat Welang mriki. Al-Fatihah...”</p><p className="mt-5">Alunan doa terucap khusyuk dan diaminkan seluruh sanak serta kawan yang hadir. Setelahnya, hidangan selamatan dinikmati bersama. Sebentar lagi azan Isya berkumandang; selepas shalat Isya, pintu perpustakaan akan dibuka untuk anak-anak yang telah menanti membaca atau sekadar bermain bersama.</p><p className="mt-6 font-serif text-xl text-[#173c2a]">Wallahu a'lam.</p></div><div className="mt-10 border-t border-[#173c2a]/10 pt-6 text-sm leading-7 text-[#173c2a]/55"><p><strong>Pendukung primer:</strong> Rumi, Jalaluddin Muhammad. (2011). <em>Masnavi-ye Ma’navi</em>. Tehran: Entesharat-e Amir Kabir.</p><p className="mt-2"><strong>Pendukung sekunder:</strong> Rumi, Jalaluddin. (2003). <em>Matsnawi: Syair-syair Sufistik</em>, diterjemahkan oleh Abdul Hadi W.M. Yogyakarta: Pustaka Sufi.</p></div></section>
     </article>
   );
