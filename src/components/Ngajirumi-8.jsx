@@ -845,6 +845,838 @@ export default function NgajiRumi8() {
         </footer>
       </section>
 
+      {/* TAZKIYATUN NAFS: PENYUCIAN JIWA */}
+      <section className="bg-[#173c2a] px-5 py-20 text-[#f7f5ef] sm:px-8 sm:py-24">
+        <div className="mx-auto max-w-5xl">
+          <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">Lanjutan Ngaji Rumi 8 — Burung Jiwa</span>
+          <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-5xl">PERJALANAN MENJADI MANUSIA: Tazkiyatun Nafs <span className="mt-2 block font-normal italic text-[#d9c27a]/90 text-2xl sm:inline sm:mt-0">(Penyucian Jiwa)</span></h2>
+          <p className="mt-7 max-w-4xl text-base leading-8 text-white/75 sm:text-lg sm:leading-9">Berikutnya adalah pembahasan Tazkiyatun Nafs (Penyucian Jiwa), ini merupakan bagian dari perjalanan menjadi manusia yang menurut kami paling alami, setelah pembahasan Insān Kāmil. Jika Insān Kāmil adalah tujuan, maka tazkiyatun nafs adalah jalannya.</p>
+          <blockquote className="mt-10 border-y border-[#d9c27a]/35 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] sm:text-4xl">“Penyucian jiwa bukan ritual sesaat, melainkan proses transformasi seumur hidup.”</blockquote>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Setiap manusia lahir dengan membawa potensi yang agung. Allah menganugerahinya akal untuk berpikir, hati untuk mencintai, dan ruh untuk mengenal-Nya. Namun potensi itu tidak otomatis berkembang menjadi kemuliaan. Sebagaimana benih yang membutuhkan tanah subur, air, dan cahaya agar tumbuh menjadi pohon yang kokoh, jiwa manusia pun membutuhkan proses penyucian agar mampu memancarkan cahaya Ilahi.</p>
+          <p>Inilah yang dalam tradisi Islam disebut tazkiyatun nafs, penyucian jiwa. Kata tazkiyah berasal dari akar kata Arab zakā, yang mengandung dua makna sekaligus: membersihkan dan menumbuhkan.</p>
+        </div>
+        <div className="mt-8 grid gap-6 md:grid-cols-2">
+          <div className="rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8"><h3 className="font-serif text-2xl font-semibold">Membersihkan</h3><p className="mt-4 leading-8 text-[#173c2a]/70">Menghilangkan sifat-sifat buruk: iri, dengki, kesombongan, dan kemarahan.</p></div>
+          <div className="rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8"><h3 className="font-serif text-2xl font-semibold">Menumbuhkan</h3><p className="mt-4 leading-8 text-[#173c2a]/70">Menumbuhkan sifat-sifat mulia: keikhlasan, kasih sayang, kesabaran, syukur, dan cinta kepada Allah.</p></div>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10 sm:py-10">
+          <p className="font-serif text-2xl leading-relaxed sm:text-3xl">“Sungguh beruntung orang yang menyucikan jiwanya, dan sungguh merugi orang yang mengotorinya.”</p>
+          <p className="mt-5 text-sm text-white/65">Q.S. Asy-Syams [91]: 9–10</p>
+        </div>
+        <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Ayat ini sangat singkat, tetapi mengandung pesan yang mendalam. Allah tidak mengatakan bahwa keberuntungan bergantung pada kekayaan, kecerdasan, jabatan, atau popularitas. Ukuran keberuntungan yang paling hakiki adalah keadaan jiwa.</p>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Seberapa Sering Kita Merawat Hati?</h2>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>Di zaman modern, manusia sangat rajin merawat tubuhnya. Ia pergi ke pusat kebugaran, menjaga pola makan, membeli produk perawatan kulit, bahkan memantau kesehatannya dengan jam tangan pintar. Semua itu tentu baik. Namun, pertanyaannya adalah: seberapa sering kita merawat hati?</p>
+          </div>
+          <div className="mt-8 grid gap-6 md:grid-cols-3">
+            <article className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="mt-4 leading-8 text-[#173c2a]/70">Banyak orang mengetahui kadar gula dalam darahnya, tetapi tidak mengetahui kadar kesombongan dalam dirinya.</p></article>
+            <article className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="mt-4 leading-8 text-[#173c2a]/70">Banyak yang memeriksa tekanan darah secara rutin, tetapi tidak pernah memeriksa apakah hatinya masih dipenuhi rasa iri.</p></article>
+            <article className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="mt-4 leading-8 text-[#173c2a]/70">Banyak yang memperbarui perangkat elektroniknya setiap tahun, tetapi membiarkan dendam dan keserakahan tinggal bertahun-tahun di dalam jiwa.</p></article>
+          </div>
+          <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Padahal, kerusakan hati sering kali jauh lebih berbahaya daripada kerusakan tubuh. Jiwa yang kotor akan memandang dunia dengan penuh prasangka. Ia sulit bersyukur, mudah marah, haus akan pujian, dan selalu merasa kurang. Sebaliknya, jiwa yang bersih mampu menemukan ketenangan bahkan dalam keadaan yang sederhana.</p>
+            <p className="mt-4 border-t border-[#173c2a]/10 pt-4 font-serif text-lg text-[#173c2a]">Jalaluddin Rumi mengibaratkan hati manusia seperti sebuah cermin. Cermin itu diciptakan untuk memantulkan cahaya Allah. Namun, jika permukaannya tertutup debu — ego, kesombongan, iri hati, cinta dunia yang berlebihan, dan kelalaian terhadap Allah — ia tidak lagi mampu memantulkan apa pun. Tugas seorang pencari jalan ruhani bukan menciptakan cahaya, melainkan membersihkan cermin itu sedikit demi sedikit.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">1</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">MUJAHADAH: Berjuang Melawan Diri Sendiri</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Banyak orang mengira musuh terbesar manusia adalah kemiskinan, penyakit, atau orang-orang yang memusuhinya. Padahal para ulama tasawuf mengingatkan bahwa musuh yang paling berat justru berada di dalam diri sendiri, yaitu nafs yang selalu mengajak kepada hawa nafsu dan egoisme.</p>
+          <p>Mujahadah berarti bersungguh-sungguh melawan kecenderungan tersebut. Perjuangan ini tidak selalu tampak heroik. Justru sering kali berlangsung dalam kesunyian.</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <ul className="space-y-3 text-base leading-8 text-[#173c2a]/75 sm:text-lg">
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Menahan amarah meskipun mampu membalas.</li>
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Memilih jujur meskipun kebohongan tampak lebih menguntungkan.</li>
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Mematikan telepon genggam agar dapat khusyuk beribadah.</li>
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Memilih memaafkan meskipun hati terluka.</li>
+          </ul>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#e4e7df]/60 p-6 sm:p-8">
+          <h3 className="font-serif text-2xl font-semibold text-[#173c2a]">Mujahadah di kehidupan modern</h3>
+          <ul className="mt-4 space-y-3 text-base leading-8 text-[#173c2a]/80 sm:text-lg">
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Melawan kecanduan media sosial.</li>
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Melawan dorongan untuk selalu membandingkan diri dengan orang lain.</li>
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Melawan keinginan untuk terus mencari pengakuan.</li>
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Melawan kebiasaan menyebarkan informasi tanpa tabayun.</li>
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Melawan budaya konsumtif yang membuat manusia terus membeli sesuatu yang sebenarnya tidak dibutuhkan.</li>
+          </ul>
+          <p className="mt-6 border-t border-[#173c2a]/10 pt-4 font-serif text-lg text-[#173c2a]">Semua itu adalah jihad melawan ego. Mungkin tidak ada tepuk tangan manusia ketika kita berhasil melakukannya. Namun, di situlah kemenangan yang sesungguhnya dimulai.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">2</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">MURAQABAH: Hidup dalam Kesadaran akan Kehadiran Allah</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Jika mujahadah adalah perjuangan, maka muraqabah adalah kesadaran. Muraqabah berarti menyadari bahwa Allah selalu melihat, mengetahui, dan membersamai setiap langkah manusia. Kesadaran ini bukan untuk menumbuhkan rasa takut yang berlebihan, melainkan menghadirkan ketenangan.</p>
+          <p>Seseorang yang hidup dengan muraqabah tidak bergantung pada pengawasan manusia. Ia tetap jujur meskipun tidak ada kamera. Ia tetap amanah meskipun tidak ada atasan. Ia tetap menjaga lisannya meskipun dapat berbicara tanpa diketahui orang lain.</p>
+          <p>Di era digital, muraqabah menjadi semakin relevan. Internet memberi ruang bagi anonimitas. Seseorang dapat menghina orang lain dengan akun palsu, menyebarkan fitnah, mencuri karya orang lain, atau menipu tanpa bertatap muka. Namun, muraqabah mengingatkan bahwa tidak ada ruang yang tersembunyi dari pengawasan Allah.</p>
+        </div>
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl leading-relaxed text-[#d9c27a] sm:text-3xl">Kesadaran inilah yang membentuk integritas sejati.</p>
+          <p className="mt-4 text-base italic text-white/80 sm:text-lg">Manusia tidak lagi bertanya, “Apakah orang lain melihatku?” tetapi, “Apakah Allah ridha terhadap apa yang kulakukan?”</p>
+        </blockquote>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">3</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">MAHABBAH: Cinta sebagai Puncak Perjalanan</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>Jika mujahadah membersihkan jiwa dan muraqabah menjaganya tetap sadar, maka mahabbah menghidupkannya. Mahabbah adalah cinta kepada Allah. Dalam pandangan Rumi, cinta bukan sekadar emosi. Cinta adalah kekuatan yang menggerakkan seluruh perjalanan ruhani.</p>
+            <p>Orang yang mencintai Allah tidak beribadah karena takut semata. Ia juga tidak beribadah hanya karena mengharapkan balasan. Ia beribadah karena merindukan kedekatan dengan-Nya.</p>
+          </div>
+          <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Cinta inilah yang membuat ibadah berubah dari kewajiban menjadi kebutuhan. Shalat tidak lagi terasa sebagai beban. Zikir bukan lagi sekadar rangkaian bacaan. Sedekah bukan lagi kehilangan harta. Semuanya menjadi cara seorang hamba menyatakan cintanya kepada Allah.</p>
+            <p className="mt-4 border-t border-[#173c2a]/10 pt-4 text-base leading-8 text-[#173c2a]/70 sm:text-lg">Di tengah dunia yang mengajarkan manusia untuk mencintai popularitas, kekuasaan, dan materi, mahabbah mengembalikan arah cinta kepada sumber yang tidak pernah mengecewakan. Semakin seseorang mencintai Allah, semakin ia mampu mencintai manusia dengan tulus. Ia tidak mudah membenci, ia tidak mudah iri, ia tidak mudah putus asa. Karena pusat cintanya tidak bergantung pada sesuatu yang fana.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Menjadi Manusia Setiap Hari</h2>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Tazkiyatun nafs bukanlah proyek yang selesai setelah membaca satu buku, mengikuti satu kajian, atau menjalani satu retret spiritual. Ia adalah latihan harian. Ketika kita meminta maaf, kita sedang menyucikan jiwa. Ketika kita menahan amarah, kita sedang menyucikan jiwa. Ketika kita memaafkan, bersyukur, jujur, menolong orang lain, atau bangun untuk bermunajat di sepertiga malam, kita sedang membersihkan cermin hati agar semakin mampu memantulkan cahaya Allah.</p>
+          <p>Perjalanan ini mungkin panjang. Kadang kita berhasil, kadang kita jatuh. Kadang hati terasa begitu dekat kepada Allah, kadang terasa kering dan jauh. Namun, selama seseorang terus kembali, terus bertobat, terus memperbaiki diri, ia sedang berjalan di jalan yang benar.</p>
+          <p>Pada akhirnya, menjadi manusia bukanlah tentang mencapai keadaan tanpa cela. Menjadi manusia adalah keberanian untuk terus membersihkan hati, melawan ego, menjaga kesadaran akan Allah, dan menumbuhkan cinta kepada-Nya.</p>
+          <p>Di situlah tazkiyatun nafs menemukan maknanya: bukan sekadar menjadikan manusia lebih religius, tetapi menjadikannya lebih jujur, lebih lembut, lebih bijaksana, lebih bermanfaat, dan lebih mencerminkan akhlak Rasulullah SAW, dalam setiap langkah kehidupannya.</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/75 shadow-sm sm:p-8 sm:text-lg sm:leading-9">
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Wallahu a&apos;lam</p>
+        </div>
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl text-[#d9c27a]">Berikutnya</p>
+          <p className="mt-4 text-base italic text-white/80 sm:text-lg">Membahas maqāmāt (tahapan-tahapan perjalanan spiritual) — taubat, sabar, syukur, tawakal, ridha, dan ma&apos;rifah.</p>
+        </blockquote>
+        <footer className="mt-8 flex flex-wrap gap-2 text-xs font-medium tracking-wide text-[#b18a3c]">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">#artikel #ngaji #jalaluddinrumi #sufiindonesia #facebookpro</p>
+        </footer>
+      </section>
+
+      {/* MAQAMAT: MEMBACA ULANG MAQAMAT */}
+      <section className="bg-[#173c2a] px-5 py-20 text-[#f7f5ef] sm:px-8 sm:py-24">
+        <div className="mx-auto max-w-5xl">
+          <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">Lanjutan Ngaji Rumi 8 — Burung Jiwa</span>
+          <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-5xl">MENJADI MANUSIA: Membaca Ulang Maqāmāt di Tengah Krisis Manusia Modern</h2>
+          <blockquote className="mt-10 border-y border-[#d9c27a]/35 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] sm:text-3xl">“Burung tidak belajar terbang ketika sayapnya tumbuh. Ia belajar terbang ketika berani meninggalkan ranting yang selama ini dianggap sebagai rumahnya. Begitu pula manusia. Ia tidak menjadi dewasa ketika usianya bertambah, melainkan ketika ia berani meninggalkan segala sesuatu yang menghalanginya untuk kembali kepada Allah.”</blockquote>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Ada satu kesalahpahaman yang diam-diam telah hidup sangat lama dalam cara kita memandang kehidupan spiritual. Banyak orang mengira bahwa perjalanan menuju Allah adalah perjalanan untuk menjadi seseorang yang luar biasa. Menjadi lebih sakti, lebih alim, lebih dihormati, lebih tenang, atau bahkan merasa lebih dekat kepada Tuhan dibandingkan orang lain.</p>
+          <p>Padahal para arif sejak dahulu justru mengajarkan hal yang sebaliknya. Perjalanan spiritual bukanlah perjalanan untuk menjadi “lebih besar”, melainkan perjalanan untuk melepaskan segala sesuatu yang selama ini membuat kita lupa siapa diri kita sebenarnya.</p>
+          <p>Mungkin selama ini kita terlalu sibuk membangun kehidupan, tetapi lupa membangun jiwa. Kita belajar mencari pekerjaan, tetapi tidak belajar mencari makna. Kita belajar mengumpulkan harta, tetapi tidak belajar mengumpulkan kebijaksanaan. Kita belajar berbicara di depan manusia, tetapi tidak belajar mendengar suara hati.</p>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#e4e7df]/60 p-6 sm:p-8">
+          <h3 className="font-serif text-2xl font-semibold text-[#173c2a]">Paradoks manusia modern</h3>
+          <ul className="mt-4 space-y-3 text-base leading-8 text-[#173c2a]/80 sm:text-lg">
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Hidup semakin nyaman, tetapi semakin gelisah.</li>
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Informasi semakin melimpah, tetapi kebijaksanaan terasa semakin langka.</li>
+            <li className="flex items-start"><span className="mr-3 text-[#b18a3c]">✦</span> Hubungan semakin mudah dijalin, tetapi kesepian justru menjadi salah satu persoalan terbesar zaman ini.</li>
+          </ul>
+          <p className="mt-6 border-t border-[#173c2a]/10 pt-4 font-serif text-lg text-[#173c2a]">Barangkali karena manusia modern begitu sibuk mengembangkan kemampuan, tetapi lupa merawat keberadaan dirinya.</p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Maqāmāt: Kembali Menjadi Manusia yang Utuh</h2>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>Dalam tradisi tasawuf, para ulama memperkenalkan istilah maqāmāt, yaitu tahapan-tahapan perjalanan ruhani yang ditempuh seorang hamba menuju kedekatan dengan Allah. Imam Abu Nashr as-Sarraj dalam <em>Al-Luma&apos;</em>, Imam Al-Qusyairi dalam <em>Ar-Risalah al-Qusyairiyyah</em>, Imam Al-Ghazali dalam <em>Ihya&apos; &apos;Ulum al-Din</em>, hingga Ibnu Qayyim al-Jauziyyah dalam <em>Madarij as-Salikin</em> menjelaskan bahwa perjalanan spiritual bukanlah sesuatu yang terjadi secara instan. Ia adalah proses panjang yang menuntut kesungguhan, mujahadah, muhasabah, dan pertolongan Allah.</p>
+            <p>Namun, di sini kita akan mencoba memandang maqāmāt dari sudut yang sedikit berbeda. Bukan sebagai tangga untuk menjadi “manusia suci”. Melainkan sebagai proses untuk kembali menjadi manusia yang utuh.</p>
+            <p>Sebab sejak lahir, manusia membawa fitrah yang bersih. Rasulullah ﷺ bersabda: “Setiap anak dilahirkan dalam keadaan fitrah...” (HR. al-Bukhari dan Muslim).</p>
+          </div>
+          <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+            <h3 className="font-serif text-xl font-semibold text-[#173c2a]">Pakaian-pakaian yang menutupi fitrah</h3>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="rounded-xl border border-[#173c2a]/10 bg-[#f7f5ef] p-4 text-center font-medium text-[#173c2a]/80">Ambisi</div>
+              <div className="rounded-xl border border-[#173c2a]/10 bg-[#f7f5ef] p-4 text-center font-medium text-[#173c2a]/80">Ketakutan</div>
+              <div className="rounded-xl border border-[#173c2a]/10 bg-[#f7f5ef] p-4 text-center font-medium text-[#173c2a]/80">Gengsi</div>
+              <div className="rounded-xl border border-[#173c2a]/10 bg-[#f7f5ef] p-4 text-center font-medium text-[#173c2a]/80">Dendam</div>
+              <div className="rounded-xl border border-[#173c2a]/10 bg-[#f7f5ef] p-4 text-center font-medium text-[#173c2a]/80">Kesombongan</div>
+              <div className="rounded-xl border border-[#173c2a]/10 bg-[#f7f5ef] p-4 text-center font-medium text-[#173c2a]/80">Pengakuan sosial</div>
+            </div>
+            <p className="mt-4 text-base leading-8 text-[#173c2a]/70">Sedikit demi sedikit, pakaian-pakaian itu menutupi cahaya fitrah yang pernah begitu jernih. Maqāmāt mengajak kita melepaskan satu demi satu lapisan yang bukan diri kita.</p>
+          </div>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Taubat</p><p className="mt-2 leading-8 text-[#173c2a]/70">Meninggalkan identitas palsu yang dibentuk oleh dosa dan ego.</p></div>
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Sabar</p><p className="mt-2 leading-8 text-[#173c2a]/70">Tetap teguh ketika dunia mengajak berbelok.</p></div>
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Syukur</p><p className="mt-2 leading-8 text-[#173c2a]/70">Mengembalikan mata hati agar mampu melihat nikmat yang tersembunyi di balik kebiasaan.</p></div>
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Tawakal</p><p className="mt-2 leading-8 text-[#173c2a]/70">Membebaskan jiwa dari beban mengendalikan sesuatu yang berada di luar kuasa manusia.</p></div>
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Ridha</p><p className="mt-2 leading-8 text-[#173c2a]/70">Berdamai dengan takdir, tanpa kehilangan semangat untuk terus berikhtiar.</p></div>
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Ma&apos;rifah</p><p className="mt-2 leading-8 text-[#173c2a]/70">Bukan akhir perjalanan, melainkan awal dari kerendahan hati yang lebih dalam.</p></div>
+          </div>
+          <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Maka maqāmāt bukanlah perlombaan untuk menjadi lebih tinggi daripada orang lain. Ia adalah perjalanan untuk menjadi lebih jujur kepada diri sendiri.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10 sm:py-10">
+          <p className="font-serif text-2xl leading-[2.1] sm:text-3xl" dir="rtl">يَا أَيُّهَا الْإِنسَانُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًا فَمُلَاقِيهِ</p>
+          <p className="mt-5 text-base leading-8 text-white/75">“Wahai manusia! Sesungguhnya engkau telah bekerja dengan sungguh-sungguh menuju Tuhanmu, maka pasti engkau akan menemui-Nya.”</p>
+          <p className="mt-2 text-sm text-white/60">Q.S. Al-Insyiqaq [84]: 6</p>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Ayat ini mengingatkan bahwa setiap manusia sedang berjalan. Tidak ada seorang pun yang diam. Pertanyaannya bukanlah apakah kita sedang berjalan atau tidak, melainkan ke arah mana perjalanan itu membawa kita.</p>
+          <p>Sebagian orang berjalan mengejar kekuasaan. Sebagian mengejar kekayaan. Sebagian mengejar pujian. Namun pada akhirnya, semua perjalanan akan berhenti di hadapan Allah.</p>
+          <p>Karena itu, pertanyaan yang layak kita renungkan bukanlah, “Seberapa jauh aku telah berjalan?” Melainkan, “Apakah langkah-langkahku semakin mendekatkan diriku kepada-Nya?”</p>
+          <p>Barangkali inilah makna terdalam perjalanan spiritual. Ia bukan tentang meninggalkan dunia. Ia juga bukan tentang membenci kehidupan. Ia adalah belajar menempatkan dunia di tangan, bukan di dalam hati. Sebab hati yang dipenuhi dunia akan selalu merasa sempit. Sedangkan hati yang dipenuhi Allah akan mampu memandang dunia sebagai ladang amal, bukan sebagai tujuan akhir.</p>
+          <p>Maka marilah kita memulai perjalanan ini. Bukan sebagai orang yang merasa telah sampai. Tetapi sebagai musafir yang dengan rendah hati mengakui bahwa dirinya masih belajar berjalan.</p>
+          <p>Karena setiap langkah menuju Allah, betapapun kecilnya, selalu lebih berharga daripada seribu langkah yang hanya membawa manusia semakin jauh dari dirinya sendiri.</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/75 shadow-sm sm:p-8 sm:text-lg sm:leading-9">
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Wallahu a&apos;lam</p>
+        </div>
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl text-[#d9c27a]">Berikutnya</p>
+          <p className="mt-4 text-base italic text-white/80 sm:text-lg">Masih di maqāmāt: menjabar setiap maqām mulai dari Taubat, Sabar, Syukur, Tawakal, Ridha, dan Ma&apos;rifah.</p>
+        </blockquote>
+      </section>
+
+      {/* GERBANG TAUBAT */}
+      <section className="bg-[#173c2a] px-5 py-20 text-[#f7f5ef] sm:px-8 sm:py-24">
+        <div className="mx-auto max-w-5xl">
+          <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">Lanjutan Ngaji Rumi 8 — Burung Jiwa</span>
+          <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-5xl">GERBANG TAUBAT</h2>
+          <blockquote className="mt-10 border-y border-[#d9c27a]/35 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] sm:text-3xl">“Seekor burung tidak pernah kehilangan langit. Yang hilang hanyalah keberaniannya untuk kembali terbang.”</blockquote>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Ada satu kata yang sering membuat manusia merasa takut: “Taubat”. Sebagian orang membayangkannya sebagai akhir dari kesenangan. Sebagian lagi menganggapnya sebagai urusan para pendosa. Ada pula yang merasa taubat adalah sesuatu yang baru diperlukan ketika rambut mulai memutih atau usia telah senja.</p>
+          <p>Padahal, boleh jadi orang yang paling membutuhkan taubat bukanlah mereka yang banyak melakukan dosa yang tampak, melainkan mereka yang telah lama kehilangan arah hidup. Sebab tidak semua kesesatan lahir dari maksiat. Ada kesesatan yang lahir dari kesombongan. Ada yang lahir dari ambisi. Ada yang lahir dari keinginan untuk selalu dipuji. Ada pula yang lahir karena terlalu lama hidup demi memenuhi harapan manusia, hingga lupa memenuhi panggilan Allah.</p>
+          <p>Di zaman ini, seseorang dapat kehilangan dirinya tanpa pernah meninggalkan masjid. Ia rajin beribadah. Tetapi seluruh hidupnya dihabiskan untuk mencari pengakuan. Ia takut kehilangan pengikut. Takut kehilangan jabatan. Takut kehilangan nama baik. Namun tidak pernah takut kehilangan kedekatan dengan Allah.</p>
+        </div>
+        <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+          <p className="font-serif text-lg text-[#173c2a] sm:text-xl">Mungkin inilah bentuk keterasingan manusia modern yang paling sunyi.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">1</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Taubat: Lebih dari Sekadar Berhenti Berbuat Dosa</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Dalam bahasa Arab, kata taubat berasal dari akar kata تاب - يتوب - توبة (tāba–yatūbu–taubatan) yang berarti kembali. Kembali kepada siapa? Kembali kepada Allah. Kembali kepada fitrah. Kembali kepada hati yang pernah bersih. Karena itu, hakikat taubat bukan hanya meninggalkan dosa, tetapi mengubah arah perjalanan hidup.</p>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10 sm:py-10">
+          <p className="font-serif text-2xl leading-[2.1] sm:text-3xl" dir="rtl">وَتُوبُوا إِلَى اللَّهِ جَمِيعًا أَيُّهَا الْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ</p>
+          <p className="mt-5 text-base leading-8 text-white/75">“Dan bertaubatlah kamu semua kepada Allah, wahai orang-orang yang beriman, agar kamu beruntung.”</p>
+          <p className="mt-2 text-sm text-white/60">Q.S. An-Nur [24]: 31</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg sm:leading-9">Perhatikan ayat ini. Allah memanggil orang-orang beriman. Artinya, taubat bukan hanya untuk orang yang jauh dari agama. Orang beriman pun diperintahkan terus-menerus memperbarui taubatnya.</p>
+          <p className="mt-4 border-t border-[#173c2a]/10 pt-4 text-base leading-8 text-[#173c2a]/70">Imam Ibnu Katsir menjelaskan bahwa ayat ini merupakan seruan umum kepada seluruh kaum mukmin agar meninggalkan segala bentuk maksiat, baik yang tampak maupun yang tersembunyi, dan kembali menaati Allah. Taubat bukan peristiwa sekali selesai, melainkan sikap hidup yang terus diperbarui.</p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">2</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Nabi yang Ma&apos;shum Pun Beristighfar</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>Barangkali kita mengira taubat hanya diperlukan oleh orang yang banyak dosa. Namun Rasulullah ﷺ yang telah diampuni dosanya tetap bersabda:</p>
+          </div>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            <div className="rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm"><p className="font-serif text-xl leading-relaxed sm:text-2xl">“Demi Allah, sungguh aku memohon ampun kepada Allah dan bertaubat kepada-Nya lebih dari tujuh puluh kali dalam sehari.”</p><p className="mt-4 text-sm text-white/60">HR. al-Bukhari, no. 6307</p></div>
+            <div className="rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm"><p className="font-serif text-xl leading-relaxed sm:text-2xl">“...seratus kali dalam sehari.”</p><p className="mt-4 text-sm text-white/60">HR. Muslim, no. 2702</p></div>
+          </div>
+          <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Mengapa Nabi masih beristighfar? Para ulama menjelaskan bahwa istighfar Nabi bukan karena beliau bergelimang dosa, tetapi sebagai bentuk kesempurnaan penghambaan, rasa syukur, dan teladan bagi umatnya. Semakin dekat seseorang kepada Allah, semakin halus pula kesadarannya terhadap kekurangan dirinya.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">3</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ketika Burung Jiwa Lupa Jalan Pulang</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Bayangkan seekor burung yang sejak kecil hidup di dalam sangkar. Lama-kelamaan ia mengira bahwa besi-besi sangkar adalah batas langitnya.</p>
+          <p>Suatu hari pintu sangkar dibuka. Ia tidak terbang, bukan karena sayapnya patah. Tetapi karena ia telah lupa bahwa dirinya diciptakan untuk terbang.</p>
+          <p>Begitulah manusia. Ada yang terkurung oleh gengsi. Ada yang dipenjara oleh masa lalu. Ada yang dibelenggu oleh luka. Ada yang diperbudak oleh ambisi. Ada yang menjadi tawanan penilaian manusia. Padahal Allah tidak pernah menciptakan hati manusia untuk hidup di dalam sangkar itu.</p>
+        </div>
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl leading-relaxed text-[#d9c27a] sm:text-3xl">Taubat adalah saat pertama kali burung jiwa memberanikan diri mengepakkan sayap menuju rumahnya.</p>
+        </blockquote>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">4</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Rumi dan Makna “Kembali”</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Jalaluddin Rumi berulang kali menggunakan simbol “kembali” dalam karya-karyanya. Pada pembukaan <em>Masnavi-ye Ma&apos;navi</em>, melalui kisah seruling bambu (ney) yang dipisahkan dari rumpunnya, Rumi menggambarkan kerinduan makhluk untuk kembali kepada asalnya:</p>
+        </div>
+        <div className="mt-6 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-2xl leading-[2.2] text-[#f7f5ef] shadow-sm sm:px-8 sm:text-3xl" dir="rtl"><p>بشنو از نی چون حکایت می‌کند</p><p>از جدایی‌ها شکایت می‌کند</p></div>
+        <div className="mt-5 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70"><strong>Transliterasi:</strong><br />Bishnaw az ney chun hikāyat mīkunad, az judā&apos;īhā syikāyat mīkunad.</div>
+        <p className="mt-5 text-base leading-8 text-[#173c2a]/70 sm:text-lg"><strong>Terjemahan:</strong><br />“Dengarkanlah seruling bambu ketika ia bercerita; ia mengadukan perihnya perpisahan.”</p>
+        <p className="mt-4 text-sm leading-7 text-[#173c2a]/55"><strong>Sumber:</strong> Jalaluddin Rumi, Masnavi-ye Ma&apos;navi, Buku I, bait pembuka.</p>
+        <div className="mt-6 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm">
+          <p className="text-base leading-8 text-[#173c2a]/70">William C. Chittick (<em>The Sufi Path of Love</em>) dan Annemarie Schimmel (<em>The Triumphal Sun</em>) menjelaskan bahwa seruling itu melambangkan jiwa manusia yang merindukan asalnya. Rindu tersebut bukan sekadar emosi, melainkan dorongan spiritual untuk kembali kepada Allah.</p>
+          <p className="mt-4 border-t border-[#173c2a]/10 pt-4 text-base leading-8 text-[#173c2a]/70">Dalam kerangka Islam, kerinduan itu menemukan arahnya melalui taubat. Taubat bukan sekadar penyesalan, tetapi langkah nyata untuk kembali kepada jalan yang diridhai Allah.</p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">5</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Taubat di Era Digital</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>Hari ini, dosa tidak selalu hadir dalam bentuk yang dahulu dikenal. Kadang ia hadir sebagai kebiasaan yang perlahan mengeraskan hati. Ketika jari lebih cepat menggulir layar daripada membuka mushaf. Ketika komentar orang lebih menentukan suasana hati daripada firman Allah. Ketika harga diri bergantung pada jumlah pengikut. Ketika waktu habis mengejar citra, sementara jiwa dibiarkan lapar.</p>
+          </div>
+          <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-white/70 px-6 py-8 text-center font-serif text-2xl leading-relaxed text-[#173c2a] shadow-sm sm:text-3xl">“Masihkah Allah menjadi pusat hidupku, ataukah telah tergeser oleh sesuatu yang lain?”</blockquote>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">6</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Muhasabah</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Mungkin selama ini kita mengira taubat adalah perjalanan orang berdosa menuju orang saleh. Padahal sesungguhnya, taubat adalah perjalanan setiap hati yang ingin pulang.</p>
+          <p>Karena yang paling jauh dari manusia bukanlah bintang-bintang di langit. Melainkan hatinya sendiri ketika ia lupa kepada Allah.</p>
+          <p>Barangkali malam ini adalah saat yang baik untuk berhenti sejenak. Bukan untuk menghitung berapa banyak kesalahan orang lain. Tetapi untuk bertanya kepada diri sendiri: “Sudah berapa lama burung jiwaku tidak pulang?”</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/75 shadow-sm sm:p-8 sm:text-lg sm:leading-9">
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Wallahu a&apos;lam</p>
+        </div>
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl text-[#d9c27a]">Berikutnya</p>
+          <p className="mt-4 text-base italic text-white/80 sm:text-lg">Masih di maqāmāt. Fokus maqām Sabar.</p>
+        </blockquote>
+        <footer className="mt-8 flex flex-wrap gap-2 text-xs font-medium tracking-wide text-[#b18a3c]">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">#artikel #taubat #jalaluddinrumi #tasawuf #mjuharuddin</p>
+        </footer>
+      </section>
+
+      {/* GERBANG SABAR */}
+      <section className="bg-[#173c2a] px-5 py-20 text-[#f7f5ef] sm:px-8 sm:py-24">
+        <div className="mx-auto max-w-5xl">
+          <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">Lanjutan Ngaji Rumi 8 — Burung Jiwa</span>
+          <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-5xl">GERBANG SABAR</h2>
+          <p className="mt-7 max-w-4xl text-base leading-8 text-white/75 sm:text-lg sm:leading-9">Selamat datang di postingan Ngaji Rumi 8 “Burung Jiwa” fokus “Gerbang Sabar”. Jika kebanyakan buku menjelaskan bahwa sabar adalah kemampuan menahan diri — menurut kami, definisi itu benar, tetapi belum menyentuh akar persoalan manusia modern.</p>
+          <blockquote className="mt-10 border-y border-[#d9c27a]/35 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] sm:text-3xl">“Sabar adalah kemampuan menjaga arah ketika dunia terus-menerus berusaha membelokkan perjalanan jiwa.”</blockquote>
+          <p className="mt-8 max-w-4xl text-base leading-8 text-white/75 sm:text-lg sm:leading-9">Di abad ke-21, musuh terbesar sabar bukan hanya musibah. Musuh terbesar sabar adalah kecepatan. Segalanya harus instan. Padahal Allah lebih sering bekerja melalui proses daripada kecepatan.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">1</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ketika Burung Jiwa Belajar Terbang Melawan Angin</h2>
+        </div>
+        <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] shadow-sm sm:px-10 sm:text-3xl">“Seekor burung tidak diuji ketika langit cerah. Ia diuji ketika angin datang dari arah yang berlawanan. Anehnya, justru angin itulah yang membuatnya mampu terbang lebih tinggi.”</blockquote>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Tidak ada zaman yang lebih tidak sabar daripada zaman kita. Hari ini kita hidup dalam budaya yang memuja kecepatan. Makanan harus cepat saji. Informasi harus diterima dalam hitungan detik. Pesan yang tidak segera dibalas dianggap diabaikan. Video berdurasi satu menit sudah dianggap terlalu panjang.</p>
+          <p>Manusia modern tidak hanya kehilangan waktu untuk menunggu, tetapi perlahan kehilangan kemampuan untuk bertumbuh. Kita ingin hasil tanpa proses. Kita ingin panen tanpa musim. Kita ingin matang tanpa ditempa.</p>
+          <p>Padahal seluruh alam semesta sedang mengajarkan sesuatu yang berbeda. Tidak ada pohon yang berbuah sehari setelah ditanam. Tidak ada bayi yang lahir dewasa. Tidak ada matahari yang dipaksa terbit lebih cepat. Allah menciptakan kehidupan dengan irama, bukan dengan tergesa-gesa.</p>
+        </div>
+        <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+          <p className="font-serif text-lg text-[#173c2a] sm:text-xl">Mungkin karena itu, salah satu penyakit terbesar manusia modern bukanlah kemiskinan, melainkan ketidaksabaran.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">2</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Sabar: Menjaga Arah, Bukan Sekadar Bertahan</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Dalam bahasa Arab, kata ṣabr (الصبر) berasal dari akar kata yang bermakna menahan, mengikat, atau mengokohkan. Akan tetapi, makna sabar dalam Al-Qur&apos;an jauh lebih luas daripada sekadar diam menanggung penderitaan.</p>
+          <p>Sabar adalah keteguhan hati untuk tetap berada di jalan yang diridhai Allah, baik ketika menghadapi musibah, menjalankan ketaatan, maupun menjauhi kemaksiatan.</p>
+        </div>
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
+          <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Sabar dalam musibah</p><p className="mt-2 leading-8 text-[#173c2a]/70">Tetap teguh ketika diuji kehilangan dan kesulitan.</p></div>
+          <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Sabar dalam ketaatan</p><p className="mt-2 leading-8 text-[#173c2a]/70">Istiqamah menjalankan perintah Allah meski berat.</p></div>
+          <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Sabar menjauhi maksiat</p><p className="mt-2 leading-8 text-[#173c2a]/70">Menahan diri dari larangan Allah meski menggoda.</p></div>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#e4e7df]/60 p-6 sm:p-8">
+          <p className="font-serif text-lg text-[#173c2a] sm:text-xl">Karena itu, sabar bukanlah kelemahan. Sabar adalah kekuatan yang memilih untuk tidak dikendalikan oleh emosi sesaat.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">3</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Allah Bersama Orang-Orang yang Sabar</h2>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10 sm:py-10">
+          <p className="font-serif text-2xl leading-[2.1] sm:text-3xl" dir="rtl">يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ</p>
+          <p className="mt-5 text-base leading-8 text-white/75">“Wahai orang-orang yang beriman! Mohonlah pertolongan dengan sabar dan salat. Sesungguhnya Allah beserta orang-orang yang sabar.”</p>
+          <p className="mt-2 text-sm text-white/60">Q.S. Al-Baqarah [2]: 153</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg sm:leading-9">Allah tidak berjanji bahwa orang sabar akan hidup tanpa ujian. Yang Allah janjikan adalah sesuatu yang jauh lebih agung: kebersamaan-Nya. Dalam tafsir Ibnu Katsir, kebersamaan Allah (ma&apos;iyyah) pada ayat ini dipahami sebagai kebersamaan berupa pertolongan, penjagaan, bimbingan, dan dukungan-Nya kepada hamba yang bersabar.</p>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl leading-[2.1] sm:text-3xl" dir="rtl">إِنَّمَا يُوَفَّى الصَّابِرُونَ أَجْرَهُمْ بِغَيْرِ حِسَابٍ</p>
+          <p className="mt-5 text-base leading-8 text-white/75">“Sesungguhnya hanya orang-orang yang bersabarlah yang disempurnakan pahalanya tanpa batas.”</p>
+          <p className="mt-2 text-sm text-white/60">Q.S. Az-Zumar [39]: 10</p>
+        </div>
+        <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Para mufasir menjelaskan bahwa ungkapan “tanpa batas” menunjukkan kemuliaan sabar yang sangat tinggi. Ada pahala yang disebut jumlahnya, tetapi untuk sabar, Al-Qur&apos;an menggunakan bahasa yang melampaui hitungan manusia.</p>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">4</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Sabar Menurut Rasulullah ﷺ</h2>
+          </div>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            <div className="rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm"><p className="font-serif text-xl leading-relaxed sm:text-2xl">“Sungguh menakjubkan urusan seorang mukmin. Semua urusannya baik baginya. Jika memperoleh kesenangan, ia bersyukur dan itu baik baginya. Jika ditimpa kesusahan, ia bersabar dan itu pun baik baginya.”</p><p className="mt-4 text-sm text-white/60">HR. Muslim, no. 2999</p></div>
+            <div className="rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm"><p className="font-serif text-xl leading-relaxed sm:text-2xl">“Sesungguhnya sabar itu pada saat pertama kali datangnya musibah.”</p><p className="mt-4 text-sm text-white/60">HR. al-Bukhari, no. 1283; Muslim, no. 926</p></div>
+          </div>
+          <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Hadis ini mengajarkan bahwa sabar bukan hanya cara menghadapi penderitaan, tetapi bagian dari cara seorang mukmin memaknai hidup. Yang berubah bukan hanya keadaan, melainkan cara pandang terhadap keadaan. Sabar sejati bukanlah ketika emosi telah reda, melainkan ketika hati memilih tetap tunduk kepada Allah pada detik-detik pertama ujian menyapa.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">5</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Al-Ghazali: Sabar Adalah Kendali Jiwa</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Imam Al-Ghazali dalam <em>Ihya&apos; &apos;Ulum al-Din</em> (Kitab al-Shabr wa al-Syukr) menjelaskan bahwa sabar adalah kemampuan akal dan iman untuk mengendalikan dorongan hawa nafsu. Beliau mengibaratkan hati manusia sebagai sebuah kerajaan. Akal dan iman adalah pemimpin yang seharusnya memerintah, sedangkan hawa nafsu adalah kekuatan yang harus diarahkan, bukan dibiarkan menguasai kerajaan itu.</p>
+          <p>Karena itu, orang yang sabar bukanlah orang yang tidak memiliki keinginan. Ia adalah orang yang mampu menempatkan keinginannya di bawah petunjuk Allah.</p>
+        </div>
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] shadow-sm sm:px-10 sm:text-3xl">Sabar bukan mematikan rasa. Sabar adalah mendidik rasa agar tidak menjadi penguasa.</blockquote>
+        <p className="mt-4 text-sm leading-7 text-[#173c2a]/55"><strong>Sumber:</strong> Abu Hamid al-Ghazali, Ihya&apos; &apos;Ulum al-Din, Kitab al-Shabr wa al-Syukr.</p>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">6</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Jalaluddin Rumi: Luka yang Mengajarkan Kesabaran</h2>
+        </div>
+        <div className="mt-6 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-2xl leading-[2.2] text-[#f7f5ef] shadow-sm sm:px-8 sm:text-3xl" dir="rtl"><p>زخم، جایی است که نور از آن وارد تو می‌شود</p></div>
+        <div className="mt-5 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70"><strong>Transliterasi:</strong><br />Zakhm, jāyī ast ke nūr az ān vāred-e to mīshavad.</div>
+        <p className="mt-5 text-base leading-8 text-[#173c2a]/70 sm:text-lg"><strong>Terjemahan:</strong><br />“Luka adalah tempat cahaya masuk ke dalam dirimu.”</p>
+        <div className="mt-6 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm">
+          <p className="text-base leading-8 text-[#173c2a]/70">Kalimat ini sangat terkenal dan banyak dikutip. Namun para peneliti Rumi mengingatkan bahwa bentuk persisnya tidak ditemukan sebagai bait literal dalam naskah utama <em>Masnavi</em> atau <em>Diwan-e Shams</em>. Ia lebih dikenal sebagai parafrasa yang merangkum tema-tema Rumi tentang penderitaan dan transformasi batin.</p>
+          <p className="mt-4 border-t border-[#173c2a]/10 pt-4 text-base leading-8 text-[#173c2a]/70">Adapun tema yang benar-benar berulang dalam Masnavi adalah bahwa ujian, kehilangan, dan penderitaan dapat menjadi jalan penyucian jiwa apabila dihadapi dengan cinta kepada Allah. Rumi mengajarkan bahwa angin yang melawan burung bukanlah musuhnya. Justru angin itulah yang menguatkan sayapnya. Begitu pula ujian — bukan selalu tanda Allah menjauh, sering kali justru tanda Allah sedang mendidik.</p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">7</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Sabar di Era Digital</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>Hari ini kita tidak hanya diuji oleh musibah. Kita diuji oleh gangguan yang terus-menerus: notifikasi yang tidak pernah berhenti, keinginan membandingkan hidup dengan orang lain, budaya viral yang membuat manusia ingin segera dikenal, tekanan untuk selalu produktif, dan ketakutan tertinggal dari orang lain (<em>fear of missing out</em>).</p>
+          </div>
+          <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Di sinilah sabar memperoleh makna baru: kemampuan menjaga hati agar tidak dikendalikan oleh ritme dunia yang serba tergesa-gesa. Tidak semua hal harus dijawab hari ini. Tidak semua keinginan harus dipenuhi sekarang. Tidak semua pintu harus segera dibuka. Ada musim ketika Allah meminta kita menunggu — bukan karena Dia lupa, tetapi karena kita belum selesai dipersiapkan.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">8</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Burung Jiwa dan Angin Kehidupan</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Seekor burung tidak mengutuk angin yang berhembus dari depan. Ia mengubah cara mengepakkan sayapnya. Begitulah orang yang sabar. Ia tidak selalu mampu mengubah keadaan. Tetapi ia mampu mengubah cara menghadapi keadaan.</p>
+          <p>Barangkali hidup bukan tentang menunggu badai berlalu. Melainkan belajar terbang bersama angin yang Allah kirimkan. Sebab setiap angin yang datang membawa dua kemungkinan: ia dapat menjatuhkan burung yang panik, atau mengangkat burung yang percaya kepada sayap yang telah Allah anugerahkan.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">9</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ruang Sunyi</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Sekarang, tanyakanlah kepada dirimu sendiri. Apa yang paling sulit engkau tunggu? Kesembuhan? Pekerjaan? Jodoh? Pengampunan? Atau jawaban atas doa yang belum juga datang?</p>
+          <p className="mt-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Lalu bacalah perlahan firman Allah ini: “Sesungguhnya Allah bersama orang-orang yang sabar.” Mungkin yang selama ini engkau tunggu bukan hanya perubahan keadaan. Mungkin Allah sedang menumbuhkan dirimu menjadi seseorang yang sanggup menerima karunia yang lebih besar daripada yang pernah engkau bayangkan.</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-sm leading-7 text-[#173c2a]/60 shadow-sm sm:p-8">
+          <p><strong>Catatan ilmiah:</strong></p>
+          <p className="mt-2">Al-Qur&apos;an: Q.S. Al-Baqarah [2]: 153; Q.S. Az-Zumar [39]: 10; Q.S. Ali &apos;Imran [3]: 200.</p>
+          <p className="mt-2">Hadis: HR. Muslim no. 2999; HR. al-Bukhari no. 1283; HR. Muslim no. 926.</p>
+          <p className="mt-2">Tafsir: Tafsir Ibn Kathir; Jāmi&apos; al-Bayān karya al-Ṭabari; Al-Jāmi&apos; li Aḥkām al-Qur&apos;ān karya al-Qurṭubi.</p>
+          <p className="mt-2">Tasawuf: Abu Hamid al-Ghazali, Ihya&apos; &apos;Ulum al-Din, Kitab al-Shabr wa al-Syukr.</p>
+          <p className="mt-2">Rumi: Masnavi-ye Ma&apos;navi (tema kesabaran dan penyucian jiwa), dengan bantuan kajian William C. Chittick (<em>The Sufi Path of Love</em>) dan Annemarie Schimmel (<em>The Triumphal Sun</em>).</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/75 shadow-sm sm:p-8 sm:text-lg sm:leading-9">
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Wallahu a&apos;lam</p>
+        </div>
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl text-[#d9c27a]">Berikutnya</p>
+          <p className="mt-4 text-base italic text-white/80 sm:text-lg">Masih di maqāmāt. Fokus maqām Syukur.</p>
+        </blockquote>
+        <footer className="mt-8 flex flex-wrap gap-2 text-xs font-medium tracking-wide text-[#b18a3c]">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">#artikel #menulis #jurnalis #sabar #tasawuf</p>
+        </footer>
+      </section>
+
+      {/* GERBANG SYUKUR */}
+      <section className="bg-[#173c2a] px-5 py-20 text-[#f7f5ef] sm:px-8 sm:py-24">
+        <div className="mx-auto max-w-5xl">
+          <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">Lanjutan Ngaji Rumi 8 — Burung Jiwa</span>
+          <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-5xl">GERBANG SYUKUR</h2>
+          <p className="mt-7 max-w-4xl text-base leading-8 text-white/75 sm:text-lg sm:leading-9">Kebanyakan orang mengira syukur adalah mengucapkan “Alhamdulillah” ketika mendapat nikmat. Padahal itu baru permukaannya. Syukur adalah cara melihat dunia.</p>
+          <blockquote className="mt-10 border-y border-[#d9c27a]/35 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] sm:text-3xl">“Dua orang dapat melihat matahari yang sama. Yang satu berkata, ‘Panas sekali.’ Yang lain berkata, ‘Masih diberi kesempatan hidup hari ini.’ Mataharinya sama. Yang berbeda adalah jendelanya.”</blockquote>
+          <p className="mt-8 max-w-4xl text-base leading-8 text-white/75 sm:text-lg sm:leading-9">Syukur bukan mengubah keadaan, tetapi mengubah cara memandang keadaan.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">1</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ketika Burung Jiwa Belajar Melihat Cahaya yang Selama Ini Terlalu Dekat</h2>
+        </div>
+        <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] shadow-sm sm:px-10 sm:text-3xl">“Tidak semua orang miskin karena tidak memiliki harta. Ada yang miskin karena tidak mampu melihat nikmat yang telah dimilikinya.”</blockquote>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Ada satu ironi yang diam-diam menjadi wajah zaman ini. Semakin banyak manusia memiliki sesuatu, semakin sulit mereka merasa cukup.</p>
+          <p>Dahulu orang bahagia karena memiliki sepeda. Hari ini seseorang memiliki mobil, tetapi gelisah karena mobil tetangganya lebih baru.</p>
+          <p>Dahulu sebuah keluarga berkumpul sambil menikmati teh hangat di beranda rumah. Hari ini satu meja makan dipenuhi makanan, tetapi setiap orang sibuk menatap layar telepon genggamnya. Teknologi semakin canggih. Rumah semakin besar. Pilihan semakin banyak. Namun hati manusia justru semakin mudah merasa kurang.</p>
+          <p>Mengapa? Karena dunia modern mengajarkan kita untuk terus melihat apa yang belum dimiliki. Sedangkan Al-Qur&apos;an mengajarkan kita untuk melihat apa yang telah Allah titipkan.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">2</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Syukur Bukan Sekadar Ucapan</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Dalam bahasa Arab, kata syukur (الشكر) berasal dari akar kata شكر yang bermakna menampakkan, mengakui, dan menggunakan nikmat sebagaimana tujuan pemberinya. Karena itu, syukur tidak berhenti pada ucapan “Alhamdulillah.”</p>
+          <p>Ucapan adalah awal. Hakikat syukur adalah ketika hati menyadari sumber nikmat, lisan memuji Allah, dan anggota badan menggunakan nikmat itu untuk kebaikan.</p>
+        </div>
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
+          <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Mengenali nikmat</p><p className="mt-2 leading-8 text-[#173c2a]/70">Menyadari setiap karunia sekecil apa pun.</p></div>
+          <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Mengenali Pemberi nikmat</p><p className="mt-2 leading-8 text-[#173c2a]/70">Menautkan setiap nikmat kepada Allah.</p></div>
+          <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm"><p className="text-sm font-semibold uppercase text-[#b18a3c]">Menggunakan sesuai kehendak-Nya</p><p className="mt-2 leading-8 text-[#173c2a]/70">Menjadikan nikmat jalan ketaatan.</p></div>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#e4e7df]/60 p-6 sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/80 sm:text-lg sm:leading-9">Imam Al-Ghazali dalam <em>Ihya&apos; &apos;Ulum al-Din</em> menjelaskan tiga unsur syukur ini. Maka seseorang belum benar-benar bersyukur hanya karena pandai mengucapkan “Alhamdulillah.” Pertanyaannya adalah: apakah nikmat itu membuatnya semakin dekat kepada Allah?</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">3</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Allah Menambah Nikmat Orang yang Bersyukur</h2>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10 sm:py-10">
+          <p className="font-serif text-2xl leading-[2.1] sm:text-3xl" dir="rtl">وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِي لَشَدِيدٌ</p>
+          <p className="mt-5 text-base leading-8 text-white/75">“Dan (ingatlah) ketika Tuhanmu memaklumkan, &apos;Sesungguhnya jika kamu bersyukur, pasti Aku akan menambah (nikmat) kepadamu. Tetapi jika kamu mengingkari, sesungguhnya azab-Ku sangat berat.&apos;”</p>
+          <p className="mt-2 text-sm text-white/60">Q.S. Ibrahim [14]: 7</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg sm:leading-9">Para mufasir menjelaskan bahwa tambahan nikmat tidak selalu berarti bertambahnya harta. Kadang Allah menambah ketenangan, kesehatan, ilmu, keluarga yang baik, kesempatan berbuat baik, bahkan hati yang semakin mudah mengenali kehadiran-Nya.</p>
+          <p className="mt-4 border-t border-[#173c2a]/10 pt-4 font-serif text-lg text-[#173c2a]">Tambahan terbesar bukanlah apa yang berada di tangan. Melainkan apa yang tumbuh di dalam hati.</p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">4</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Rasulullah ﷺ Mengajarkan Syukur Melalui Amal</h2>
+          </div>
+          <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+            <p className="font-serif text-xl leading-relaxed sm:text-2xl">“Tidakkah aku ingin menjadi seorang hamba yang bersyukur?”</p>
+            <p className="mt-4 text-sm text-white/60">HR. al-Bukhari, no. 4837; Muslim, no. 2819</p>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>Aisyah radhiyallahu &apos;anha menceritakan bahwa Rasulullah ﷺ sering melaksanakan salat malam hingga kedua kaki beliau bengkak. Ketika ditanya mengapa masih bersungguh-sungguh beribadah padahal dosa-dosanya telah diampuni, beliau menjawab dengan kalimat di atas.</p>
+            <p>Rasulullah tidak mendefinisikan syukur melalui kata-kata. Beliau menunjukkan syukur melalui ibadah. Artinya, syukur adalah bentuk cinta yang diwujudkan dalam tindakan.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">5</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Rumi: Bersyukur Mengubah Cara Kita Melihat Dunia</h2>
+        </div>
+        <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] shadow-sm sm:px-10 sm:text-3xl">“Pakailah rasa syukur seperti jubah, niscaya ia akan memberi makan setiap sudut kehidupanmu.”</blockquote>
+        <div className="mt-6 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm">
+          <p className="text-base leading-8 text-[#173c2a]/70">Ungkapan ini sangat populer di berbagai terbitan modern tentang Rumi. Namun perlu dijelaskan secara ilmiah bahwa redaksi persisnya tidak ditemukan sebagai bait literal dalam edisi kritis <em>Masnavi</em> maupun <em>Diwan-e Shams</em>. Ia lebih tepat dipahami sebagai parafrasa yang merangkum tema-tema Rumi tentang syukur dan kelapangan hati.</p>
+          <p className="mt-4 border-t border-[#173c2a]/10 pt-4 text-base leading-8 text-[#173c2a]/70">Yang dapat dipastikan dari keseluruhan karya Rumi adalah satu pesan yang terus berulang: semakin seseorang menyadari bahwa seluruh hidupnya adalah karunia Allah, semakin ringan ia menjalani kehidupan. Bagi Rumi, syukur bukan reaksi setelah menerima nikmat. Syukur adalah mata yang mampu menemukan cahaya bahkan ketika langit sedang mendung.</p>
+        </div>
+        <p className="mt-4 text-sm leading-7 text-[#173c2a]/55"><strong>Rujukan:</strong> Jalaluddin Rumi, Masnavi-ye Ma&apos;navi; William C. Chittick, <em>The Sufi Path of Love</em>; Annemarie Schimmel, <em>The Triumphal Sun</em>.</p>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">6</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Syams Tabrizi: Bersyukur Membuka Mata Hati</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg sm:leading-9">Syams Tabrizi, guru spiritual yang sangat memengaruhi kehidupan Rumi, dalam <em>Maqālāt-e Shams-e Tabrizi</em> menegaskan bahwa perjalanan menuju Allah dimulai ketika seseorang berhenti sibuk menuntut dunia dan mulai melihat karunia yang telah diberikan Allah.</p>
+          <p className="mt-4 border-t border-[#173c2a]/10 pt-4 text-base leading-8 text-[#173c2a]/70">Syams mengajarkan bahwa manusia sering kehilangan nikmat bukan karena Allah mengambilnya, melainkan karena mata hati tertutup oleh keinginan yang tidak pernah selesai.</p>
+        </div>
+        <p className="mt-4 text-sm leading-7 text-[#173c2a]/55"><strong>Sumber:</strong> Syams-e Tabrizi, Maqālāt-e Shams-e Tabrizi (<em>The Discourses of Shams-i Tabrizi</em>).</p>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">7</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Penyakit Zaman: Membandingkan Hidup</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>Hari ini kita tidak hanya hidup. Kita juga terus membandingkan hidup. Media sosial membuat kita melihat liburan orang lain, rumah orang lain, kesuksesan orang lain, tubuh orang lain, prestasi orang lain. Sedikit demi sedikit, hati mulai percaya bahwa hidup orang lain selalu lebih indah.</p>
+            <p>Padahal kita hanya melihat potongan-potongan cerita yang mereka pilih untuk ditampilkan. Kita tidak melihat air mata yang mereka sembunyikan, kecemasan yang mereka tutupi, dan doa-doa yang belum dijawab.</p>
+          </div>
+          <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Syukur membebaskan kita dari perlombaan yang tidak pernah diminta Allah. Ia mengembalikan perhatian kita kepada kehidupan yang sedang kita jalani.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">8</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Burung Jiwa dan Langit yang Sama</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Seekor burung tidak iri kepada burung lain karena langit terlalu luas untuk diperebutkan. Ia hanya mengepakkan sayapnya menuju rezeki yang telah Allah siapkan. Begitu pula manusia. Kita sering lelah bukan karena hidup terlalu berat, tetapi karena terlalu sibuk menghitung nikmat orang lain.</p>
+          <p>Padahal Allah tidak pernah meminta kita menjalani kehidupan orang lain. Allah hanya meminta kita mensyukuri kehidupan yang telah dipercayakan kepada kita.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">9</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Syukur untuk Masa Depan</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Kecerdasan buatan akan semakin hebat. Robot akan semakin pintar. Teknologi akan semakin cepat. Namun satu hal tidak akan pernah dapat diproduksi oleh mesin: hati yang bersyukur.</p>
+          <p>Justru ketika dunia semakin otomatis, manusia semakin membutuhkan hati yang mampu berhenti sejenak, mengagumi matahari terbit, memeluk orang tua, menolong sesama, bersujud kepada Allah, dan berkata dengan penuh kesadaran: “Ya Allah, ternyata Engkau telah begitu baik kepadaku.”</p>
+          <p>Barangkali syukur bukan sekadar mengingat nikmat. Syukur adalah mengingat Allah di balik setiap nikmat. Dan ketika itu terjadi, burung jiwa tidak lagi terbang mencari kebahagiaan. Ia menyadari bahwa kebahagiaan telah lama menunggu di dalam hatinya, bersama Tuhan yang tidak pernah meninggalkannya.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">10</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ruang Sunyi</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Malam ini, sebelum tidur, jangan tanyakan kepada dirimu: “Apa yang belum aku miliki?” Tanyakanlah: “Nikmat apa yang selama ini aku nikmati, tetapi jarang aku syukuri?”</p>
+          <p className="mt-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Mungkin itu adalah napas, kedua orang tua, kesehatan, kesempatan untuk bertobat, atau kemampuan hatimu yang masih bisa tersentuh ketika mengingat Allah. Jika engkau masih memilikinya, jangan pernah berkata bahwa hidupmu miskin.</p>
+          <p className="mt-6 border-t border-[#173c2a]/10 pt-4 font-serif text-lg text-[#173c2a]">Sebab burung jiwa yang bersyukur selalu menemukan langit, bahkan ketika awan sedang menutupinya.</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-sm leading-7 text-[#173c2a]/60 shadow-sm sm:p-8">
+          <p><strong>Daftar Rujukan:</strong></p>
+          <p className="mt-2">Al-Qur&apos;an: Q.S. Ibrahim [14]: 7; Q.S. An-Nahl [16]: 78; Q.S. Luqman [31]: 12.</p>
+          <p className="mt-2">Hadis: HR. al-Bukhari no. 4837; HR. Muslim no. 2819.</p>
+          <p className="mt-2">Al-Ghazali: Ihya&apos; &apos;Ulum al-Din, Kitab al-Shabr wa al-Syukr.</p>
+          <p className="mt-2">Rumi: Masnavi-ye Ma&apos;navi; Diwan-e Shams-e Tabrizi.</p>
+          <p className="mt-2">Syams Tabrizi: Maqālāt-e Shams-e Tabrizi.</p>
+          <p className="mt-2">Kajian Modern: William C. Chittick, <em>The Sufi Path of Love</em>; Annemarie Schimmel, <em>The Triumphal Sun</em>.</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/75 shadow-sm sm:p-8 sm:text-lg sm:leading-9">
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Wallahu a&apos;lam</p>
+        </div>
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl text-[#d9c27a]">Berikutnya</p>
+          <p className="mt-4 text-base italic text-white/80 sm:text-lg">Masih di maqāmāt. Fokus maqām Tawakal.</p>
+        </blockquote>
+        <footer className="mt-8 flex flex-wrap gap-2 text-xs font-medium tracking-wide text-[#b18a3c]">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">#artikel #fihimafihi #jalaluddinrumi #alghazali #mjuharuddin #facebookpro</p>
+        </footer>
+      </section>
+
+      {/* GERBANG TAWAKAL */}
+      <section className="bg-[#173c2a] px-5 py-20 text-[#f7f5ef] sm:px-8 sm:py-24">
+        <div className="mx-auto max-w-5xl">
+          <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">Lanjutan Ngaji Rumi 8 — Burung Jiwa</span>
+          <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-5xl">GERBANG TAWAKAL</h2>
+          <p className="mt-7 max-w-4xl text-base leading-8 text-white/75 sm:text-lg sm:leading-9">Pada maqām Taubat, burung jiwa belajar pulang. Pada Sabar, ia belajar bertahan di tengah angin. Pada Syukur, ia belajar melihat langit dengan mata yang baru. Maka di Tawakal ini bukan lagi sekadar “pasrah kepada Allah”.</p>
+          <blockquote className="mt-10 border-y border-[#d9c27a]/35 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] sm:text-3xl">“Tawakal adalah keberanian burung jiwa untuk tetap terbang, meskipun ia tidak dapat melihat seluruh arah angin.”</blockquote>
+          <p className="mt-8 max-w-4xl text-base leading-8 text-white/75 sm:text-lg sm:leading-9">Kita hidup di zaman yang ingin mengendalikan semuanya: masa depan, karier, pasangan, investasi, bahkan berusaha memprediksi setiap kemungkinan melalui data dan teknologi. Tawakal hadir bukan untuk menolak ikhtiar, tetapi untuk membebaskan manusia dari ilusi bahwa ia mampu mengendalikan segala sesuatu.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">1</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ketika Burung Jiwa Belajar Mempercayai Angin</h2>
+        </div>
+        <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] shadow-sm sm:px-10 sm:text-3xl">“Seekor burung tidak pernah bertanya ke mana angin akan bertiup esok pagi. Ia hanya memastikan sayapnya tetap kuat, lalu menyerahkan langit kepada Sang Pencipta.”</blockquote>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Barangkali salah satu beban terbesar manusia modern bukanlah pekerjaan, bukan pula kemiskinan, melainkan keinginan untuk mengendalikan sesuatu yang memang tidak pernah berada dalam kekuasaannya. Kita ingin memastikan masa depan, usaha selalu berhasil, anak-anak tumbuh sesuai harapan, orang yang dicintai tidak pernah pergi, tubuh selalu sehat, dan doa dijawab sesuai waktu yang kita inginkan.</p>
+          <p>Lalu ketika hidup berjalan di luar rencana, hati mulai gelisah. Kita bertanya, “Mengapa Allah tidak mengabulkan keinginanku?” Padahal mungkin pertanyaan yang lebih jujur adalah: “Mengapa aku begitu ingin mengendalikan sesuatu yang sejak awal bukan milikku?”</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">2</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Tawakal: Menyerahkan Hasil, Bukan Meninggalkan Ikhtiar</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Dalam bahasa Arab, kata tawakal (التوكل) berasal dari akar kata وكل (wakala), yang berarti menyerahkan urusan kepada pihak yang dipercaya.</p>
+          <p>Dalam Islam, tawakal bukanlah berhenti berusaha. Tawakal adalah menyempurnakan ikhtiar, lalu menyerahkan hasilnya kepada Allah dengan hati yang tenang.</p>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#e4e7df]/60 p-6 sm:p-8">
+          <p className="font-serif text-lg text-[#173c2a] sm:text-xl">Ikhtiar adalah tugas manusia, hasil adalah hak Allah.</p>
+          <p className="mt-4 text-base leading-8 text-[#173c2a]/80 sm:text-lg">Kesalahan terbesar manusia modern adalah mencampur keduanya. Kita sering mengambil alih wilayah yang bukan milik kita.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">3</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Allah Mencintai Orang yang Bertawakal</h2>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10 sm:py-10">
+          <p className="font-serif text-2xl leading-[2.1] sm:text-3xl" dir="rtl">فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ ۚ إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ</p>
+          <p className="mt-5 text-base leading-8 text-white/75">“Kemudian apabila engkau telah membulatkan tekad, maka bertawakallah kepada Allah. Sesungguhnya Allah mencintai orang-orang yang bertawakal.”</p>
+          <p className="mt-2 text-sm text-white/60">Q.S. Ali &apos;Imran [3]: 159</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg sm:leading-9">Perhatikan urutan ayat ini. Allah tidak mengatakan: “Bertawakallah, lalu bertekad”. Yang disebut lebih dahulu adalah tekad. Artinya, Islam tidak mengajarkan kemalasan. Keputusan diambil, usaha dilakukan, musyawarah ditempuh, lalu hati berserah kepada Allah.</p>
+          <p className="mt-4 border-t border-[#173c2a]/10 pt-4 text-base leading-8 text-[#173c2a]/70">Dalam Tafsir Ibnu Katsir, ayat ini menunjukkan bahwa setelah seorang hamba menggunakan sebab-sebab yang dibenarkan syariat, ia diperintahkan menyerahkan hasil akhirnya kepada Allah, karena hanya Allah yang menguasai segala akibat.</p>
+        </div>
+        <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl leading-[2.1] sm:text-3xl" dir="rtl">وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ</p>
+          <p className="mt-5 text-base leading-8 text-white/75">“Barang siapa bertawakal kepada Allah, niscaya Allah akan mencukupinya.”</p>
+          <p className="mt-2 text-sm text-white/60">Q.S. At-Talaq [65]: 3</p>
+        </div>
+        <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">“Cukup” dalam ayat ini tidak selalu berarti semua keinginan terpenuhi. Kadang Allah mencukupkan hati, kesabaran, dan kekuatan untuk menghadapi sesuatu yang tidak dapat diubah.</p>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">4</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Rasulullah ﷺ: Ikat Untamu, Lalu Bertawakallah</h2>
+          </div>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            <div className="rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm"><p className="font-serif text-xl leading-relaxed sm:text-2xl">“Ikatlah terlebih dahulu, kemudian bertawakallah.”</p><p className="mt-4 text-sm text-white/60">HR. at-Tirmidzi, no. 2517</p></div>
+            <div className="rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm"><p className="font-serif text-xl leading-relaxed sm:text-2xl">“Seandainya kalian bertawakal kepada Allah dengan sebenar-benarnya tawakal...”</p><p className="mt-4 text-sm text-white/60">HR. at-Tirmidzi, no. 2344</p></div>
+          </div>
+          <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Hadis yang singkat ini membongkar kesalahpahaman yang masih sering terjadi. Tawakal bukan alasan untuk mengabaikan usaha. Sebaliknya, usaha yang sungguh-sungguh adalah bagian dari tawakal itu sendiri.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">5</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Rumi: Percayalah kepada Jalan yang Tidak Selalu Kau Pahami</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Dalam <em>Masnavi-ye Ma&apos;navi</em>, Rumi berulang kali mengingatkan bahwa manusia sering ingin memahami seluruh rencana Allah sebelum berani melangkah. Padahal iman justru tumbuh ketika seseorang tetap berjalan meski belum melihat seluruh ujung jalan.</p>
+        </div>
+        <div className="mt-6 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-2xl leading-[2.2] text-[#f7f5ef] shadow-sm sm:px-8 sm:text-3xl" dir="rtl"><p>هر کسی کو دور ماند از اصل خویش</p><p>باز جوید روزگار وصل خویش</p></div>
+        <div className="mt-5 rounded-2xl border border-[#173c2a]/10 bg-white/70 px-6 py-5 text-sm leading-8 text-[#173c2a]/70"><strong>Transliterasi:</strong><br />Har kasī kū dūr mānd az aṣl-e khīsh, bāz jūyad rūzgār-e waṣl-e khīsh.</div>
+        <p className="mt-5 text-base leading-8 text-[#173c2a]/70 sm:text-lg"><strong>Terjemahan:</strong><br />“Setiap orang yang jauh dari asalnya akan selalu merindukan saat untuk kembali bersatu dengan asalnya.”</p>
+        <p className="mt-4 text-sm leading-7 text-[#173c2a]/55"><strong>Sumber:</strong> Jalaluddin Rumi, Masnavi-ye Ma&apos;navi, Buku I, bait-bait awal.</p>
+        <div className="mt-6 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm">
+          <p className="text-base leading-8 text-[#173c2a]/70">Kerinduan untuk kembali kepada Allah itulah yang melahirkan tawakal. Ketika hati mengenal asalnya, ia tidak lagi menggantungkan ketenangan pada keadaan yang berubah-ubah.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">6</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Syekh Abdul Qadir al-Jailani: Tawakal Bukan Meninggalkan Sebab</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg sm:leading-9">Syekh Abdul Qadir al-Jailani menjelaskan bahwa tawakal bukan berarti meninggalkan usaha. Seorang hamba tetap diperintahkan mengambil sebab-sebab yang halal, namun hatinya tidak bergantung kepada sebab itu.</p>
+          <p className="mt-4 border-t border-[#173c2a]/10 pt-4 text-base leading-8 text-[#173c2a]/70">Dalam <em>Al-Fath al-Rabbani</em>, beliau menasihati agar sandaran seorang mukmin berpindah dari makhluk kepada Allah. Sebab-sebab hanyalah sarana, sedangkan Yang memberi hasil adalah Allah. Hati yang benar-benar bertawakal akan tetap tenang, baik ketika pintu dunia dibuka maupun ketika ditutup, karena keyakinannya tidak bergantung pada keadaan.</p>
+        </div>
+        <p className="mt-4 text-sm leading-7 text-[#173c2a]/55"><strong>Sumber:</strong> Syekh Abdul Qadir al-Jailani, Al-Fath al-Rabbani; Futuh al-Ghaib.</p>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">7</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Tawakal di Era Artificial Intelligence</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>Hari ini kita hidup di zaman yang mampu memprediksi cuaca, membaca kebiasaan manusia melalui algoritma, bahkan membantu memperkirakan risiko berbagai keputusan. Semua itu adalah nikmat ilmu yang patut disyukuri. Namun teknologi juga membawa godaan baru: manusia mulai percaya bahwa jika datanya cukup banyak, ia dapat mengendalikan masa depan.</p>
+            <p>Padahal hidup selalu menyimpan wilayah yang tidak dapat dipetakan oleh algoritma. Tidak ada kecerdasan buatan yang mampu memastikan siapa yang masih hidup esok pagi. Tidak ada model statistik yang mampu menjamin doa akan dikabulkan pada tanggal tertentu. Tidak ada mesin yang mampu menggantikan ketenangan hati seorang yang bertawakal.</p>
+          </div>
+          <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+            <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Karena itu, di masa depan, nilai tawakal justru akan semakin penting. Bukan sebagai lawan dari ilmu pengetahuan, melainkan sebagai penyeimbangnya.</p>
+            <p className="mt-4 border-t border-[#173c2a]/10 pt-4 font-serif text-lg text-[#173c2a]">Ilmu mengajarkan kita menghitung kemungkinan. Tawakal mengajarkan kita menerima bahwa Allah tetap memiliki keputusan terakhir.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">8</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Burung Jiwa dan Langit yang Tidak Selalu Cerah</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>Seekor burung tidak menunggu seluruh langit menjadi cerah untuk mulai terbang. Ia belajar membaca angin, menggerakkan sayap, lalu mempercayakan langit kepada Tuhan yang menciptakan angin itu sendiri.</p>
+          <p>Begitu pula seorang mukmin. Ia tetap bekerja, belajar, merencanakan, dan berdoa. Tetapi ketika hasilnya berbeda dari harapannya, ia tidak kehilangan kepercayaan kepada Allah. Karena ia sadar, bisa jadi Allah sedang menyelamatkannya dari sesuatu yang belum mampu ia lihat.</p>
+        </div>
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center font-serif text-2xl leading-relaxed text-[#d9c27a] shadow-sm sm:px-10 sm:text-3xl">Tawakal bukan menghilangkan ketidakpastian. Tawakal membuat hati tetap tenang di tengah ketidakpastian.</blockquote>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">9</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ruang Sunyi</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Hari ini, tulislah di selembar kertas tiga hal yang paling membuatmu cemas. Lalu di sampingnya, tulislah: “Aku akan mengerjakan bagian yang menjadi tugasku. Selebihnya, aku menyerahkannya kepada Allah.”</p>
+          <p className="mt-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Kemudian bacalah perlahan: “Barang siapa bertawakal kepada Allah, maka Allah akan mencukupinya.” (Q.S. At-Talaq [65]: 3).</p>
+          <p className="mt-6 border-t border-[#173c2a]/10 pt-4 font-serif text-lg text-[#173c2a]">Mungkin yang selama ini melelahkan bukan beratnya kehidupan, melainkan beratnya keinginan untuk memikul beban yang sebenarnya tidak pernah Allah minta engkau pikul.</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-sm leading-7 text-[#173c2a]/60 shadow-sm sm:p-8">
+          <p><strong>Rujukan:</strong></p>
+          <p className="mt-2">Al-Qur&apos;an: Q.S. Ali &apos;Imran [3]: 159; Q.S. At-Talaq [65]: 3; Q.S. Al-Anfal [8]: 2; Q.S. Hud [11]: 123.</p>
+          <p className="mt-2">Hadis: HR. at-Tirmidzi no. 2517; HR. at-Tirmidzi no. 2344.</p>
+          <p className="mt-2">Tafsir: Tafsir Ibn Kathir; Jāmi&apos; al-Bayān karya al-Ṭabari; Al-Jāmi&apos; li Aḥkām al-Qur&apos;ān karya al-Qurṭubi.</p>
+          <p className="mt-2">Tasawuf: Syekh Abdul Qadir al-Jailani, Al-Fath al-Rabbani; Futuh al-Ghaib.</p>
+          <p className="mt-2">Rumi: Masnavi-ye Ma&apos;navi; William C. Chittick, <em>The Sufi Path of Love</em>; Annemarie Schimmel, <em>The Triumphal Sun</em>.</p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/75 shadow-sm sm:p-8 sm:text-lg sm:leading-9">
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Wallahu a&apos;lam</p>
+        </div>
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl text-[#d9c27a]">Berikutnya</p>
+          <p className="mt-4 text-base italic text-white/80 sm:text-lg">Masih dengan Gerbang Tawakal: “Bagaimana berserah kepada Allah ketika gagal?” &amp; “Bagaimana tetap bertawakal ketika berhasil?”</p>
+        </blockquote>
+      </section>
+
       <section className="mx-auto max-w-5xl px-5 py-16 sm:px-8 sm:py-20"><p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#b18a3c]">Letter to Rumi</p><h2 className="mt-4 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Pesan 3 — Perpustakaan Cahaya</h2><div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/70 shadow-sm sm:p-8 sm:text-lg sm:leading-9"><p>Wahai Maulana, Sang Guru Mulia. Kulanjutkan cerita momen selamatan pembukaan Perpustakaan Cahaya-ku.</p><p className="mt-5">Abah: “Monggo sareng-sareng ndongo, mugi-mugi perpustakaan meniko angsal ridho saking Allah SWT lan saget manfaate kangge masyarakat Welang mriki. Al-Fatihah...”</p><p className="mt-5">Alunan doa terucap khusyuk dan diaminkan seluruh sanak serta kawan yang hadir. Setelahnya, hidangan selamatan dinikmati bersama. Sebentar lagi azan Isya berkumandang; selepas shalat Isya, pintu perpustakaan akan dibuka untuk anak-anak yang telah menanti membaca atau sekadar bermain bersama.</p><p className="mt-6 font-serif text-xl text-[#173c2a]">Wallahu a'lam.</p></div><div className="mt-10 border-t border-[#173c2a]/10 pt-6 text-sm leading-7 text-[#173c2a]/55"><p><strong>Pendukung primer:</strong> Rumi, Jalaluddin Muhammad. (2011). <em>Masnavi-ye Ma’navi</em>. Tehran: Entesharat-e Amir Kabir.</p><p className="mt-2"><strong>Pendukung sekunder:</strong> Rumi, Jalaluddin. (2003). <em>Matsnawi: Syair-syair Sufistik</em>, diterjemahkan oleh Abdul Hadi W.M. Yogyakarta: Pustaka Sufi.</p></div></section>
     </article>
   );

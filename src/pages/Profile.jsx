@@ -2,6 +2,7 @@ import React from "react";
 import pakJoImage from "../assets/pak-jo-removebg-preview.png";
 import ngajiRumi01Image from "../assets/ngaji-rumi-01.jpeg";
 import ngajiRumi02Image from "../assets/ngaji-rumi-02.jpeg";
+import ngajiRumi03Image from "../assets/ngaji-rumi-03.jpeg";
 
 /* ============================================================================
    PROFILE PAGE — NGAJI RUMI
@@ -21,8 +22,8 @@ const selectedWorks = [
   },
   {
     id: "03",
-    title: "Ngaji Rumi 03",
-    image: null,
+    title: "Moment Wisuda PPG di Universitas Islam Negeri Abdurrahman Wahid (UIN GUS DUR) - Pekalongan",
+    image: ngajiRumi03Image,
   },
   {
     id: "04",
