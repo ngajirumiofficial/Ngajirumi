@@ -1915,6 +1915,745 @@ export default function NgajiRumi8() {
         </blockquote>
       </section>
 
+      {/* KETIKA DOA TIDAK MENGUBAH KEADAAN */}
+      <section className="bg-[#173c2a] px-5 py-20 text-[#f7f5ef] sm:px-8 sm:py-24">
+        <div className="mx-auto max-w-5xl">
+          <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">Masih di Gerbang Tawakal</span>
+          <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-5xl">KETIKA DOA TIDAK MENGUBAH KEADAAN, TETAPI MENGUBAH HATI YANG BERDOA</h2>
+          <p className="mt-5 text-sm leading-7 text-white/75 sm:text-base">NGAJI RUMI 8 &quot;BURUNG JIWA&quot; — By. M. Juharuddin</p>
+
+          <div className="mt-8 rounded-2xl border border-[#d9c27a]/20 bg-white/10 p-6 backdrop-blur-sm sm:p-8">
+            <p className="text-base leading-8 text-white/80 sm:text-lg">
+              Halo “pren”, para pembaca yang budiman. Syukur Alhamdulillah kami masih diberi kesempatan melanjutkan edisi “Gerbang Tawakal” di Ngaji Rumi 8 “Burung Jiwa”. Sebelum meloncat ke kalimat lebih jauh, silakan buka jendela blogger kami:{' '}
+              <a
+                href="https://mjuharuddin.blogspot.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-[#d9c27a] underline decoration-[#d9c27a]/40 underline-offset-4 transition hover:text-white"
+              >
+                mjuharuddin.blogspot.com — M. Juharuddin
+              </a>
+              . Terimakasih atas kunjungannya. Semoga bermanfaat.
+            </p>
+            <p className="mt-4 text-base leading-8 text-white/75 sm:text-lg">
+              Biasanya orang memulai pembahasan dengan kalimat: <em>&quot;Mengapa doa saya tidak dikabulkan?&quot;</em> Karena sejak awal pertanyaan itu sudah berangkat dari asumsi bahwa Allah tidak menjawab. Padahal Al-Qur&apos;an tidak pernah mengatakan bahwa Allah mengabaikan doa seorang hamba.
+            </p>
+            <p className="mt-4 text-base leading-8 text-white/75 sm:text-lg">
+              Ada doa yang dijawab dengan &quot;iya&quot;. Ada yang dijawab dengan &quot;belum&quot;. Ada yang dijawab dengan &quot;Aku siapkan yang lebih baik.&quot; Ada pula doa yang dijawab dengan mengubah orang yang berdoa, bukan langsung mengubah keadaan yang didoakannya. Menurut kami, di situlah pintu menuju tawakal yang sejati.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 1. Saat Burung Jiwa Menemukan Langit di Dalam Dadanya */}
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">1</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Saat Burung Jiwa Menemukan Langit di Dalam Dadanya</h2>
+        </div>
+        <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-white/70 px-6 py-8 text-center font-serif text-xl leading-relaxed text-[#173c2a] shadow-sm sm:px-10 sm:text-2xl">
+          “Tidak semua doa mengubah dunia di sekelilingmu. Sebagian doa diutus Allah untuk mengubah dunia yang ada di dalam dirimu.”
+        </blockquote>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Barangkali hampir setiap orang pernah mengalami keadaan seperti ini. Sudah berdoa. Sudah menangis. Sudah bangun pada sepertiga malam. Sudah memperbanyak istighfar. Sudah bersedekah. Tetapi keadaan tetap belum berubah. Penyakit belum sembuh. Pekerjaan belum datang. Utang belum lunas. Orang yang dicintai tetap pergi. Doa terasa menggantung di langit.
+          </p>
+          <p>
+            Lalu muncul bisikan yang sangat halus. &quot;Apakah Allah benar-benar mendengarkanku?&quot; Pertanyaan itu manusiawi. Bahkan banyak hati yang saleh pernah melewati lorong sunyi itu. Namun, di situlah tawakal mulai diuji. Bukan ketika doa dikabulkan. Melainkan ketika doa belum menghadirkan perubahan yang kita harapkan.
+          </p>
+        </div>
+      </section>
+
+      {/* 2. Allah Tidak Pernah Menutup Pintu Doa */}
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">2</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Allah Tidak Pernah Menutup Pintu Doa</h2>
+          </div>
+
+          <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+            <p className="font-serif text-2xl leading-relaxed sm:text-3xl" dir="rtl">
+              وَقَالَ رَبُّكُمُ ادْعُونِي أَسْتَجِبْ لَكُمْ
+            </p>
+            <p className="mt-5 text-base leading-8 text-white/75 sm:text-lg">
+              “Tuhanmu berfirman, &apos;Berdoalah kepada-Ku, niscaya Aku akan mengabulkan bagimu.&apos;”
+            </p>
+            <p className="mt-2 text-sm text-[#d9c27a]">Q.S. Ghafir [40]: 60</p>
+          </div>
+
+          <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+            <p className="font-serif text-2xl leading-relaxed sm:text-3xl" dir="rtl">
+              وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ
+            </p>
+            <p className="mt-5 text-base leading-8 text-white/75 sm:text-lg">
+              “Apabila hamba-hamba-Ku bertanya kepadamu tentang Aku, maka sesungguhnya Aku dekat. Aku mengabulkan doa orang yang berdoa apabila ia berdoa kepada-Ku.”
+            </p>
+            <p className="mt-2 text-sm text-[#d9c27a]">Q.S. Al-Baqarah [2]: 186</p>
+          </div>
+
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>
+              Perhatikan keindahan ayat ini. Ketika Al-Qur&apos;an berbicara tentang banyak hukum, Allah memerintahkan Nabi Muhammad ﷺ untuk menjawab dengan kalimat &quot;Katakanlah...&quot; Namun pada ayat tentang doa, Allah tidak berkata, &quot;Katakanlah kepada mereka bahwa Aku dekat&quot;. Allah langsung berfirman: &quot;Sesungguhnya Aku dekat&quot;. Seakan-akan Allah sendiri ingin menjawab kerinduan hamba-Nya tanpa perantara.
+            </p>
+            <p className="font-serif text-xl font-semibold text-[#173c2a]">
+              Kedekatan Allah tidak selalu tampak dari cepatnya jawaban. Sering kali ia tampak dari kuatnya hati yang sedang menunggu.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Doa Tidak Selalu Mengubah Takdir yang Kita Lihat */}
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">3</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Doa Tidak Selalu Mengubah Takdir yang Kita Lihat</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Sabda Rasulullah ﷺ:</p>
+          <p className="mt-3 text-base leading-8 text-[#173c2a]/75 sm:text-lg">
+            &quot;Tidaklah seorang muslim berdoa kepada Allah dengan suatu doa yang tidak mengandung dosa atau memutus tali silaturahmi, melainkan Allah akan memberinya salah satu dari tiga perkara: segera mengabulkan doanya, menyimpannya sebagai pahala di akhirat, atau menghindarkannya dari keburukan yang sebanding dengannya.&quot;
+          </p>
+          <p className="mt-3 text-sm text-[#173c2a]/55">HR. Ahmad, no. 11133; dinilai hasan oleh sejumlah ulama</p>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Hadis ini mengubah cara kita memandang doa. Tidak ada doa yang sia-sia. Yang berbeda hanyalah bentuk jawaban Allah. Kadang Allah memberi apa yang kita minta. Kadang Allah menunda karena waktu-Nya lebih tepat daripada waktu kita. Kadang Allah mengganti permintaan kita dengan sesuatu yang lebih baik. Dan kadang Allah menyelamatkan kita dari bahaya yang bahkan tidak pernah kita ketahui.
+          </p>
+        </div>
+      </section>
+
+      {/* 4. Ketika Allah Mengubah Hati Sebelum Mengubah Keadaan */}
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">4</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ketika Allah Mengubah Hati Sebelum Mengubah Keadaan</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>
+              Ada doa yang tidak segera mengubah dunia. Tetapi perlahan mengubah orang yang berdoa. Orang yang dahulu mudah marah menjadi lebih lembut. Yang dahulu penuh kecemasan menjadi lebih tenang. Yang dahulu mudah putus asa menjadi lebih kuat. Yang dahulu menggantungkan hidup pada manusia mulai belajar menggantungkan harapan kepada Allah. Bukankah itu juga jawaban doa?
+            </p>
+          </div>
+          <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-white/70 px-6 py-8 text-center font-serif text-xl leading-relaxed text-[#173c2a] shadow-sm sm:px-10 sm:text-2xl">
+            Kita sering meminta agar badai segera berhenti. Sementara Allah sedang menguatkan akar pohon agar mampu bertahan menghadapi badai berikutnya.
+          </blockquote>
+        </div>
+      </section>
+
+      {/* 5. Rumi: Doa Adalah Jalan Pulang */}
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">5</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Rumi: Doa Adalah Jalan Pulang</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Dalam <em>Masnavi-ye Ma&apos;navi</em>, Rumi berulang kali menggambarkan doa bukan sekadar permintaan, tetapi sebagai gerak jiwa yang kembali menuju asalnya. Menurut Rumi, kerinduan kepada Allah yang lahir dalam doa merupakan tanda bahwa Allah telah lebih dahulu memanggil hamba-Nya.
+          </p>
+          <p>
+            William C. Chittick menjelaskan bahwa dalam pemikiran Rumi, kerinduan manusia kepada Allah dan kasih sayang Allah kepada manusia saling berhubungan. Keinginan untuk berdoa sendiri merupakan anugerah, bukan semata-mata hasil usaha manusia.
+          </p>
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">
+            Karena itu, jangan hanya melihat doa dari apa yang engkau terima. Lihatlah juga siapa dirimu setelah sekian lama berdoa. Mungkin itulah hadiah terbesar yang sedang Allah siapkan.
+          </p>
+        </div>
+        <p className="mt-4 text-sm leading-7 text-[#173c2a]/55">
+          <strong>Sumber:</strong> Jalaluddin Rumi, <em>Masnavi-ye Ma&apos;navi</em>; William C. Chittick, <em>The Sufi Path of Love</em>.
+        </p>
+      </section>
+
+      {/* 6. Syams Tabrizi */}
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">6</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Syams Tabrizi: Jangan Mencari Allah Hanya di Akhir Keinginanmu</h2>
+          </div>
+          <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+            <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg sm:leading-9">
+              Syams Tabrizi dalam <em>Maqālāt-e Shams-e Tabrizi</em> berkali-kali mengingatkan bahwa hubungan dengan Allah tidak boleh dibangun hanya di atas terpenuhinya keinginan. Apabila seseorang hanya mencintai Allah karena doanya selalu terkabul sesuai harapannya, maka cintanya masih bergantung pada pemberian, bukan kepada Sang Pemberi.
+            </p>
+            <p className="mt-4 border-t border-[#173c2a]/10 pt-4 text-base leading-8 text-[#173c2a]/70">
+              Syams mengajak murid-muridnya untuk tetap hadir di hadapan Allah, baik ketika tangan mereka penuh maupun ketika kosong. Sebab hakikat ibadah adalah mencari Allah, bukan sekadar mencari apa yang diberikan Allah.
+            </p>
+          </div>
+          <p className="mt-4 text-sm leading-7 text-[#173c2a]/55">
+            <strong>Sumber:</strong> Syams-e Tabrizi, <em>Maqālāt-e Shams-e Tabrizi</em> (The Discourses of Shams-i Tabrizi).
+          </p>
+        </div>
+      </section>
+
+      {/* 7. Manusia Modern dan Budaya Serba Instan */}
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">7</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Manusia Modern dan Budaya Serba Instan</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Kita hidup di zaman yang terbiasa dengan hasil seketika. Pesan terkirim dalam hitungan detik. Makanan datang hanya dengan beberapa sentuhan layar. Film dapat diputar kapan saja. Jawaban tersedia dalam mesin pencari.
+          </p>
+          <p>
+            Tanpa sadar, kita membawa budaya instan itu ke dalam doa. Kita berharap Allah bekerja seperti aplikasi. Padahal Allah adalah Rabb semesta alam. Dia tidak sekadar memberi apa yang kita minta. Dia mendidik siapa diri kita melalui apa yang kita minta. Karena itu, doa bukan hanya tentang perubahan keadaan. Doa adalah proses pendidikan jiwa.
+          </p>
+          <p>
+            Semakin lama seseorang berdoa dengan ikhlas, semakin lembut hatinya. Semakin lapang dadanya. Semakin sedikit kesombongannya. Semakin kuat tawakalnya.
+          </p>
+        </div>
+      </section>
+
+      {/* 8. Burung Jiwa */}
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">8</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Burung Jiwa</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>
+              Seekor burung kecil pernah berdoa agar angin berhenti. Tetapi angin tetap bertiup. Hari demi hari ia terus mengepakkan sayapnya. Perlahan sayapnya menjadi semakin kuat. Suatu hari ia menyadari sesuatu. Yang berubah bukanlah anginnya. Yang berubah adalah dirinya.
+            </p>
+          </div>
+          <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-white/70 px-6 py-8 text-center font-serif text-xl leading-relaxed text-[#173c2a] shadow-sm sm:px-10 sm:text-2xl">
+            Begitulah doa. Kadang Allah tidak mengubah badai. Karena Allah sedang membentuk burung yang mampu terbang lebih tinggi daripada badai itu sendiri.
+          </blockquote>
+        </div>
+      </section>
+
+      {/* 9. Ruang Sunyi */}
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">9</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ruang Sunyi</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            Jika hari ini engkau merasa doamu belum dijawab, jangan buru-buru menyimpulkan bahwa Allah diam. Mungkin Dia sedang bekerja di tempat yang belum dapat dilihat oleh matamu. Mungkin keadaan belum berubah.
+          </p>
+          <p className="mt-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            Tetapi lihatlah hatimu. Apakah engkau kini lebih sabar? Lebih lembut? Lebih dekat kepada Allah? Lebih mudah menangis ketika membaca Al-Qur&apos;an?
+          </p>
+          <div className="mt-6 rounded-xl bg-[#173c2a] px-6 py-6 text-center text-[#f7f5ef]">
+            <p className="font-serif text-xl sm:text-2xl text-[#d9c27a]">Jika iya, jangan katakan doamu belum dikabulkan.</p>
+            <p className="mt-3 text-base italic leading-8 text-white/90 sm:text-lg">
+              Sebab boleh jadi Allah sedang memberikan jawaban yang lebih dalam daripada sekadar mengubah keadaan. Dia sedang mengubah dirimu. Dan ketika hati telah berubah, sering kali dunia pun akan dipandang dengan cara yang sama sekali baru.
+            </p>
+          </div>
+          <p className="mt-6 font-serif text-lg text-[#173c2a]">
+            Pada akhirnya, burung jiwa tidak menemukan kedamaian karena semua doanya terkabul. Ia menemukan kedamaian karena akhirnya percaya bahwa di balik setiap doa, selalu ada Tuhan yang mendengar, memahami, dan memilihkan jawaban terbaik, meskipun jalan-Nya tidak selalu sama dengan harapan manusia.
+          </p>
+        </div>
+
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-sm leading-7 text-[#173c2a]/60 shadow-sm sm:p-8">
+          <p><strong>RUJUKAN:</strong></p>
+          <p className="mt-2">
+            <strong>Al-Qur&apos;an:</strong> Q.S. Al-Baqarah [2]: 186; Q.S. Ghafir [40]: 60; Q.S. Al-Anbiya&apos; [21]: 83–84 (doa Nabi Ayyub); Q.S. Yusuf [12]: 86 (keluh kesah Nabi Ya&apos;qub kepada Allah).
+          </p>
+          <p className="mt-2">
+            <strong>Hadis:</strong> HR. Ahmad no. 11133 tentang tiga bentuk jawaban doa; HR. Muslim no. 2735 tentang doa yang dikabulkan selama tidak tergesa-gesa dengan berkata, &quot;Aku telah berdoa, tetapi belum dikabulkan.&quot;
+          </p>
+          <p className="mt-2">
+            <strong>Rumi:</strong> <em>Masnavi-ye Ma&apos;navi</em> (tema doa, kerinduan, dan kepulangan jiwa), dengan kajian William C. Chittick, <em>The Sufi Path of Love</em>.
+          </p>
+          <p className="mt-2">
+            <strong>Syams Tabrizi:</strong> <em>Maqālāt-e Shams-e Tabrizi</em> (The Discourses of Shams-i Tabrizi).
+          </p>
+        </div>
+
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/75 shadow-sm sm:p-8 sm:text-lg sm:leading-9">
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Wallahu a&apos;lam</p>
+        </div>
+
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl text-[#d9c27a]">Berikutnya</p>
+          <p className="mt-4 text-base italic text-white/80 sm:text-lg">
+            “Jurnal Doa Burung Jiwa”: review diri — bukan sekadar menuliskan doa-doa yang dipanjatkan, tetapi juga mencatat perubahan-perubahan kecil dalam hati selama proses berdoa. Dengan demikian kita semua belajar melihat bahwa rahmat Allah tidak hanya hadir dalam peristiwa yang berubah, tetapi juga dalam jiwa yang perlahan dibentuk oleh doa.
+          </p>
+        </blockquote>
+
+        <p className="mt-8 text-center text-sm leading-7 text-[#173c2a]/50">
+          #artikel #ngajirumi #burungjiwa #tasawuf #sufiindonesia #JalaluddinRumi #mjuharuddin #facebookpro #ikuti #share #allpeople
+        </p>
+      </section>
+
+      {/* JURNAL DOA BURUNG JIWA */}
+      <section className="bg-[#173c2a] px-5 py-20 text-[#f7f5ef] sm:px-8 sm:py-24">
+        <div className="mx-auto max-w-5xl">
+          <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">Akhir Gerbang Tawakal</span>
+          <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-5xl">JURNAL DOA BURUNG JIWA</h2>
+          <p className="mt-5 text-sm leading-7 text-white/75 sm:text-base">NGAJI RUMI 8 &quot;BURUNG JIWA&quot; — By. M. Juharuddin</p>
+
+          <div className="mt-8 rounded-2xl border border-[#d9c27a]/20 bg-white/10 p-6 backdrop-blur-sm sm:p-8">
+            <p className="text-base leading-8 text-white/80 sm:text-lg">
+              Alhamdulillah kita sampai di bagian akhir Gerbang Tawakal, yaitu tentang retret “Jurnal Doa Burung Jiwa”. Bagian ini akan menjadi paling khas dari Gerbang Tawakal. Ini bukan sekadar lembar aktivitas, tetapi ruang perjumpaan pembaca dengan dirinya sendiri.
+            </p>
+            <p className="mt-4 font-serif text-xl leading-relaxed text-[#d9c27a] sm:text-2xl">
+              Pertanyaan dasarnya bukan: “Apa doaku hari ini?”, tetapi: “Siapa diriku yang sedang berdoa, dan menjadi siapa aku setelah berdoa?”
+            </p>
+            <p className="mt-4 text-base leading-8 text-white/75 sm:text-lg">
+              Namun sebelum beranjak jauh menyelami jurnal doa, yuk berkunjung ke youtube kami:{' '}
+              <a
+                href="https://youtube.com/@m_juharuddin_cht?si=elklo7GnD-jsDM4q"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-[#d9c27a] underline decoration-[#d9c27a]/40 underline-offset-4 transition hover:text-white"
+              >
+                youtube.com/@m_juharuddin_cht
+              </a>
+              , bantu subscribe ya.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#b18a3c]">Mencatat Doa yang Dipanjatkan</p>
+        <h2 className="mt-3 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Menyaksikan Jiwa yang Perlahan Berubah</h2>
+        <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-white/70 px-6 py-8 text-center font-serif text-xl leading-relaxed text-[#173c2a] shadow-sm sm:px-10 sm:text-2xl">
+          “Jangan hanya mencatat apa yang kau minta kepada Allah. Catat pula apa yang Allah ubah dalam dirimu setelah engkau meminta.”
+        </blockquote>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Ada doa yang kita ingat karena akhirnya terkabul. Ada doa yang kita ingat karena begitu lama menunggu jawabannya. Tetapi ada pula doa yang tidak pernah kita sadari telah mengubah hidup kita.
+          </p>
+          <p>
+            Doa yang dahulu dipanjatkan dengan air mata, kemudian mengajarkan kesabaran. Doa yang dahulu meminta seseorang kembali, tetapi justru mengajarkan cara mencintai tanpa memiliki. Doa yang dahulu meminta sebuah pekerjaan, tetapi akhirnya mengajarkan bahwa harga diri tidak ditentukan oleh jabatan. Doa yang dahulu meminta agar sebuah masalah segera selesai, tetapi ternyata masalah itu menjadi jalan bagi kita untuk mengenal Allah lebih dekat.
+          </p>
+          <p>
+            Karena itu, mungkin selama ini kita terlalu sempit memahami &quot;jawaban doa&quot;. Kita mengira jawaban doa hanya berupa: &quot;Aku mendapatkan apa yang kuminta&quot;. Padahal ada jawaban lain yang jauh lebih sunyi: &quot;Aku berubah menjadi manusia yang berbeda setelah berdoa.&quot;
+          </p>
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Di situlah Jurnal Doa Burung Jiwa dimulai.</p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">1</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Apa Itu Jurnal Doa Burung Jiwa?</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>
+              Jurnal Doa Burung Jiwa adalah sebuah latihan muhasabah, yaitu proses melihat kembali keadaan diri dengan jujur di hadapan Allah. Ia bukan buku untuk mencatat berapa kali kita berdoa. Bukan pula daftar permintaan kepada Tuhan. Ia adalah ruang untuk memperhatikan perjalanan batin:
+            </p>
+          </div>
+          <ul className="mt-6 space-y-3 text-base leading-8 text-[#173c2a]/75 sm:text-lg">
+            {['apa yang kita minta;', 'mengapa kita memintanya;', 'apa yang kita rasakan ketika belum mendapatkannya;', 'bagaimana kita bereaksi terhadap penundaan;', 'apa yang berubah dalam diri kita;', 'apa yang mulai kita pahami;', 'dan bagaimana hubungan kita dengan Allah berkembang sepanjang proses itu.'].map((item) => (
+              <li key={item} className="rounded-xl border border-[#173c2a]/10 bg-white/70 px-5 py-4">{item}</li>
+            ))}
+          </ul>
+          <p className="mt-8 font-serif text-xl font-semibold text-[#173c2a]">Dengan kata lain: jurnal ini bukan hanya mencatat perjalanan doa. Ia mencatat perjalanan jiwa.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">2</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Mengapa Kita Perlu Mencatat Perjalanan Doa?</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Manusia mudah lupa. Kita sering mengingat apa yang belum diberikan Allah, tetapi melupakan begitu banyak hal yang telah diberikan-Nya. Kita mengingat satu doa yang belum terkabul, tetapi lupa puluhan doa yang telah Allah jawab. Kita mengingat pintu yang tertutup, tetapi lupa berapa banyak pintu lain yang telah dibukakan.
+          </p>
+          <p>
+            Jurnal membantu kita melihat kehidupan secara lebih utuh. Ketika seseorang membaca kembali catatan doanya enam bulan atau satu tahun kemudian, mungkin ia akan menemukan sesuatu yang mengejutkan: &quot;Ternyata aku sudah berubah&quot;. Masalah yang dahulu membuatnya menangis mungkin masih ada. Tetapi ia tidak lagi menjadi orang yang sama ketika menghadapinya.
+          </p>
+          <p>
+            Dahulu ia panik, sekarang ia lebih tenang. Dahulu ia mudah marah, sekarang ia belajar menerima. Dahulu ia menyalahkan Allah, sekarang ia belajar bertanya: &quot;Apa yang ingin Allah ajarkan kepadaku melalui semua ini?&quot; Itulah perkembangan spiritual.
+          </p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">3</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Doa Sebagai Cermin Jiwa</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>Coba perhatikan doa-doa kita. Doa ternyata dapat menjadi cermin yang sangat jujur.</p>
+          </div>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+              <p className="font-serif text-lg text-[#173c2a]">&quot;Ya Allah, berikan aku ini...&quot;</p>
+              <p className="mt-2 text-base leading-8 text-[#173c2a]/70">Kita sedang menunjukkan apa yang kita anggap penting.</p>
+            </div>
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+              <p className="font-serif text-lg text-[#173c2a]">&quot;Ya Allah, jangan ambil dia dariku...&quot;</p>
+              <p className="mt-2 text-base leading-8 text-[#173c2a]/70">Kita sedang menunjukkan sesuatu yang sangat kita takutkan kehilangan.</p>
+            </div>
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+              <p className="font-serif text-lg text-[#173c2a]">&quot;Ya Allah, buat mereka mengaku bahwa aku benar...&quot;</p>
+              <p className="mt-2 text-base leading-8 text-[#173c2a]/70">Kita mungkin sedang menemukan ego yang selama ini tersembunyi.</p>
+            </div>
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+              <p className="font-serif text-lg text-[#173c2a]">&quot;Ya Allah, jika ini baik untukku, dekatkanlah...&quot;</p>
+              <p className="mt-2 text-base leading-8 text-[#173c2a]/70">Di sana mulai tumbuh tawakal.</p>
+            </div>
+          </div>
+          <p className="mt-8 font-serif text-xl font-semibold text-[#173c2a]">
+            Pertanyaan yang lebih dalam bukan: &quot;Apa yang sedang aku minta?&quot; Tetapi: &quot;Apa yang sebenarnya sedang dicari oleh jiwaku?&quot;
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">4</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Hal yang Perlu Dicatat</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg sm:leading-9">
+            Jurnal ini dapat dibuat sederhana. Tidak perlu kalimat indah. Tidak perlu bahasa puitis. Tidak perlu terlihat saleh. Tulislah apa adanya. Sebab jurnal ini bukan untuk dibaca manusia. Ia adalah percakapan jujur antara dirimu dengan Allah.
+          </p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">5</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Apa yang Sedang Aku Doakan?</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>
+              Tuliskan permintaanmu dengan jujur. Misalnya: &quot;Ya Allah, aku sedang memohon pekerjaan&quot;. Atau: &quot;Ya Allah, aku ingin sembuh dari luka ini&quot;. Atau: &quot;Ya Allah, aku ingin keluargaku kembali harmonis.&quot;
+            </p>
+            <p className="font-serif text-xl font-semibold text-[#173c2a]">
+              Tidak perlu malu terhadap doamu. Allah mengetahui isi hatimu bahkan sebelum engkau mengucapkannya.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">6</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Mengapa Aku Menginginkannya?</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Ini bagian yang sangat penting. Tanyakan kepada dirimu: &quot;Mengapa aku begitu menginginkan hal ini?&quot; Apakah karena benar-benar membutuhkannya? Ataukah karena ingin membuktikan sesuatu kepada orang lain? Apakah karena ingin mendekat kepada Allah? Ataukah karena takut dianggap gagal?
+          </p>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg">
+            Contohnya: &quot;Aku ingin mendapatkan pekerjaan ini. Tetapi setelah kupikirkan, ternyata sebagian keinginanku muncul karena aku ingin membuktikan kepada keluargaku bahwa aku berhasil&quot;. Kesadaran seperti ini sangat berharga. Karena terkadang doa bukan hanya memperlihatkan apa yang kita inginkan. Ia membongkar mengapa kita menginginkannya.
+          </p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">7</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Apa yang Aku Rasakan Ketika Doaku Belum Terjawab?</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>
+              Tulislah dengan jujur. Marah? Kecewa? Takut? Cemas? Iri? Sedih? Bingung? Atau bahkan merasa Allah tidak adil? Jangan takut menuliskan perasaan itu. Allah tidak membutuhkan kepura-puraan. Nabi Ya&apos;qub AS pernah mengungkapkan kesedihannya kepada Allah:
+            </p>
+          </div>
+          <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+            <p className="font-serif text-2xl leading-relaxed sm:text-3xl" dir="rtl">
+              إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ
+            </p>
+            <p className="mt-5 text-base leading-8 text-white/75 sm:text-lg">
+              “Sesungguhnya hanya kepada Allah aku mengadukan kesusahan dan kesedihanku.”
+            </p>
+            <p className="mt-2 text-sm text-[#d9c27a]">Q.S. Yusuf [12]: 86</p>
+          </div>
+          <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            Mengadu kepada Allah bukan tanda lemahnya iman. Justru itu menunjukkan kepada siapa hati kita membawa kelemahannya. Kita boleh sedih. Boleh menangis. Boleh mengatakan: &quot;Ya Allah, aku tidak mengerti&quot;. Yang penting, jangan berhenti datang kepada-Nya.
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">8</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Apa yang Berubah dalam Diriku?</h2>
+        </div>
+        <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          Inilah jantung Jurnal Doa Burung Jiwa. Jangan hanya mencatat perubahan keadaan. Catat perubahan dirimu.
+        </p>
+        <ul className="mt-6 space-y-3 text-base leading-8 text-[#173c2a]/75 sm:text-lg">
+          {[
+            'Apakah aku menjadi lebih sabar?',
+            'Apakah aku lebih mudah bersyukur?',
+            'Apakah aku mulai mengurangi keluhan?',
+            'Apakah aku lebih rajin berdoa?',
+            'Apakah aku lebih dekat dengan Al-Qur\'an?',
+            'Apakah aku mulai bisa menerima sesuatu yang dahulu sangat sulit kuterima?',
+            'Apakah aku mulai mampu memaafkan?',
+            'Apakah aku mulai tidak terlalu bergantung pada penilaian manusia?',
+            'Apakah aku lebih tenang menghadapi ketidakpastian?',
+          ].map((item) => (
+            <li key={item} className="rounded-xl border border-[#173c2a]/10 bg-white/70 px-5 py-4">{item}</li>
+          ))}
+        </ul>
+        <p className="mt-8 font-serif text-xl font-semibold text-[#173c2a]">Sebab bisa jadi keadaan belum berubah. Tetapi engkau sudah berubah. Dan perubahan itu jangan dianggap kecil.</p>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">9</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Apa yang Sedang Allah Ajarkan Kepadaku?</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>
+              Ini pertanyaan yang membutuhkan kedalaman. Jangan buru-buru menjawab. Diamlah dan renungkan: mungkin Allah sedang mengajarimu sabar, mungkin tawakal, mungkin melepaskan, mungkin menerima, mungkin memaafkan, mungkin bahwa kebahagiaanmu tidak boleh digantungkan pada satu manusia, mungkin bahwa kehilangan sesuatu tidak selalu berarti kehilangan masa depan, atau mungkin bahwa engkau terlalu lama menggantungkan harga dirimu kepada sesuatu yang fana.
+            </p>
+          </div>
+          <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-white/70 px-6 py-8 text-center font-serif text-xl leading-relaxed text-[#173c2a] shadow-sm sm:px-10 sm:text-2xl">
+            Tulislah: “Melalui doa ini, mungkin Allah sedang mengajarkanku...” Lalu lanjutkan dengan kalimatmu sendiri.
+          </blockquote>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">10</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Apa yang Masih Belum Mampu Kulepaskan?</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Ini adalah pertanyaan yang lebih sulit. Sebab terkadang kita mengatakan: &quot;Aku sudah tawakal&quot;. Tetapi sebenarnya kita masih memegang erat hasil yang kita inginkan. Kita berkata: &quot;Terserah Allah&quot;. Tetapi dalam hati: &quot;Semoga tetap sesuai keinginanku.&quot;
+          </p>
+          <p>
+            Di sinilah jurnal menjadi cermin. Tanyakan: Apa yang sebenarnya masih ingin kukendalikan? Apakah masa depan? Pendapat orang? Keputusan orang lain? Hasil pekerjaan? Kesehatan? Hubungan? Rezeki?
+          </p>
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Ketika kita mampu mengakuinya, kita mulai memahami apa arti tawakal.</p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">11</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Jangan Hanya Mencatat &quot;Terkabul&quot;</h2>
+          </div>
+          <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Buatlah tiga kolom besar dalam perjalanan jurnalmu.</p>
+          <div className="mt-8 grid gap-6 md:grid-cols-3">
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#b18a3c]">Doa yang Dikabulkan</p>
+              <p className="mt-3 text-base leading-8 text-[#173c2a]/70">
+                Catat apa yang Allah berikan sesuai dengan permintaanmu. Kemudian tuliskan: &quot;Apa yang kurasakan?&quot; dan &quot;Apa yang akan kulakukan dengan nikmat ini?&quot; Sebab nikmat juga membutuhkan tawakal.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#b18a3c]">Doa yang Masih Menunggu</p>
+              <p className="mt-3 text-base leading-8 text-[#173c2a]/70">
+                Jangan beri label &quot;doa yang gagal&quot;. Tidak ada istilah itu. Tulislah: &quot;Masih dalam perjalanan&quot;. Kemudian tanyakan: &quot;Apa yang sedang berubah dalam diriku selama menunggu?&quot;
+              </p>
+            </div>
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#b18a3c]">Doa yang Berubah Arah</p>
+              <p className="mt-3 text-base leading-8 text-[#173c2a]/70">
+                Dahulu: &quot;Ya Allah, berikan aku dia&quot;. Kemudian: &quot;Ya Allah, jika dia bukan untukku, berikan aku kekuatan untuk merelakannya.&quot; Doanya berubah karena jiwanya berubah.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">12</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Jurnal &quot;Sebelum dan Sesudah&quot;</h2>
+        </div>
+        <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">Ambillah satu halaman. Buat dua bagian.</p>
+        <div className="mt-8 grid gap-6 md:grid-cols-2">
+          <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#b18a3c]">Sebelum</p>
+            <p className="mt-3 font-serif text-xl text-[#173c2a]">&quot;Aku takut kehilangan pekerjaan karena aku merasa tanpa pekerjaan aku tidak berharga.&quot;</p>
+            <p className="mt-4 text-base leading-8 text-[#173c2a]/70">&quot;Aku marah kepada Allah karena doaku belum terkabul.&quot;</p>
+          </div>
+          <div className="rounded-2xl border border-[#b18a3c]/25 bg-white/70 p-6 shadow-sm">
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#b18a3c]">Sesudah</p>
+            <p className="mt-3 font-serif text-xl text-[#173c2a]">&quot;Aku masih ingin mendapatkan pekerjaan, tetapi sekarang aku tahu bahwa nilai diriku tidak ditentukan oleh pekerjaan.&quot;</p>
+            <p className="mt-4 text-base leading-8 text-[#173c2a]/70">&quot;Aku masih belum memahami jalan Allah, tetapi sekarang aku lebih percaya bahwa Allah mengetahui apa yang tidak kuketahui.&quot;</p>
+          </div>
+        </div>
+        <p className="mt-8 font-serif text-xl font-semibold text-[#173c2a]">Di sinilah kita bisa melihat perjalanan jiwa dengan nyata.</p>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">13</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Jurnal Gratitude</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>
+              Setiap selesai menulis tentang doa, tuliskan tiga nikmat kecil hari itu. Tidak perlu sesuatu yang spektakuler. Misalnya: &quot;Hari ini aku masih bisa bangun sehat&quot;. &quot;Hari ini ibu tersenyum kepadaku&quot;. &quot;Hari ini aku masih diberi kesempatan memperbaiki kesalahan&quot;. &quot;Hari ini aku bisa membaca Al-Qur&apos;an walau hanya beberapa ayat.&quot;
+            </p>
+            <p>
+              Latihan seperti ini membantu kita menggeser perhatian dari: &quot;Apa yang belum aku punya?&quot; menjadi: &quot;Apa yang sudah Allah titipkan?&quot;
+            </p>
+          </div>
+          <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+            <p className="font-serif text-2xl leading-relaxed sm:text-3xl" dir="rtl">
+              لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ
+            </p>
+            <p className="mt-5 text-base leading-8 text-white/75 sm:text-lg">
+              “Jika kamu bersyukur, niscaya Aku akan menambah nikmat kepadamu.”
+            </p>
+            <p className="mt-2 text-sm text-[#d9c27a]">Q.S. Ibrahim [14]: 7</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">14</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Jangan Menjadikan Jurnal sebagai Alat &quot;Memaksa&quot; Allah</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Ini penting. Jurnal doa bukan teknik untuk mendapatkan apa pun yang kita inginkan. Bukan pula semacam &quot;manifestasi&quot; yang menganggap pikiran manusia dapat memaksa realitas. Dalam Islam, manusia berdoa dan berikhtiar. Allah yang menentukan hasil.
+          </p>
+        </div>
+        <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center font-serif text-xl leading-relaxed text-[#f7f5ef] shadow-sm sm:px-10 sm:text-2xl">
+          “Ya Allah, aku memohon apa yang kuinginkan. Tetapi aku lebih percaya kepada-Mu daripada kepada keinginanku sendiri.”
+        </blockquote>
+        <p className="mt-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg">Kalimat sederhana ini adalah latihan tawakal.</p>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">15</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Doa yang Paling Dewasa</h2>
+          </div>
+          <div className="mt-8 space-y-4">
+            {[
+              { fase: 'Masih muda', doa: 'Ya Allah, berikan aku apa yang kuinginkan.' },
+              { fase: 'Setelah mengalami kehidupan', doa: 'Ya Allah, berikan aku apa yang terbaik.' },
+              { fase: 'Semakin matang', doa: 'Ya Allah, jika apa yang kuinginkan baik bagiku, dekatkanlah. Jika tidak, jauhkanlah dan jadikan hatiku ridha.' },
+              { fase: 'Kedalaman tertentu', doa: 'Ya Allah, jangan biarkan aku mencintai pemberian-Mu lebih daripada mencintai-Mu.' },
+            ].map((item) => (
+              <div key={item.fase} className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#b18a3c]">{item.fase}</p>
+                <p className="mt-2 font-serif text-xl text-[#173c2a]">&quot;{item.doa}&quot;</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 font-serif text-xl font-semibold text-[#173c2a]">Di situlah doa berubah menjadi perjalanan spiritual.</p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">16</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Halaman Terdalam: Surat kepada Allah</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg sm:leading-9">
+            Sesekali, berhentilah menggunakan format pertanyaan. Tulislah surat. Tidak perlu panjang, tidak perlu indah. Mulailah dengan: &quot;Ya Allah...&quot; Kemudian ceritakan semuanya. Ketakutanmu, kekecewaanmu, harapanmu, rasa syukurmu, kesalahanmu, hal-hal yang tidak mampu engkau ceritakan kepada siapa pun.
+          </p>
+          <p className="mt-6 rounded-xl bg-[#173c2a] px-6 py-6 text-center font-serif text-xl text-[#f7f5ef] sm:text-2xl">
+            “Aku tidak tahu bagaimana akhir cerita ini. Tetapi aku ingin tetap berjalan bersama-Mu.”
+          </p>
+          <p className="mt-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg">
+            Simpan surat itu. Baca kembali beberapa bulan kemudian. Mungkin engkau akan terkejut melihat dirimu sendiri.
+          </p>
+        </div>
+      </section>
+
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">17</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Refleksi 30 Hari: Perjalanan Burung Jiwa</h2>
+          </div>
+          <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            Jurnal ini dapat dilakukan selama 30 hari. Tidak perlu lama — cukup 10–15 menit sehari.
+          </p>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            {[
+              { hari: 'Hari 1–5', judul: 'Apa yang kucari?', teks: 'Apa sebenarnya yang paling kuinginkan dalam hidup? Jangan jawab dengan apa yang terlihat baik di mata orang lain. Jawab dengan jujur.' },
+              { hari: 'Hari 6–10', judul: 'Apa yang kutakutkan?', teks: 'Apa yang paling takut hilang? Mengapa?' },
+              { hari: 'Hari 11–15', judul: 'Apa yang kupercayakan?', teks: 'Ketika hidup tidak sesuai rencana, kepada siapa atau kepada apa aku menggantungkan diri?' },
+              { hari: 'Hari 16–20', judul: 'Apa yang telah berubah?', teks: 'Bandingkan dirimu dengan lima hari sebelumnya. Apa yang mulai berubah?' },
+              { hari: 'Hari 21–25', judul: 'Apa yang harus kulepaskan?', teks: 'Apa yang masih terlalu erat kugenggam?' },
+              { hari: 'Hari 26–29', judul: 'Apa yang telah Allah ajarkan?', teks: 'Tuliskan tiga pelajaran terbesar dari perjalananmu.' },
+              { hari: 'Hari 30', judul: 'Ke mana burung jiwaku terbang?', teks: 'Setelah tiga puluh hari, berhentilah. Jangan langsung menulis doa. Tanyakan: “Jika hidupku adalah perjalanan menuju Allah, di manakah aku sekarang?” Kemudian tulislah satu kalimat. Bukan tentang apa yang ingin engkau dapatkan. Tetapi tentang siapa yang ingin engkau menjadi.' },
+            ].map((item) => (
+              <div key={item.hari} className={`rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm ${item.hari === 'Hari 30' ? 'sm:col-span-2' : ''}`}>
+                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#b18a3c]">{item.hari}</p>
+                <h3 className="mt-2 font-serif text-2xl font-semibold text-[#173c2a]">{item.judul}</h3>
+                <p className="mt-3 text-base leading-8 text-[#173c2a]/70">{item.teks}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">18</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Halaman Penutup Jurnal</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg">Tulislah perlahan:</p>
+          <ul className="mt-4 space-y-2 text-base leading-8 text-[#173c2a]/75 sm:text-lg">
+            <li>Hari ini aku menyadari bahwa...</li>
+            <li>Hal yang paling sulit kulepaskan adalah...</li>
+            <li>Hal yang paling ingin kusyukuri adalah...</li>
+            <li>Hal yang sedang Allah ajarkan kepadaku mungkin adalah...</li>
+            <li>Aku masih takut tentang...</li>
+            <li>Tetapi aku ingin belajar percaya bahwa...</li>
+            <li>Mulai hari ini aku akan...</li>
+          </ul>
+          <p className="mt-6 rounded-xl bg-[#173c2a] px-6 py-6 text-center font-serif text-xl leading-relaxed text-[#f7f5ef] sm:text-2xl">
+            “Ya Allah, jika Engkau belum mengubah keadaanku, ubahlah terlebih dahulu hatiku agar aku mampu melewati keadaan itu bersama-Mu.”
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">19</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Epilog: Doa yang Mengubah Kita</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Pada akhirnya, mungkin kita akan menyadari sesuatu. Tidak semua doa berakhir dengan mendapatkan apa yang kita minta. Tetapi tidak ada doa yang benar-benar sia-sia ketika ia membawa kita lebih dekat kepada Allah.
+          </p>
+          <p>
+            Ada doa yang mengubah keadaan. Ada doa yang mengubah jalan. Ada doa yang mengubah orang-orang di sekitar kita. Dan ada doa yang paling sunyi: doa yang mengubah kita.
+          </p>
+          <p>
+            Kita masuk ke dalam doa sebagai manusia yang gelisah. Kita keluar sebagai manusia yang sedikit lebih tenang. Kita masuk dengan banyak tuntutan. Kita keluar dengan sedikit lebih banyak penerimaan. Kita masuk dengan tangan yang ingin menggenggam. Kita keluar dengan hati yang belajar melepaskan. Kita masuk sambil berkata: &quot;Ya Allah, berikan aku apa yang kuinginkan&quot;. Kemudian perlahan kita belajar berkata: &quot;Ya Allah, berikan aku apa yang terbaik.&quot;
+          </p>
+        </div>
+        <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center font-serif text-xl leading-relaxed text-[#f7f5ef] shadow-sm sm:px-10 sm:text-2xl">
+          “Ya Allah, jangan biarkan aku kehilangan-Mu ketika mendapatkan apa yang kuinginkan. Dan jangan biarkan aku meninggalkan-Mu ketika kehilangan apa yang kuinginkan.”
+        </blockquote>
+        <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          Karena pada akhirnya, yang paling penting dari sebuah doa bukanlah apakah tangan kita mendapatkan apa yang diminta. Melainkan apakah hati kita menemukan kepada siapa ia harus berserah.
+        </p>
+        <p className="mt-6 font-serif text-xl font-semibold text-[#173c2a]">
+          Itulah perjalanan Burung Jiwa. Bukan perjalanan untuk mendapatkan semua yang kita inginkan. Tetapi perjalanan untuk menemukan bahwa di balik segala keinginan, sejak awal kita sedang mencari Allah.
+        </p>
+
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/75 shadow-sm sm:p-8 sm:text-lg sm:leading-9">
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Wallahu a&apos;lam</p>
+        </div>
+
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl text-[#d9c27a]">Berikutnya</p>
+          <p className="mt-4 text-base italic text-white/80 sm:text-lg">“Gerbang Ridha”</p>
+        </blockquote>
+
+        <p className="mt-8 text-center text-sm leading-7 text-[#173c2a]/50">
+          #artikel #jurnaldoa #jalaluddinrumi #mengkaji #sehatjiwa #mjuharuddin #gerbang #tawakal #Ridha
+        </p>
+      </section>
+
       <section className="mx-auto max-w-5xl px-5 py-16 sm:px-8 sm:py-20"><p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#b18a3c]">Letter to Rumi</p><h2 className="mt-4 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Pesan 3 — Perpustakaan Cahaya</h2><div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/70 shadow-sm sm:p-8 sm:text-lg sm:leading-9"><p>Wahai Maulana, Sang Guru Mulia. Kulanjutkan cerita momen selamatan pembukaan Perpustakaan Cahaya-ku.</p><p className="mt-5">Abah: “Monggo sareng-sareng ndongo, mugi-mugi perpustakaan meniko angsal ridho saking Allah SWT lan saget manfaate kangge masyarakat Welang mriki. Al-Fatihah...”</p><p className="mt-5">Alunan doa terucap khusyuk dan diaminkan seluruh sanak serta kawan yang hadir. Setelahnya, hidangan selamatan dinikmati bersama. Sebentar lagi azan Isya berkumandang; selepas shalat Isya, pintu perpustakaan akan dibuka untuk anak-anak yang telah menanti membaca atau sekadar bermain bersama.</p><p className="mt-6 font-serif text-xl text-[#173c2a]">Wallahu a'lam.</p></div><div className="mt-10 border-t border-[#173c2a]/10 pt-6 text-sm leading-7 text-[#173c2a]/55"><p><strong>Pendukung primer:</strong> Rumi, Jalaluddin Muhammad. (2011). <em>Masnavi-ye Ma’navi</em>. Tehran: Entesharat-e Amir Kabir.</p><p className="mt-2"><strong>Pendukung sekunder:</strong> Rumi, Jalaluddin. (2003). <em>Matsnawi: Syair-syair Sufistik</em>, diterjemahkan oleh Abdul Hadi W.M. Yogyakarta: Pustaka Sufi.</p></div></section>
     </article>
   );
