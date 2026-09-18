@@ -14,10 +14,10 @@ const slides = [
   {
     id: 2,
     eyebrow: "Memahami Bacaan Ngajirumi",
-    title: "Membaca Lebih Baik,\nMemahami Lebih Dalam.",
-    subtitle: "Belajar dengan proses yang bertahap",
+    title: "Membaca dan Memahami,\nLebih Dalam.",
+    subtitle: "Mari belajar dan tumbuh bersama",
     description:
-      "Membangun kemampuan membaca Al-Qur'an melalui pembelajaran yang terarah dan mudah dipahami.",
+      "Membangun kemampuan membaca nilai kehidupan",
     label: "Dari baris ke baris bacaan, dari makna ke makna kehidupan.",
   },
   {

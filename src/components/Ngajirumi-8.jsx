@@ -1677,6 +1677,244 @@ export default function NgajiRumi8() {
         </blockquote>
       </section>
 
+      {/* ANTARA GAGAL DAN BERHASIL */}
+      <section className="bg-[#173c2a] px-5 py-20 text-[#f7f5ef] sm:px-8 sm:py-24">
+        <div className="mx-auto max-w-5xl">
+          <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[#d9c27a]">Masih di Gerbang Tawakal</span>
+          <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-5xl">ANTARA GAGAL DAN BERHASIL</h2>
+          <p className="mt-5 text-sm leading-7 text-white/75 sm:text-base">NGAJI RUMI 8 &quot;BURUNG JIWA&quot; — By. M. Juharuddin</p>
+
+          <div className="mt-8 rounded-2xl border border-[#d9c27a]/20 bg-white/10 p-6 backdrop-blur-sm sm:p-8">
+            <p className="text-base leading-8 text-white/80 sm:text-lg">
+              Hampir semua buku tasawuf berbicara tentang bertawakal ketika gagal. Padahal Al-Qur&apos;an juga mengajarkan sesuatu yang lebih sulit: <strong className="mt-2 block font-serif text-xl font-normal text-[#d9c27a] sm:text-2xl">&quot;Tetap bertawakal ketika berhasil.&quot;</strong>
+            </p>
+            <p className="mt-4 text-base leading-8 text-white/75 sm:text-lg">
+              Banyak orang mampu sujud ketika kehilangan. Tetapi sedikit yang tetap sujud ketika mendapatkan segalanya. Sub ini berbicara tentang dua ujian terbesar manusia: kegagalan dan keberhasilan.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 1. Ketika Burung Jiwa Tetap Memilih Allah */}
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">1</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ketika Burung Jiwa Tetap Memilih Allah</h2>
+        </div>
+        <blockquote className="mt-8 rounded-2xl border border-[#b18a3c]/25 bg-white/70 px-6 py-8 text-center font-serif text-xl leading-relaxed text-[#173c2a] shadow-sm sm:px-10 sm:text-2xl">
+          “Ada manusia yang mengenal Allah ketika hidupnya runtuh. Ada pula yang kehilangan Allah ketika hidupnya sedang berada di puncak.”
+        </blockquote>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Hampir semua manusia memiliki doa yang sama: ingin berhasil, usahanya berkembang, keluarganya bahagia, dan cita-citanya tercapai. Tidak ada yang salah dengan semua itu. Islam tidak pernah mengajarkan umatnya untuk membenci keberhasilan. Rasulullah ﷺ justru mengajarkan umatnya agar bekerja keras, berikhtiar, dan menjadi pribadi yang kuat.
+          </p>
+          <p>
+            Namun ada satu kenyataan yang sering terlupakan. Allah tidak hanya menguji manusia melalui kegagalan; Allah juga menguji manusia melalui keberhasilan. Sering kali kita mengira bahwa ujian hanya datang dalam bentuk kehilangan. Padahal Al-Qur&apos;an mengingatkan bahwa kelapangan juga merupakan ujian. Kekayaan, jabatan, popularitas, ilmu, bahkan pujian manusia pun dapat menjadi ujian yang jauh lebih berat daripada celaan.
+          </p>
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">
+            Karena itu, tawakal bukan hanya dibutuhkan ketika hidup terasa gelap. Tawakal juga dibutuhkan ketika langit sedang cerah.
+          </p>
+        </div>
+      </section>
+
+      {/* 2. Ketika Gagal: Allah Tidak Sedang Menghukum */}
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">2</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ketika Gagal: Allah Tidak Sedang Menghukum</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Kegagalan sering membuat manusia mempertanyakan dirinya: &quot;Apakah Allah tidak mencintaiku?&quot;, &quot;Mengapa doaku belum dikabulkan?&quot;, &quot;Mengapa orang lain berhasil, sedangkan aku tidak?&quot;
+          </p>
+          <p>
+            Padahal Al-Qur&apos;an mengajarkan bahwa hasil bukanlah satu-satunya ukuran kasih sayang Allah.
+          </p>
+        </div>
+
+        <div className="mt-8 rounded-2xl bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl leading-relaxed sm:text-3xl" dir="rtl">
+            وَعَسَىٰ أَنْ تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَكُمْ ۖ وَعَسَىٰ أَنْ تُحِبُّوا شَيْئًا وَهُوَ شَرٌّ لَكُمْ ۗ وَاللَّهُ يَعْلَمُ وَأَنْتُمْ لَا تَعْلَمُونَ
+          </p>
+          <p className="mt-5 text-base leading-8 text-white/75 sm:text-lg">
+            “Boleh jadi kamu membenci sesuatu, padahal itu baik bagimu. Dan boleh jadi kamu menyukai sesuatu, padahal itu buruk bagimu. Allah mengetahui, sedangkan kamu tidak mengetahui.”
+          </p>
+          <p className="mt-2 text-sm text-[#d9c27a]">Q.S. Al-Baqarah [2]: 216</p>
+        </div>
+
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Ayat ini mengajarkan bahwa manusia hanya melihat satu halaman dari sebuah buku, sedangkan Allah melihat keseluruhan kisah. Apa yang hari ini tampak sebagai kegagalan, bisa jadi merupakan perlindungan yang belum kita pahami.
+          </p>
+        </div>
+
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Sabda Rasulullah ﷺ:</p>
+          <p className="mt-3 text-base leading-8 text-[#173c2a]/75 sm:text-lg">
+            &quot;Sungguh menakjubkan urusan seorang mukmin. Semua urusannya baik baginya. Jika memperoleh kesenangan, ia bersyukur dan itu baik baginya. Jika ditimpa kesusahan, ia bersabar dan itu pun baik baginya.&quot;
+          </p>
+          <p className="mt-3 text-sm text-[#173c2a]/55">HR. Muslim, no. 2999</p>
+        </div>
+
+        <p className="mt-8 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          Kegagalan bukanlah identitas. Ia hanyalah salah satu peristiwa dalam perjalanan hidup. Jangan pernah menyebut dirimu &quot;orang gagal&quot;. Katakanlah: <strong className="text-[#173c2a]">&quot;Aku sedang mengalami kegagalan, tetapi aku tidak kehilangan Tuhanku.&quot;</strong>
+        </p>
+      </section>
+
+      {/* 3. Ketika Berhasil: Jangan Sampai Kehilangan Allah */}
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">3</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ketika Berhasil: Jangan Sampai Kehilangan Allah</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>
+              Ironisnya, keberhasilan sering lebih berbahaya daripada kegagalan. Ketika gagal, manusia cenderung berdoa. Ketika berhasil, manusia sering merasa dirinya penyebab utama keberhasilannya.
+            </p>
+          </div>
+
+          <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm sm:p-8">
+            <p className="font-serif text-lg text-[#173c2a]">Al-Qur&apos;an mengabadikan kesombongan Qarun yang berkata:</p>
+            <div className="mt-4 rounded-xl bg-[#173c2a] px-6 py-6 text-center text-[#f7f5ef]">
+              <p className="font-serif text-2xl leading-relaxed" dir="rtl">إِنَّمَا أُوتِيتُهُ عَلَىٰ عِلْمٍ عِندِي</p>
+              <p className="mt-3 text-base text-white/80">&quot;Sesungguhnya aku diberi harta itu semata-mata karena ilmu yang ada padaku.&quot;</p>
+              <p className="mt-1 text-sm text-[#d9c27a]">Q.S. Al-Qashash [28]: 78</p>
+            </div>
+            <p className="mt-5 text-base leading-8 text-[#173c2a]/70">
+              Kalimat ini terdengar sangat modern. Hari ini kita mendengarnya dalam bentuk: &quot;Semua ini hasil kerja kerasku&quot;, &quot;Aku sukses karena strategiku&quot;, &quot;Aku berhasil karena kecerdasanku.&quot;
+            </p>
+          </div>
+
+          <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+            <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg">
+              Padahal Al-Qur&apos;an tidak menolak kerja keras. Yang ditolak adalah lupa bahwa kemampuan bekerja keras pun merupakan karunia Allah. Karena itu Allah mengingatkan:
+            </p>
+            <p className="mt-4 text-center font-serif text-xl text-[#173c2a]" dir="rtl">وَمَا بِكُم مِّن نِّعْمَةٍ فَمِنَ اللَّهِ</p>
+            <p className="mt-2 text-center text-sm text-[#173c2a]/70">&quot;Segala nikmat yang ada padamu berasal dari Allah.&quot; (Q.S. An-Nahl [16]: 53)</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. Rumi: Jangan Terlalu Mabuk oleh Keberhasilan atau Terlalu Hancur oleh Kegagalan */}
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">4</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Pandangan Jalaluddin Rumi</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Dalam <em>Masnavi-ye Ma&apos;navi</em>, Rumi berulang kali mengingatkan bahwa perubahan adalah bagian dari kehidupan. Dunia terus berputar; keadaan manusia silih berganti. Karena itu, orang yang menggantungkan jiwanya pada keadaan akan selalu diguncang oleh perubahan.
+          </p>
+          <p>
+            Rumi mengajak manusia untuk menambatkan hati kepada Yang Mahakekal, bukan kepada keadaan yang sementara. Dalam pandangannya, untung dan rugi, datang dan pergi, hanyalah ombak di permukaan lautan. Kedalaman lautan tetap tenang.
+          </p>
+        </div>
+        <p className="mt-4 text-sm leading-7 text-[#173c2a]/55"><strong>Sumber:</strong> Jalaluddin Rumi, <em>Masnavi-ye Ma&apos;navi</em>; William C. Chittick, <em>The Sufi Path of Love</em>.</p>
+      </section>
+
+      {/* 5. Imam Junaid al-Baghdadi: Hakikat Tawakal */}
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">5</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Imam Junaid al-Baghdadi: Hakikat Tawakal</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/75 sm:text-lg sm:leading-9">
+            Imam Junaid al-Baghdadi, tokoh besar tasawuf Sunni, menjelaskan bahwa tawakal bukanlah meninggalkan usaha, melainkan kosongnya hati dari ketergantungan kepada selain Allah. Beliau mengajarkan bahwa seorang hamba tetap bekerja, berusaha, dan menggunakan sebab-sebab syariat, tetapi hatinya hanya bergantung kepada Allah.
+          </p>
+          <p className="mt-4 border-t border-[#173c2a]/10 pt-4 text-base leading-8 text-[#173c2a]/70">
+            Prinsip ini membuat seorang mukmin tidak hancur ketika kehilangan sebab, dan tidak mabuk ketika memperoleh sebab. Karena sandarannya bukan pada dunia, melainkan kepada Tuhan yang menguasai dunia.
+          </p>
+        </div>
+        <p className="mt-4 text-sm leading-7 text-[#173c2a]/55"><strong>Sumber:</strong> Abu al-Qasim al-Qusyairi, <em>Ar-Risalah al-Qusyairiyyah</em>; Abu Nu&apos;aim al-Ashfahani, <em>Hilyat al-Auliya&apos;</em>.</p>
+      </section>
+
+      {/* 6. Di Era Modern: Manusia Terjebak pada Grafik */}
+      <section className="bg-[#e4e7df]/50 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center space-x-3">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">6</span>
+            <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Di Era Modern: Manusia Terjebak pada Grafik</h2>
+          </div>
+          <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            <p>
+              Hari ini, hidup kita dipenuhi angka: nilai ujian, jumlah pelanggan, jumlah pengikut, omzet, grafik investasi, jumlah penonton. Kita mulai percaya bahwa nilai diri ikut naik ketika grafik naik, dan ikut jatuh ketika grafik turun.
+            </p>
+            <p>
+              Padahal Allah tidak pernah menilai manusia berdasarkan grafik kehidupan. Allah menilai hati, niat, dan amalnya.
+            </p>
+          </div>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+              <p className="text-sm font-semibold uppercase text-[#b18a3c]">Saat Keberhasilan Datang</p>
+              <p className="mt-2 font-serif text-xl text-[#173c2a]">Apakah keberhasilan membuatmu semakin dekat kepada Allah, atau justru semakin jauh?</p>
+            </div>
+            <div className="rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 shadow-sm">
+              <p className="text-sm font-semibold uppercase text-[#b18a3c]">Saat Kegagalan Datang</p>
+              <p className="mt-2 font-serif text-xl text-[#173c2a]">Apakah kegagalan membuatmu putus asa, atau justru membuatmu lebih mengenal Tuhanmu?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 7. Burung Jiwa */}
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">7</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Burung Jiwa</h2>
+        </div>
+        <div className="mt-8 space-y-6 text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+          <p>
+            Seekor burung tidak mengukur dirinya dari seberapa tinggi ia terbang. Ia tetap burung ketika berada di puncak langit. Ia tetap burung ketika berteduh di dahan karena badai. Yang menentukan bukan ketinggiannya, melainkan apakah ia masih memiliki sayap untuk kembali terbang.
+          </p>
+          <p>
+            Begitulah manusia. Keberhasilan tidak membuatmu lebih mulia. Kegagalan tidak membuatmu lebih hina. Yang membuatmu mulia adalah ketika dalam dua keadaan itu, engkau tetap mengenal Allah.
+          </p>
+        </div>
+      </section>
+
+      {/* 8. Ruang Sunyi */}
+      <section className="mx-auto max-w-5xl border-b border-[#173c2a]/10 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="flex items-center space-x-3">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#b18a3c] text-sm font-semibold text-white">8</span>
+          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Ruang Sunyi</h2>
+        </div>
+        <div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 shadow-sm sm:p-8">
+          <p className="text-base leading-8 text-[#173c2a]/70 sm:text-lg sm:leading-9">
+            Jika hari ini engkau sedang gagal, jangan buru-buru menyebut hidupmu berakhir. Boleh jadi Allah sedang menulis bab yang belum sempat engkau baca. Jika hari ini engkau sedang berhasil, jangan buru-buru menganggap dirimu telah sampai. Boleh jadi keberhasilan itu hanyalah ujian yang lebih halus daripada kegagalan.
+          </p>
+          <div className="mt-6 rounded-xl bg-[#173c2a] px-6 py-6 text-center text-[#f7f5ef]">
+            <p className="font-serif text-xl sm:text-2xl text-[#d9c27a]">Maka berdoalah:</p>
+            <p className="mt-3 text-base italic leading-8 text-white/90 sm:text-lg">
+              &quot;Ya Allah, jangan biarkan kegagalanku membuatku putus asa. Dan jangan biarkan keberhasilanku membuatku lupa kepada-Mu.&quot;
+            </p>
+          </div>
+          <p className="mt-6 font-serif text-lg text-[#173c2a]">
+            Sebab burung jiwa yang sejati bukanlah burung yang selalu terbang tinggi. Melainkan burung yang selalu tahu ke mana ia harus kembali ketika angin berubah arah.
+          </p>
+        </div>
+
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-sm leading-7 text-[#173c2a]/60 shadow-sm sm:p-8">
+          <p><strong>RUJUKAN:</strong></p>
+          <p className="mt-2"><strong>Al-Qur&apos;an:</strong> Q.S. Al-Baqarah [2]: 216; Q.S. Al-Qashash [28]: 78; Q.S. An-Nahl [16]: 53; Q.S. Ali &apos;Imran [3]: 159.</p>
+          <p className="mt-2"><strong>Hadis:</strong> HR. Muslim no. 2999; HR. at-Tirmidzi no. 2517; HR. at-Tirmidzi no. 2344.</p>
+          <p className="mt-2"><strong>Rumi:</strong> Masnavi-ye Ma&apos;navi (edisi kritis), pembacaan akademik oleh William C. Chittick (<em>The Sufi Path of Love</em>) &amp; Annemarie Schimmel (<em>The Triumphal Sun</em>).</p>
+          <p className="mt-2"><strong>Imam Junaid al-Baghdadi:</strong> <em>Ar-Risalah al-Qusyairiyyah</em> karya Imam al-Qusyairi &amp; <em>Hilyat al-Auliya&apos;</em> karya Abu Nu&apos;aim al-Ashfahani.</p>
+        </div>
+
+        <div className="mt-8 rounded-2xl border border-[#173c2a]/10 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/75 shadow-sm sm:p-8 sm:text-lg sm:leading-9">
+          <p className="font-serif text-xl font-semibold text-[#173c2a]">Wallahu a&apos;lam</p>
+        </div>
+
+        <blockquote className="mt-10 rounded-2xl border border-[#b18a3c]/25 bg-[#173c2a] px-6 py-8 text-center text-[#f7f5ef] shadow-sm sm:px-10">
+          <p className="font-serif text-2xl text-[#d9c27a]">Berikutnya</p>
+          <p className="mt-4 text-base italic text-white/80 sm:text-lg">
+            Masih di Gerbang Tawakal: “Ketika Doa Tidak Mengubah Keadaan, tetapi Mengubah Hati yang Berdoa.”
+          </p>
+        </blockquote>
+      </section>
+
       <section className="mx-auto max-w-5xl px-5 py-16 sm:px-8 sm:py-20"><p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#b18a3c]">Letter to Rumi</p><h2 className="mt-4 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Pesan 3 — Perpustakaan Cahaya</h2><div className="mt-8 rounded-2xl border border-[#b18a3c]/20 bg-white/70 p-6 text-base leading-8 text-[#173c2a]/70 shadow-sm sm:p-8 sm:text-lg sm:leading-9"><p>Wahai Maulana, Sang Guru Mulia. Kulanjutkan cerita momen selamatan pembukaan Perpustakaan Cahaya-ku.</p><p className="mt-5">Abah: “Monggo sareng-sareng ndongo, mugi-mugi perpustakaan meniko angsal ridho saking Allah SWT lan saget manfaate kangge masyarakat Welang mriki. Al-Fatihah...”</p><p className="mt-5">Alunan doa terucap khusyuk dan diaminkan seluruh sanak serta kawan yang hadir. Setelahnya, hidangan selamatan dinikmati bersama. Sebentar lagi azan Isya berkumandang; selepas shalat Isya, pintu perpustakaan akan dibuka untuk anak-anak yang telah menanti membaca atau sekadar bermain bersama.</p><p className="mt-6 font-serif text-xl text-[#173c2a]">Wallahu a'lam.</p></div><div className="mt-10 border-t border-[#173c2a]/10 pt-6 text-sm leading-7 text-[#173c2a]/55"><p><strong>Pendukung primer:</strong> Rumi, Jalaluddin Muhammad. (2011). <em>Masnavi-ye Ma’navi</em>. Tehran: Entesharat-e Amir Kabir.</p><p className="mt-2"><strong>Pendukung sekunder:</strong> Rumi, Jalaluddin. (2003). <em>Matsnawi: Syair-syair Sufistik</em>, diterjemahkan oleh Abdul Hadi W.M. Yogyakarta: Pustaka Sufi.</p></div></section>
     </article>
   );
