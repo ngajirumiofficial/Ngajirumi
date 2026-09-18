@@ -13,7 +13,7 @@ const slides = [
   },
   {
     id: 2,
-    eyebrow: "Memahami Bacaan Ngajirumi",
+    eyebrow: "Membaca Ngaji Rumi",
     title: "Membaca dan Memahami,\nLebih Dalam.",
     subtitle: "Mari belajar dan tumbuh bersama",
     description:
