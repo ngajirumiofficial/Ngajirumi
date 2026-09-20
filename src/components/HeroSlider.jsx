@@ -22,11 +22,11 @@ const slides = [
   },
   {
     id: 3,
-    eyebrow: "PENDEKATAN RUMI",
-    title: "Dekat dengan Kehidupan,\nDekat dengan Pembelajaran.",
+    eyebrow: "Sebuah Pendekatan ",
+    title: "Ngaji Rumi,\nMengenali Diri Anda.",
     subtitle: "Sederhana, hangat, dan relevan",
     description:
-      "Ngaji Rumi menghadirkan pengalaman belajar yang tidak terasa jauh dari keseharian.",
+      "Menghadirkan pengalaman belajar yang relevan dengan kehidupan masa kini.",
     label: "PENDEKATAN BELAJAR",
   },
   {
