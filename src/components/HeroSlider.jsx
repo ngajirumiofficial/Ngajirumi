@@ -32,10 +32,10 @@ const slides = [
   {
     id: 4,
     eyebrow: "BERSAMA PAK JO",
-    title: "Mari Bertumbuh\nBersama Ngaji Rumi.",
-    subtitle: "Perjalanan belajar dimulai dari langkah kecil",
+    title: "Mari Tumbuh\nBersama Kami.",
+    subtitle: "Jalan bermakna dimulai dari hal kecil",
     description:
-      "Kenali lebih jauh perjalanan Pak Jo dan ruang belajar yang dibangun melalui Ngaji Rumi.",
+      "Kunjungi Ngaji Rumi dan kenali lebih jauh perjalanan kami.",
     label: "BERSAMA PAK JO",
   },
 ];
