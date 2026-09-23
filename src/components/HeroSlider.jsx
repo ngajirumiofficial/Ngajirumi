@@ -5,16 +5,16 @@ const slides = [
   {
     id: 1,
     eyebrow: "NGAJI RUMI",
-    title: "Belajar Ngaji,\nMenemukan Makna.",
-    subtitle: "Belajar NgajiRumi",
+    title: "Membaca Diri,\nMengurai Hati.",
+    subtitle: " Menemukan Makna",
     description:
-      "Ruang belajar mengaji dan tahsin bersama Pak Jo dengan pendekatan yang hangat, sederhana, dan dekat dengan kehidupan sehari-hari.",
+      "Bersama Pak Jo, mari hadir memeluk jiwa yang hangat, menuju diri sejati.",
     label: "RUANG BELAJAR",
   },
   {
     id: 2,
     eyebrow: "Membaca Ngaji Rumi",
-    title: "Membaca dan Memahami,\nLebih Dalam.",
+    title: "Membaca dan Memahami\nLebih Dalam.",
     subtitle: "Mari belajar dan tumbuh bersama",
     description:
       "Membangun kemampuan membaca nilai kehidupan",

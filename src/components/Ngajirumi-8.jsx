@@ -4710,6 +4710,233 @@ export default function NgajiRumi8() {
         </div>
       </section>
 
+      {/* =====================================================
+          BENANG MERAH V NGAJI RUMI 8
+          ===================================================== */}
+
+      <section className="border-t border-[#d9c27a]/20 bg-[#173c2a] px-5 py-20 text-white sm:px-8 sm:py-28">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="mb-6 font-serif text-3xl font-semibold tracking-tight text-[#f7f5ef] sm:text-4xl">
+            BENANG MERAH V NGAJI RUMI 8
+          </h2>
+
+          <h3 className="mt-8 mb-4 font-serif text-2xl font-semibold text-[#d9c27a] sm:text-3xl">
+            BURUNG LANGIT
+          </h3>
+
+          <p className="text-base leading-8 text-white/80 sm:text-lg sm:leading-9">
+            <strong>
+              By. Juhar - Benang Merah V Ngaji Rumi 8 &quot;Burung Jiwa&quot;
+            </strong>
+          </p>
+
+          <p className="mb-8 text-base leading-8 text-white/70 sm:text-lg sm:leading-9">
+            <strong>Kendal, 23 September 2026</strong>
+          </p>
+        </div>
+
+        <div className="mx-auto max-w-3xl space-y-6 text-lg leading-9 text-white/85 sm:text-xl sm:leading-10">
+          <p>
+            Wahai jiwa,<br />
+            kau bukan dicipta<br />
+            untuk selamanya<br />
+            di dahan dunia
+          </p>
+
+          <p>
+            Jangan jadikan dunia<br />
+            rumah terakhir<br />
+            Ia hanya persinggahan<br />
+            Tempat belajar<br />
+            mengenal kehilangan,<br />
+            mengenal kesabaran,<br />
+            mengenal syukur,<br />
+            melepaskan kendali,<br />
+            menerima ketetapan,<br />
+            hingga kau mengenal<br />
+            Dia penciptamu
+          </p>
+
+          <p>
+            Kau jatuh, bertaubatlah<br />
+            Kau lelah, bersabarlah<br />
+            Kau mendapat nikmat,<br />
+            bersyukurlah<br />
+            Kau hilang kendali, bertawakallah<br />
+            Kau tak sesuai keinginanmu,<br />
+            belajarlah ridha
+          </p>
+
+          <p>
+            Setelah semua itu,<br />
+            tengoklah dalam dirimu<br />
+            Mungkin kau temukan<br />
+            bahwa yang kau cari<br />
+            bukan keberhasilan,<br />
+            bukan pengakuan,<br />
+            bukan harta,<br />
+            bahkan bukan ketenangan<br />
+            Melainkan pengenalan pada Tuhan
+          </p>
+
+          <p>
+            Sebab ada kosong<br />
+            yang tak bisa diisi dunia<br />
+            Ada haus<br />
+            yang tak bisa dipuaskan harta<br />
+            Ada sepi<br />
+            yang tak bisa disembuhkan<br />
+            ribuan manusia<br />
+            Ada rindu<br />
+            yang tak memiliki nama<br />
+            selain kepada-Nya
+          </p>
+
+          <p>
+            Maka jangan sibuk<br />
+            menghitung berapa banyak<br />
+            yang kau miliki<br />
+            Tanyakan, seberapa dalam<br />
+            kau mengenal Dia<br />
+            yang memberimu semuanya?
+          </p>
+
+          <p>
+            Jangan hanya mengukur keberhasilan dengan angka<br />
+            Tanyakan, apakah keberhasilan<br />
+            membuatmu rendah hati<br />
+            atau semakin tinggi hati?
+          </p>
+
+          <p>
+            Jangan terlalu takut<br />
+            kehilangan sesuatu<br />
+            Tanyakan, apa yang Allah selamatkan di balik sesuatu yang Dia ambil?
+          </p>
+
+          <p>
+            Jangan terlalu bangga<br />
+            memperoleh sesuatu<br />
+            Tanyakan, apakah nikmat itu<br />
+            membuat semakin dekat<br />
+            atau justru semakin jauh?
+          </p>
+
+          <p>
+            Karena akhirnya,<br />
+            semua yang dikejar<br />
+            akan meninggalkan<br />
+            Harta akan tinggal<br />
+            Jabatan berganti<br />
+            Tubuh menua<br />
+            Popularitas padam<br />
+            Nama dilupakan
+          </p>
+
+          <p>
+            Bahkan orang-orang<br />
+            yang memanggil nama kita<br />
+            suatu hari hanya menyebut<br />
+            dalam kenangan
+          </p>
+
+          <p>
+            Tapi ada satu hubungan<br />
+            yang tak pernah sia-sia,<br />
+            hubungan seorang hamba<br />
+            dengan Allah
+          </p>
+
+          <p>
+            Maka terbanglah,<br />
+            wahai burung jiwa,<br />
+            lewati ketakutanmu,<br />
+            lewati egomu,<br />
+            lewati luka masa lalu,<br />
+            lewati kebutuhan<br />
+            untuk selalu dipuji,<br />
+            lewati keinginan<br />
+            untuk selalu dimengerti,<br />
+            lewati ambisi<br />
+            untuk selalu jadi pemenang
+          </p>
+
+          <p>
+            Terbang sampai kau mengerti,<br />
+            tak semua yang hilang<br />
+            harus kembali<br />
+            Tak semua yang tertunda<br />
+            harus dicurigai<br />
+            Tak semua yang gagal<br />
+            harus disesali<br />
+            Yang tak dipahami<br />
+            belum tentu tak berhikmah<br />
+            Dan tak semua doa<br />
+            harus dijawab dengan perubahan keadaan
+          </p>
+
+          <p>
+            Kadang jawaban doa<br />
+            adalah perubahan diri<br />
+            Hati yang dulu keras<br />
+            menjadi lembut<br />
+            Jiwa yang dulu gelisah<br />
+            menjadi tenang<br />
+            Yang dulu mengejar dunia<br />
+            mulai mencari makna<br />
+            Dan yang dahulu bertanya,<br />
+            &ldquo;Apa yang bisa Tuhan berikan padaku?&rdquo;<br />
+            akhirnya bertanya,<br />
+            &ldquo;Apa yang bisa ku berikan pada Tuhan dengan hidup yang Dia titipkan?&rdquo;
+          </p>
+
+          <p>
+            Di situlah burung jiwa terbang<br />
+            Bukan karena memiliki langit<br />
+            Tapi karena mengenal Pemilik Langit
+          </p>
+
+          <p>
+            Dan mungkin,<br />
+            itulah inti seluruh perjalanan<br />
+            Kita datang sebagai pencari<br />
+            Kita berjalan sebagai musafir<br />
+            Kita terluka sebagai manusia<br />
+            Kita bertaubat sebagai hamba<br />
+            Kita mencintai sebagai jiwa<br />
+            Dan kita pulang dengan kesadaran<br />
+            Sejak awal, kita bukan mencari dunia<br />
+            kita mencari Dia<br />
+            dan Dia tak pernah pergi
+          </p>
+
+          <p className="mt-12 text-sm text-[#d9c27a]">
+            #ngajirumi #burungjiwa #mjuharuddin #jalaluddinrumi #sufiIndonesia
+          </p>
+        </div>
+      </section>
+
+      {/* ================= NAVIGASI ================= */}
+
+      <section className="bg-[#0d3624] px-6 py-20 text-center text-white">
+        <div className="mx-auto max-w-3xl">
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center">
+            <a
+              href="/Ngajirumi/#/ngajirumi-7"
+              className="inline-flex items-center justify-center rounded-full border border-[#d9c27a]/30 px-6 py-3 text-sm font-medium tracking-wide text-[#d9c27a] transition hover:bg-[#d9c27a] hover:text-[#0d3624]"
+            >
+              ← Ngaji Rumi 07
+            </a>
+
+            <a
+              href="/Ngajirumi/#/perpustakaan"
+              className="inline-flex items-center justify-center rounded-full border border-[#d9c27a]/30 px-6 py-3 text-sm font-medium tracking-wide text-[#d9c27a] transition hover:bg-[#d9c27a] hover:text-[#0d3624]"
+            >
+              Kembali ke Perpustakaan →
+            </a>
+          </div>
+        </div>
+      </section>
 
     </article>
   );
