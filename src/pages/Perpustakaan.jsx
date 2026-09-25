@@ -32,7 +32,7 @@ const libraryItems = [
   {
     id: 5,
     title: "JANGAN BERSEDIH",
-    description: "  Kehilangan bukan akhir dari perjalanan. Ada yang pergi untuk mengajarkan keikhlasan, dan ada yang datang membawa makna baru. Percayalah, apa yang Allah takdirkan untukmu tidak akan pernah salah jalan.",
+    description: "Kehilangan bukan akhir dari perjalanan. Ada yang pergi untuk mengajarkan keikhlasan, dan ada yang datang membawa makna baru. Percayalah, apa yang Allah takdirkan untukmu tidak akan pernah salah jalan.",
     image: "/Ngajirumi/assets/ngajirumi-5.png",
     link: "/Ngajirumi/#/ngajirumi-5",
   },
@@ -53,13 +53,13 @@ const libraryItems = [
   {
     id: 8,
     title: "BURUNG JIWA",
-    description: "Kumpulan materi yang dapat kamu jelajahi.",
+    description: "Kau bukan setetes air di lautan luas, kau adalah seluruh lautan dalam setetes air. Jangan kecilkan dirimu, karena jiwamu diciptakan untuk terbang.",
     image: "/Ngajirumi/assets/ngajirumi-8.png",
     link: "/Ngajirumi/#/ngajirumi-8",
   },
   {
     id: 9,
-    title: "Ngaji Rumi 09",
+    title: "DATANGLAH",
     description: "Temukan pembahasan dan karya Ngaji Rumi.",
     image: "/Ngajirumi/assets/ngajirumi-9.png",
     link: "/Ngajirumi/#/ngajirumi-9",
@@ -78,7 +78,7 @@ function Perpustakaan() {
 
   const activeItem = libraryItems[activeIndex];
   const collectionLabel = (item) =>
-    item.id <= 7 ? `Ngaji Rumi ${item.id}` : `Koleksi ${String(item.id).padStart(2, "0")}`;
+    item.id <= 9 ? `Ngaji Rumi ${item.id}` : `Koleksi ${String(item.id).padStart(2, "0")}`;
 
   return (
     <section
