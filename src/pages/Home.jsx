@@ -329,8 +329,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
                 </h3>
 
                 <p className="library-card__description">
-                  Materi Ngaji Rumi 8 akan segera hadir. Lanjutkan proses
-                  belajar dengan membuka ruang pemahaman yang lebih luas.
+                  Kau bukan setetes air di lautan luas, kau adalah seluruh lautan dalam setetes air. Jangan kecilkan dirimu, karena jiwamu diciptakan untuk terbang.
                 </p>
 
                 <a

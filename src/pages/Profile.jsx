@@ -3,6 +3,7 @@ import pakJoImage from "../assets/pak-jo-removebg-preview.png";
 import ngajiRumi01Image from "../assets/ngaji-rumi-01.jpeg";
 import ngajiRumi02Image from "../assets/ngaji-rumi-02.jpeg";
 import ngajiRumi03Image from "../assets/ngaji-rumi-03.jpeg";
+import ngajiRumi04Image from "../assets/ngaji-rumi-04.jpeg";
 
 /* ============================================================================
    PROFILE PAGE — NGAJI RUMI
@@ -27,8 +28,8 @@ const selectedWorks = [
   },
   {
     id: "04",
-    title: "Ngaji Rumi 04",
-    image: null,
+    title: 'Momen Peringatan Hari Kartini 21 April 2026 - "Habis gelap, terbitlah terang."',
+    image: ngajiRumi04Image,
   },
   {
     id: "05",

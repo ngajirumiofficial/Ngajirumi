@@ -15,6 +15,7 @@ import NgajiRumi5 from "./components/Ngajirumi-5";
 import NgajiRumi6 from "./components/Ngajirumi-6";
 import NgajiRumi7 from "./components/Ngajirumi-7";
 import NgajiRumi8 from "./components/Ngajirumi-8";
+import NgajiRumi9 from "./components/Ngajirumi-9";
 
 import "./App.css";
 
@@ -48,6 +49,8 @@ function App() {
     page = <NgajiRumi7 />;
   } else if (path === "/ngajirumi-8") {
     page = <NgajiRumi8 />;
+  } else if (path === "/ngajirumi-9") {
+    page = <NgajiRumi9 />;
   } else {
     page = <Home />;
   }

@@ -61,7 +61,7 @@ const libraryItems = [
     id: 9,
     title: "Ngaji Rumi 09",
     description: "Temukan pembahasan dan karya Ngaji Rumi.",
-    image: "/Ngajirumi/assets/images/ngaji-rumi-09.jpg",
+    image: "/Ngajirumi/assets/ngajirumi-9.png",
     link: "/Ngajirumi/#/ngajirumi-9",
   },
   {

@@ -4934,6 +4934,13 @@ export default function NgajiRumi8() {
             >
               Kembali ke Perpustakaan →
             </a>
+
+            <a
+              href="/Ngajirumi/#/ngajirumi-9"
+              className="inline-flex items-center justify-center rounded-full border border-[#d9c27a]/30 px-6 py-3 text-sm font-medium tracking-wide text-[#d9c27a] transition hover:bg-[#d9c27a] hover:text-[#0d3624]"
+            >
+              Lanjut ke Ngaji Rumi 09 →
+            </a>
           </div>
         </div>
       </section>
