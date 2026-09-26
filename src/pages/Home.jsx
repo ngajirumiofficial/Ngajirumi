@@ -356,7 +356,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
                 </h3>
 
                 <p className="library-card__description">
-                  Datanglah, datanglah, siapa pun dirimu. Meskipun engkau seorang kafir, Majusi, atau penyembah berhala, datanglah. Gerbang kami bukanlah gerbang keputusasaan. Walaupun engkau telah seratus kali mengingkari atau jatuh, datanglah kembali.Datanglah, datanglah, siapa pun dirimu. Meskipun engkau seorang kafir, Majusi, atau penyembah berhala, datanglah. Gerbang kami bukanlah gerbang keputusasaan. Walaupun engkau telah seratus kali mengingkari atau jatuh, datanglah kembali.
+                  Datanglah, datanglah, siapa pun dirimu. Meskipun engkau seorang kafir, Majusi, atau penyembah berhala, datanglah. Gerbang kami bukanlah gerbang keputusasaan. Walaupun engkau telah seratus kali mengingkari atau jatuh, datanglah kembali.
                 </p>
 
                 <a
