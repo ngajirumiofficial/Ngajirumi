@@ -60,7 +60,7 @@ const libraryItems = [
   {
     id: 9,
     title: "DATANGLAH",
-    description: "Temukan pembahasan dan karya Ngaji Rumi.",
+    description: "Datanglah, datanglah, siapa pun dirimu. Meskipun engkau seorang kafir, Majusi, atau penyembah berhala, datanglah. Gerbang kami bukanlah gerbang keputusasaan. Walaupun engkau telah seratus kali mengingkari atau jatuh, datanglah kembali.",
     image: "/Ngajirumi/assets/ngajirumi-9.png",
     link: "/Ngajirumi/#/ngajirumi-9",
   },

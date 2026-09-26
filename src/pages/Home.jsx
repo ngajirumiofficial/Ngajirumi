@@ -348,7 +348,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
 
               <div className="library-card__content">
                 <span className="library-card__eyebrow">
-                  NGAJI RUMI 09
+                  DATANGLAH
                 </span>
 
                 <h3 className="library-card__title">
@@ -356,8 +356,7 @@ karena mungkin mereka datang membawa pesan Tuhan.
                 </h3>
 
                 <p className="library-card__description">
-                  Materi Ngaji Rumi 9 akan segera hadir. Teruskan perjalanan
-                  belajar untuk memahami pesan dan makna yang lebih dalam.
+                  Datanglah, datanglah, siapa pun dirimu. Meskipun engkau seorang kafir, Majusi, atau penyembah berhala, datanglah. Gerbang kami bukanlah gerbang keputusasaan. Walaupun engkau telah seratus kali mengingkari atau jatuh, datanglah kembali.Datanglah, datanglah, siapa pun dirimu. Meskipun engkau seorang kafir, Majusi, atau penyembah berhala, datanglah. Gerbang kami bukanlah gerbang keputusasaan. Walaupun engkau telah seratus kali mengingkari atau jatuh, datanglah kembali.
                 </p>
 
                 <a
