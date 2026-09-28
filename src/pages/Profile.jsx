@@ -4,6 +4,7 @@ import ngajiRumi01Image from "../assets/ngaji-rumi-01.jpeg";
 import ngajiRumi02Image from "../assets/ngaji-rumi-02.jpeg";
 import ngajiRumi03Image from "../assets/ngaji-rumi-03.jpeg";
 import ngajiRumi04Image from "../assets/ngaji-rumi-04.jpeg";
+import ngajiRumi05Image from "../assets/ngaji-rumi-05.jpeg";
 
 /* ============================================================================
    PROFILE PAGE — NGAJI RUMI
@@ -34,7 +35,7 @@ const selectedWorks = [
   {
     id: "05",
     title: "Ngaji Rumi 05",
-    image: null,
+    image: ngajiRumi05Image,
   },
   {
     id: "06",
