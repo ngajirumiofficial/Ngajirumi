@@ -34,7 +34,7 @@ const selectedWorks = [
   },
   {
     id: "05",
-    title: "Ngaji Rumi 05",
+    title: " Doc. Tadabbur Alam dan Sowan Makam Kyai Rajek Wesi - Kuburan Kemangi Kab. Kendal",
     image: ngajiRumi05Image,
   },
   {
